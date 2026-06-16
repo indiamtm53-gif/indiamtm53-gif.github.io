@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Elsa Jean • Gallery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+  <style>
+    body { background: #0a0a0a; color: #eee; font-family: system-ui, sans-serif; }
+    .photo-card { transition: all 0.4s; }
+    .photo-card:hover { transform: scale(1.06); z-index: 10; }
+    .overlay { background: linear-gradient(transparent, rgba(0,0,0,0.85)); }
+  </style>
+</head>
+<body class="min-h-screen pb-20">
+  <header class="bg-black py-6 border-b border-red-900">
+    <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+      <h1 class="text-4xl font-bold text-red-500">ELSA JEAN</h1>
+      <div class="text-sm uppercase tracking-widest">Official Fan Gallery</div>
+    </div>
+  </header>
+
+  <div class="max-w-7xl mx-auto px-6 py-10">
+    <div class="text-center mb-12">
+      <h2 class="text-5xl font-light">Elsa Jean Photo Archive</h2>
+      <p class="text-gray-400 mt-3">En kaliteli ve yüksek çözünürlüklü fotoğraflar</p>
+    </div>
+
+    <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6" id="gallery"></div>
+  </div>
+
+  <script>
+    // Buraya Elsa Jean fotoğrafları ekleyebilirsin (gerçek linkler)
+    const photos = [https://share.google/Jq7xFkO3QjOpkwZRc]
+      "https://picsum.photos/id/1015/800/1200",
+      "https://picsum.photos/id/1027/800/1200",
+      "https://picsum.photos/id/106/800/1200",
+      "https://picsum.photos/id/133/800/1200",
+      "https://picsum.photos/id/180/800/1200",
+      "https://picsum.photos/id/201/800/1200",
+      "https://picsum.photos/id/237/800/1200",
+      "https://picsum.photos/id/251/800/1200",
+      "https://picsum.photos/id/274/800/1200",
+      "https://picsum.photos/id/317/800/1200",
+      // İstediğin kadar gerçek Elsa Jean fotoğraf linki ekleyebilirsin
+    ];
+
+    let html = '';
+    photos.forEach((url, index) => {
+      html += `
+        <div class="photo-card relative overflow-hidden rounded-3xl bg-zinc-900 cursor-pointer group" onclick="showFull('${url}')">
+          <img src="${url}" class="w-full aspect-[3/4] object-cover">
+          <div class="overlay absolute bottom-0 left-0 right-0 h-2/3 flex items-end p-4">
+            <div class="text-sm opacity-75 group-hover:opacity-100">#${index + 1}</div>
+          </div>
+        </div>
+      `;
+    });
+    document.getElementById("gallery").innerHTML = html;
+
+    function showFull(url) {
+      const modal = document.createElement("div");
+      modal.className = "fixed inset-0 bg-black/95 flex items-center justify-center z-50 p-4";
+      modal.innerHTML = `
+        <div class="relative max-w-4xl w-full">
+          <button onclick="this.parentElement.parentElement.remove()" class="absolute -top-4 -right-4 bg-red-600 text-white w-10 h-10 rounded-full flex items-center justify-center text-2xl">×</button>
+          <img src="${url}" class="w-full rounded-3xl shadow-2xl">
+        </div>
+      `;
+      document.body.appendChild(modal);
+    }
+  </script>
+</body>
+</html>
