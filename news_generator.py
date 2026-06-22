@@ -1,10 +1,19 @@
 import feedparser
+import json
 
 rss_url = "https://feeds.bbci.co.uk/news/world/rss.xml"
 
 feed = feedparser.parse(rss_url)
 
-print("Toplam haber:", len(feed.entries))
+haberler = []
 
 for haber in feed.entries[:5]:
-    print(haber.title)
+    haberler.append({
+        "baslik": haber.title,
+        "link": haber.link
+    })
+
+with open("otomatik-haberler.json", "w", encoding="utf-8") as f:
+    json.dump(haberler, f, ensure_ascii=False, indent=4)
+
+print("5 haber kaydedildi.")
