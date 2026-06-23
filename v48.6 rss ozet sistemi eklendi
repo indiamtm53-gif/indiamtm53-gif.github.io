@@ -42,7 +42,8 @@ for haber in feed.entries[:5]:
     haberler.append({
     "baslik": haber.title,
     "link": haber.link,
-    "kategori": kategori_belirle(haber.title)
+    "kategori": kategori_belirle(haber.title),
+    "ozet": getattr(haber, "summary", "")
 })
 
 with open("otomatik-haberler.json", "w", encoding="utf-8") as f:
@@ -127,7 +128,11 @@ border-radius:10px;
 </div>
 
 <p>
-Bu haber RSS kaynaklarından alınan bilgiler kullanılarak otomatik sistem tarafından oluşturulmuştur.
+{haber['ozet']}
+</p>
+
+<p>
+Bu içerik RSS kaynağından alınan bilgiler kullanılarak oluşturulmuştur.
 </p>
 
 <p>
