@@ -322,3 +322,34 @@ Ana Listeye Dön
     ) as f:
 
         f.write(html)
+ana_sayfa = """
+<div class="auto-news-box">
+
+<h2>🤖 Son Otomatik Haberler</h2>
+
+<ul>
+"""
+
+for i, haber in enumerate(haberler, start=1):
+
+    ana_sayfa += f"""
+<li>
+<a href="haber-{i}.html">
+{haber['baslik']}
+</a>
+</li>
+"""
+
+ana_sayfa += """
+</ul>
+
+</div>
+"""
+
+with open(
+    "ana-sayfa-haberleri.html",
+    "w",
+    encoding="utf-8"
+) as f:
+
+    f.write(ana_sayfa)
