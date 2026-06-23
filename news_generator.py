@@ -2,9 +2,21 @@ import os
 import feedparser
 import json
 
-rss_url = "https://feeds.bbci.co.uk/news/world/rss.xml"
+rss_kaynaklari = [
+    "https://feeds.bbci.co.uk/news/world/rss.xml",
+    "https://feeds.bbci.co.uk/news/technology/rss.xml",
+    "https://feeds.bbci.co.uk/news/business/rss.xml"
+]
 
-feed = feedparser.parse(rss_url)
+tum_haberler = []
+
+for rss in rss_kaynaklari:
+
+    feed = feedparser.parse(rss)
+
+    for haber in tum_haberler[:5]:
+
+        tum_haberler.append(haber)
 for i in range(1, 21):
 
     dosya = f"haber-{i}.html"
