@@ -15,7 +15,40 @@ RSS_KAYNAKLARI = [
 ]
 
 def kategori_belirle(baslik):
+
     baslik = baslik.lower()
+
+    ekonomi = [
+        "economy",
+        "business",
+        "market",
+        "bank",
+        "money",
+        "inflation",
+        "stock"
+    ]
+
+    teknoloji = [
+        "technology",
+        "tech",
+        "software",
+        "google",
+        "apple",
+        "microsoft",
+        "ai"
+    ]
+
+    for kelime in ekonomi:
+        if kelime in baslik:
+            return "ekonomi"
+
+    for kelime in teknoloji:
+        if kelime in baslik:
+            return "teknoloji"
+
+    return "gundem"
+
+
 def kaynak_adi(rss):
 
     if "trthaber" in rss:
@@ -28,18 +61,6 @@ def kaynak_adi(rss):
         return "BBC Business"
 
     return "BBC World"
-    ekonomi = ["economy", "business", "market", "bank", "money", "inflation", "stock"]
-    teknoloji = ["technology", "tech", "software", "google", "apple", "microsoft", "ai"]
-
-    for kelime in ekonomi:
-        if kelime in baslik:
-            return "ekonomi"
-
-    for kelime in teknoloji:
-        if kelime in baslik:
-            return "teknoloji"
-
-    return "gundem"
 
 def slug_olustur(baslik):
     baslik = baslik.lower()
