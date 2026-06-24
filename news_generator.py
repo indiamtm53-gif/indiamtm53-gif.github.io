@@ -161,7 +161,7 @@ font-weight:bold;
 <div class="container">
 
 <h1>{baslik}</h1>
-
+<img src="https://picsum.photos/1000/500?random" alt="{baslik}" style="width:100%;border-radius:15px;margin-bottom:20px;">
 <div class="meta">
 📂 {kategori}
 <br>
