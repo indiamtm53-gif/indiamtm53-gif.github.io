@@ -1,387 +1,102 @@
-import re
-import os
 import feedparser
 import json
+import re
 
 rss_kaynaklari = [
-    "https://feeds.bbci.co.uk/news/world/rss.xml",
-    "https://feeds.bbci.co.uk/news/technology/rss.xml",
-    "https://feeds.bbci.co.uk/news/business/rss.xml"
+"https://feeds.bbci.co.uk/news/world/rss.xml",
+"https://feeds.bbci.co.uk/news/technology/rss.xml",
+"https://feeds.bbci.co.uk/news/business/rss.xml"
 ]
+
+def kategori_belirle(baslik):
+baslik = baslik.lower()
+
+ekonomi = ["economy", "market", "bank", "money", "inflation", "stock", "business"]
+teknoloji = ["technology", "tech", "software", "google", "apple", "microsoft", "ai"]
+
+for kelime in ekonomi:
+    if kelime in baslik:
+        return "ekonomi"
+
+for kelime in teknoloji:
+    if kelime in baslik:
+        return "teknoloji"
+
+return "gundem"
+
+def slug_olustur(baslik):
+baslik = baslik.lower()
+baslik = re.sub(r"[^a-z0-9 ]", "", baslik)
+baslik = baslik.replace(" ", "-")
+return "auto-" + baslik[:50]
 
 tum_haberler = []
 
 for rss in rss_kaynaklari:
+feed = feedparser.parse(rss)
 
-    feed = feedparser.parse(rss)
+for haber in feed.entries[:3]:
+    tum_haberler.append(haber)
 
-    for haber in tum_haberler[:5]:
-
-        tum_haberler.append(haber)
-for i in range(1, 21):
-
-    dosya = haber["dosya"]
-    if os.path.exists(dosya):
-        os.remove(dosya)
 haberler = []
-def kategori_belirle(baslik):
-def slug_olustur(baslik):
-    baslik = baslik.lower()
-    baslik = baslik.replace("ı", "i").replace("ğ", "g").replace("ü", "u")
-    baslik = baslik.replace("ş", "s").replace("ö", "o").replace("ç", "c")
-    baslik = re.sub(r"[^a-z0-9\s-]", "", baslik)
-    baslik = re.sub(r"\s+", "-", baslik).strip("-")
-    return "auto-" + baslik[:60]
-    baslik = baslik.lower()
 
-    ekonomi = [
-        "economy",
-        "market",
-        "bank",
-        "money",
-        "inflation",
-        "stock"
-    ]
+for haber in tum_haberler[:5]:
 
-    teknoloji = [
-        "ai",
-        "technology",
-        "tech",
-        "software",
-        "google",
-        "apple",
-        "microsoft"
-    ]
+baslik = haber.title
+link = haber.link
+kategori = kategori_belirle(baslik)
+dosya = slug_olustur(baslik) + ".html"
 
-    for kelime in ekonomi:
-        if kelime in baslik:
-            return "ekonomi"
-
-    for kelime in teknoloji:
-        if kelime in baslik:
-            return "teknoloji"
-
-    return "gundem"
-for haber in feed.entries[:5]:
-    haberler.append({
-    "baslik": haber.title,
-    "link": haber.link,
-    "kategori": kategori_belirle(haber.title),
-    "ozet": getattr(haber, "summary", "")
+haberler.append({
+    "baslik": baslik,
+    "link": link,
+    "kategori": kategori,
+    "dosya": dosya
 })
 
 with open("otomatik-haberler.json", "w", encoding="utf-8") as f:
-    json.dump(haberler, f, ensure_ascii=False, indent=4)
+json.dump(haberler, f, ensure_ascii=False, indent=4)
 
-print("5 haber kaydedildi.")
-for i, haber in enumerate(haberler, start=1):
-dosya_adi = slug_olustur(haber["baslik"]) + ".html"
-    haber["dosya"] = dosya_adi
-    html = f"""
-<!DOCTYPE html>
-<html lang="tr">
+for haber in haberler:
+
+html = f"""
+
+<!DOCTYPE html><html lang="tr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>{haber['baslik']} - Ülkeden Haberler</title>
-
-<meta name="description" content="{haber['baslik']}">
-
-<style>
-
-body{{
-font-family:Arial,sans-serif;
-background:#f4f6f9;
-margin:0;
-color:#0F172A;
-}}
-
-header{{
-background:#0F172A;
-color:white;
-padding:20px;
-text-align:center;
-}}
-
-.container{{
-width:90%;
-max-width:900px;
-margin:30px auto;
-background:white;
-padding:25px;
-border-radius:15px;
-box-shadow:0 4px 10px rgba(0,0,0,.08);
-}}
-
-h1{{
-margin-bottom:20px;
-}}
-
-.meta{{
-color:#64748B;
-margin-bottom:20px;
-font-size:15px;
-line-height:1.8;
-}}
-
-.back-btn{{
-display:inline-block;
-margin-top:25px;
-padding:12px 20px;
-background:#2563EB;
-color:white;
-text-decoration:none;
-border-radius:10px;
-}}
-
-</style>
-
+<title>{haber['baslik']}</title>
 </head>
-
-<body>
-
-<header>
-<h2>📰 Ülkeden Haberler</h2>
-</header>
-
-<div class="container">
-
-<h1>{haber['baslik']}</h1>
-
-<div class="meta">
-📂 {haber['kategori'].upper()}
-<br><br>
-📅 Otomatik Güncelleme
-<br><br>
-👁️ Popüler Haber
-<br><br>
-🤖 Ülkeden Haberler Otomasyon Sistemi
-</div>
-
-<p>
-{haber['ozet']}
-</p>
-
-<p>
-Bu içerik RSS kaynağından alınan bilgiler kullanılarak oluşturulmuştur.
-</p>
-
-<p>
-Kaynak bağlantısı:
-</p>
-
-<p>
+<body><h1>{haber['baslik']}</h1><p>Kategori: {haber['kategori']}</p><p>
 <a href="{haber['link']}">
-Orijinal Haberi Görüntüle
+Kaynak Habere Git
 </a>
-</p>
-
-<a href="otomatik-gundem.html" class="back-btn">
-← Otomatik Haberlere Dön
-</a>
-
-</div>
-
-</body>
+</p></body>
 </html>
-"""
+"""with open(haber["dosya"], "w", encoding="utf-8") as f:
+    f.write(html)
 
-    with open(
-        {haber['dosya']}
-        "w",
-        encoding="utf-8"
-    ) as f:
-        f.write(html)
-
-    ilk_haber = haberler[0]
-
-    html = f"""
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-<meta charset="UTF-8">
-<title>{ilk_haber['baslik']}</title>
-<meta name="description" content="{ilk_haber['baslik']}">
-</head>
-<body>
-
-<h1>{ilk_haber['baslik']}</h1>
-
-<p>
-Bu haber otomatik sistem tarafından oluşturulmuştur.
-</p>
-
-<p>
-Kaynak:
-<a href="{ilk_haber['link']}">
-Habere Git
-</a>
-</p>
-
-</body>
-</html>
-"""
-
-    with open(
-        "otomatik-haber.html",
-        "w",
-        encoding="utf-8"
-    ) as f:
-        f.write(html)
 liste_html = """
-<!DOCTYPE html>
-<html lang="tr">
+
+<!DOCTYPE html><html lang="tr">
 <head>
 <meta charset="UTF-8">
 <title>Otomatik Haberler</title>
 </head>
-<body>
+<body><h1>Otomatik Haberler</h1><ul>
+"""for haber in haberler:
 
-<h1>Otomatik Haberler</h1>
+liste_html += f"""
 
-<ul>
-"""
-
-for i, haber in enumerate(haberler, start=1):
-    liste_html += f'''
-<li>
-<a href={haber['dosya']}
-{haber["baslik"]}
-</a>
-</li>
-'''
-
-liste_html += """
-</ul>
-
-</body>
-</html>
-"""
-
-with open(
-    "otomatik-gundem.html",
-    "w",
-    encoding="utf-8"
-) as f:
-    f.write(liste_html)
-with open("otomatik-sitemap.txt", "w", encoding="utf-8") as f:
-
-    for i in range(1, 6):
-
-        f.write(
-            f"https://indiamtm53-gif.github.io/ulkeden-haberler/haber-{i}.html\n"
-        )
-sitemap = """<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-"""
-
-for i in range(1, 6):
-
-    sitemap += f"""
-<url>
-<loc>https://indiamtm53-gif.github.io/ulkeden-haberler/haber-{i}.html</loc>
-<priority>0.8</priority>
-</url>
-"""
-
-sitemap += """
-</urlset>
-"""
-
-with open(
-    "otomatik-sitemap.xml",
-    "w",
-    encoding="utf-8"
-) as f:
-    f.write(sitemap)
-kategoriler = {
-    "gundem": [],
-    "ekonomi": [],
-    "teknoloji": []
-}
-
-for i, haber in enumerate(haberler, start=1):
-
-    kategoriler[haber["kategori"]].append(
-        {
-            "baslik": haber["baslik"],
-            "dosya": f"haber-{i}.html"
-        }
-    )
-
-for kategori, liste in kategoriler.items():
-
-    html = f"""
-<!DOCTYPE html>
-<html lang="tr">
-<head>
-<meta charset="UTF-8">
-<title>{kategori.title()} Haberleri</title>
-</head>
-<body>
-
-<h1>{kategori.title()} Haberleri</h1>
-
-<ul>
-"""
-
-    for haber in liste:
-
-        html += f"""
 <li>
 <a href="{haber['dosya']}">
 {haber['baslik']}
 </a>
 </li>
-"""
+"""liste_html += """
 
-    html += """
-</ul>
-
-<a href="otomatik-gundem.html">
-Ana Listeye Dön
-</a>
-
-</body>
+</ul></body>
 </html>
-"""
+"""with open("otomatik-gundem.html", "w", encoding="utf-8") as f:
+f.write(liste_html)
 
-    with open(
-        f"{kategori}-otomatik.html",
-        "w",
-        encoding="utf-8"
-    ) as f:
-
-        f.write(html)
-ana_sayfa = """
-<div class="auto-news-box">
-
-<h2>🤖 Son Otomatik Haberler</h2>
-
-<ul>
-"""
-
-for i, haber in enumerate(haberler, start=1):
-
-    ana_sayfa += f"""
-<li>
-<a href={haber['dosya']}
-{haber['baslik']}
-</a>
-</li>
-"""
-
-ana_sayfa += """
-</ul>
-
-</div>
-"""
-
-with open(
-    "ana-sayfa-haberleri.html",
-    "w",
-    encoding="utf-8"
-) as f:
-
-    f.write(ana_sayfa)
+print("Otomatik haber sistemi başarıyla çalıştı.")
