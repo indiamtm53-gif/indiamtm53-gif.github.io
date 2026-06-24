@@ -1,3 +1,4 @@
+from datetime import datetime
 import feedparser
 import json
 import os
@@ -164,7 +165,7 @@ font-weight:bold;
 <div class="meta">
 📂 {kategori}
 <br>
-📅 Otomatik Güncelleme
+📅 {datetime.now().strftime("%d.%m.%Y")}
 <br>
 🤖 Ülkeden Haberler Otomasyon Sistemi
 </div>
