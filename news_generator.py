@@ -68,7 +68,7 @@ def haberleri_cek():
                     "dosya": slug_olustur(baslik) + ".html"
                 })
 
-    return tum_haberler[:5]
+    return tum_haberler[:10]
 
 def haber_sayfasi_olustur(haber):
     baslik = html.escape(haber["baslik"])
@@ -288,7 +288,7 @@ def ana_sayfa_kutusu_olustur(haberler):
     kutu = """
 <div class="auto-news-box">
 
-<p>Toplam Otomatik Haber: 5</p>
+<p>Toplam Otomatik Haber: 10</p>
 
 <h2>🤖 Son Otomatik Haberler</h2>
 
