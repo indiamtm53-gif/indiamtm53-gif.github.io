@@ -118,12 +118,12 @@ h1{{
 margin-bottom:20px;
 }}
 
-.meta{
+.meta{{
 color:#64748B;
 margin-bottom:20px;
 font-size:15px;
 line-height:1.8;
-}
+}}
 
 .back-btn{{
 display:inline-block;
