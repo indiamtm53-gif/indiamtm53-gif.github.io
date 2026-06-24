@@ -9,10 +9,6 @@ from datetime import datetime
 SITE_URL = "https://indiamtm53-gif.github.io/ulkeden-haberler"
 
 RSS_KAYNAKLARI = [
-    "https://feeds.bbci.co.uk/news/world/rss.xml",
-    "https://feeds.bbci.co.uk/news/technology/rss.xml",
-    "https://feeds.bbci.co.uk/news/business/rss.xml"
-    "https://www.trthaber.com/manset_articles.rss",
     "https://www.trthaber.com/manset_articles.rss"
 ]
 
