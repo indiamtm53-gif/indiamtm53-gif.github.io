@@ -169,10 +169,9 @@ font-weight:bold;
 📅 {datetime.now().strftime("%d.%m.%Y")}
 <br>
 🤖 Ülkeden Haberler Otomasyon Sistemi
+</div> 
 <br>
 📰 Kaynak: {haber['kaynak']}
-</div> 
-
 <p>{ozet}</p>
 
 <p>
