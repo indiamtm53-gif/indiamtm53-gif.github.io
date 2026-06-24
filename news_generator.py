@@ -65,7 +65,7 @@ def haberleri_cek():
                     "link": link,
                     "ozet": ozet,
                     "kategori": kategori_belirle(baslik),
-                    "dosya": slug_olustur(baslik) + ".html"
+                    "dosya": slug_olustur(baslik) + ".html",
                     "kaynak": rss,
                 })
 
