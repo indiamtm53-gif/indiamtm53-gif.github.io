@@ -16,7 +16,18 @@ RSS_KAYNAKLARI = [
 
 def kategori_belirle(baslik):
     baslik = baslik.lower()
+def kaynak_adi(rss):
 
+    if "trthaber" in rss:
+        return "TRT Haber"
+
+    if "technology" in rss:
+        return "BBC Technology"
+
+    if "business" in rss:
+        return "BBC Business"
+
+    return "BBC World"
     ekonomi = ["economy", "business", "market", "bank", "money", "inflation", "stock"]
     teknoloji = ["technology", "tech", "software", "google", "apple", "microsoft", "ai"]
 
@@ -66,7 +77,7 @@ def haberleri_cek():
                     "ozet": ozet,
                     "kategori": kategori_belirle(baslik),
                     "dosya": slug_olustur(baslik) + ".html",
-                    "kaynak": rss,
+                    "kaynak": kaynak_adi(rss)
                 })
 
     return tum_haberler[:10]
