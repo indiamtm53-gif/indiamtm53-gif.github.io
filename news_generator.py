@@ -87,25 +87,26 @@ def haberleri_cek():
         feed = feedparser.parse(rss)
 
         for haber in feed.entries[:5]:
-            baslik = getattr(haber, "title", "").strip()
-            link = getattr(haber, "link", "").strip()
-            ozet = getattr(haber, "summary", "").strip()
+    baslik = getattr(haber, "title", "").strip()
+    link = getattr(haber, "link", "").strip()
+    ozet = getattr(haber, "summary", "").strip()
 
-# HTML etiketlerini temizle
-ozet = re.sub(r"<[^>]+>", "", ozet)
-            if baslik and link:
-                tum_haberler.append({
-                    "baslik": baslik,
-                    "link": link,
-                    "ozet": ozet,
-                    "kategori": kategori_belirle(baslik),
-                    "dosya": slug_olustur(baslik) + ".html",
-                    "kaynak": kaynak_adi(rss),
-                    "tarih": datetime.now().strftime("%d.%m.%Y"),
-"gorsel": "https://picsum.photos/1000/500?random"
-                })
+    # HTML etiketlerini temizle
+    ozet = re.sub(r"<[^>]+>", "", ozet)
 
-    return tum_haberler[:10]
+    if baslik and link:
+        tum_haberler.append({
+            "baslik": baslik,
+            "link": link,
+            "ozet": ozet,
+            "kategori": kategori_belirle(baslik),
+            "dosya": slug_olustur(baslik) + ".html",
+            "kaynak": kaynak_adi(rss),
+            "tarih": datetime.now().strftime("%d.%m.%Y"),
+            "gorsel": "https://picsum.photos/1000/500?random"
+        })
+
+return tum_haberler[:10]
 
 def haber_sayfasi_olustur(haber):
     baslik = html.escape(haber["baslik"])
