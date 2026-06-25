@@ -242,7 +242,7 @@ Sistem tarafından oluşturulan güncel haberleri görüntüleyin.
 <a href="otomatik-gundem.html">
 Haberlere Git →
 </a>
-
+<div id="otomatikHaberler"></div>
 </div>
 <p>
 Sistem tarafından otomatik oluşturulan son haberleri görüntüleyin.
@@ -493,6 +493,26 @@ window.scrollTo({top:0,behavior:"smooth"});
 }
 }
 </script>
+<script>
+fetch("otomatik-haberler.json")
+.then(res => res.json())
+.then(data => {
 
+    const alan = document.getElementById("otomatikHaberler");
+
+    data.slice(0,5).forEach(haber => {
+
+        alan.innerHTML += `
+        <div style="margin-top:15px;padding:15px;border:1px solid #ddd;border-radius:10px;">
+            <strong>${haber.baslik}</strong><br>
+            <small>${haber.kaynak} | ${haber.tarih}</small><br><br>
+            <a href="${haber.dosya}">Haberi Oku →</a>
+        </div>
+        `;
+
+    });
+
+});
+</script>
 </body>
 </html>
