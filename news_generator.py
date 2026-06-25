@@ -91,6 +91,8 @@ def haberleri_cek():
             link = getattr(haber, "link", "").strip()
             ozet = getattr(haber, "summary", "").strip()
 
+# HTML etiketlerini temizle
+ozet = re.sub(r"<[^>]+>", "", ozet)
             if baslik and link:
                 tum_haberler.append({
                     "baslik": baslik,
