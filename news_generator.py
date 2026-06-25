@@ -211,7 +211,9 @@ font-weight:bold;
 </header>
 
 <div class="container">
-
+<div style="display:inline-block;background:#DC2626;color:white;padding:8px 14px;border-radius:8px;font-weight:bold;margin-bottom:15px;">
+🚨 SON DAKİKA
+</div>
 <h1>{baslik}</h1>
 <img src="{haber['gorsel']}" alt="{baslik}"
 <div class="meta">
