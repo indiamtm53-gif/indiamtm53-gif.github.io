@@ -561,7 +561,31 @@ text-decoration:none;
 font-weight:bold;">
 Kaynağa Git 🌍
 </a>
+<div style="display:flex;gap:10px;margin-top:15px;flex-wrap:wrap;">
 
+<button onclick="navigator.share ? navigator.share({title:'${haber.baslik}',url:'${haber.dosya}'}) : alert('Tarayıcınız paylaşımı desteklemiyor.')" style="
+background:#2563EB;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:8px;
+cursor:pointer;
+font-weight:bold;">
+📤 Paylaş
+</button>
+
+<button onclick="navigator.clipboard.writeText(location.origin + '/${haber.dosya}')" style="
+background:#F59E0B;
+color:white;
+border:none;
+padding:10px 15px;
+border-radius:8px;
+cursor:pointer;
+font-weight:bold;">
+🔗 Linki Kopyala
+</button>
+
+</div>
 </div>
 
 </div>
