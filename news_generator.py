@@ -4,7 +4,6 @@ import json
 import os
 import re
 import html
-from datetime import datetime
 
 SITE_URL = "https://indiamtm53-gif.github.io/ulkeden-haberler"
 
@@ -14,8 +13,8 @@ RSS_KAYNAKLARI = [
     "https://feeds.bbci.co.uk/news/technology/rss.xml"
 ]
 
-def kategori_belirle(baslik):
 
+def kategori_belirle(baslik):
     baslik = baslik.lower()
 
     ekonomi = [
@@ -50,7 +49,6 @@ def kategori_belirle(baslik):
 
 
 def kaynak_adi(rss):
-
     if "trthaber" in rss:
         return "TRT Haber"
 
@@ -62,13 +60,19 @@ def kaynak_adi(rss):
 
     return "BBC World"
 
+
 def slug_olustur(baslik):
     baslik = baslik.lower()
     baslik = baslik.replace("ı", "i").replace("ğ", "g").replace("ü", "u")
     baslik = baslik.replace("ş", "s").replace("ö", "o").replace("ç", "c")
     baslik = re.sub(r"[^a-z0-9\s-]", "", baslik)
     baslik = re.sub(r"\s+", "-", baslik).strip("-")
+
+    if not baslik:
+        baslik = "haber"
+
     return "auto-" + baslik[:60]
+
 
 def temizle():
     for dosya in os.listdir("."):
@@ -90,20 +94,14 @@ def haberleri_cek():
         for haber in feed.entries[:5]:
             baslik = getattr(haber, "title", "").strip()
             link = getattr(haber, "link", "").strip()
-
             summary = getattr(haber, "summary", "").strip()
 
             # HTML etiketlerini temizle
-            ozet = re.sub(r"<[^>]+>", "", summary)
+            ozet = re.sub(r"<[^>]+>", "", summary).strip()
 
             # Gerçek görseli almaya çalış
             gorsel = "https://picsum.photos/1000/500?random"
-
-            eslesme = re.search(
-                r'<img[^>]+src="([^"]+)"',
-                summary,
-                re.IGNORECASE
-            )
+            eslesme = re.search(r'<img[^>]+src="([^"]+)"', summary, re.IGNORECASE)
 
             if eslesme:
                 gorsel = eslesme.group(1)
@@ -122,11 +120,15 @@ def haberleri_cek():
 
     return tum_haberler[:10]
 
+
 def haber_sayfasi_olustur(haber):
     baslik = html.escape(haber["baslik"])
     ozet = html.escape(haber["ozet"])
     kategori = html.escape(haber["kategori"].upper())
     link = html.escape(haber["link"])
+    gorsel = html.escape(haber["gorsel"])
+    kaynak = html.escape(haber["kaynak"])
+    tarih = html.escape(haber["tarih"])
 
     sayfa = f"""<!DOCTYPE html>
 <html lang="tr">
@@ -201,6 +203,13 @@ font-weight:bold;
 color:#2563EB;
 font-weight:bold;
 }}
+
+.hero-img{{
+width:100%;
+height:auto;
+border-radius:15px;
+margin-bottom:20px;
+}}
 </style>
 </head>
 
@@ -211,20 +220,25 @@ font-weight:bold;
 </header>
 
 <div class="container">
+
 <div style="display:inline-block;background:#DC2626;color:white;padding:8px 14px;border-radius:8px;font-weight:bold;margin-bottom:15px;">
 🚨 SON DAKİKA
 </div>
+
 <h1>{baslik}</h1>
-<img src="{haber['gorsel']}" alt="{baslik}"
+
+<img class="hero-img" src="{gorsel}" alt="{baslik}">
+
 <div class="meta">
 📂 {kategori}
 <br>
-📅 {datetime.now().strftime("%d.%m.%Y")}
+📅 {tarih}
+<br>
+📰 Kaynak: {kaynak}
 <br>
 🤖 Ülkeden Haberler Otomasyon Sistemi
-</div> 
-<br>
-📰 Kaynak: {haber['kaynak']}
+</div>
+
 <p>{ozet}</p>
 
 <p>
@@ -246,7 +260,10 @@ Kaynak:
 
     with open(haber["dosya"], "w", encoding="utf-8") as f:
         f.write(sayfa)
-print(f"Oluşturuldu: {haber['dosya']}")
+
+    print(f"Oluşturuldu: {haber['dosya']}")
+
+
 def otomatik_liste_olustur(haberler):
     liste = """<!DOCTYPE html>
 <html lang="tr">
@@ -277,6 +294,7 @@ def otomatik_liste_olustur(haberler):
 
     with open("otomatik-gundem.html", "w", encoding="utf-8") as f:
         f.write(liste)
+
 
 def kategori_sayfalari_olustur(haberler):
     kategoriler = {
@@ -319,6 +337,7 @@ def kategori_sayfalari_olustur(haberler):
         with open(f"{kategori}-otomatik.html", "w", encoding="utf-8") as f:
             f.write(sayfa)
 
+
 def sitemap_olustur(haberler):
     sitemap = """<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
@@ -338,6 +357,7 @@ def sitemap_olustur(haberler):
 
     with open("otomatik-sitemap.xml", "w", encoding="utf-8") as f:
         f.write(sitemap)
+
 
 def ana_sayfa_kutusu_olustur(haberler):
     kutu = """
@@ -362,13 +382,16 @@ def ana_sayfa_kutusu_olustur(haberler):
     with open("ana-sayfa-haberleri.html", "w", encoding="utf-8") as f:
         f.write(kutu)
 
+
 def json_olustur(haberler):
     with open("otomatik-haberler.json", "w", encoding="utf-8") as f:
         json.dump(haberler, f, ensure_ascii=False, indent=4)
 
+
 def log_yaz():
     with open("otomasyon-log.txt", "a", encoding="utf-8") as f:
         f.write(f"Sistem çalıştı: {datetime.now()}\n")
+
 
 def main():
     print("Ülkeden Haberler otomasyon sistemi başladı.")
@@ -393,6 +416,7 @@ def main():
     log_yaz()
 
     print("Otomatik haber sistemi başarıyla tamamlandı.")
+
 
 if __name__ == "__main__":
     main()
