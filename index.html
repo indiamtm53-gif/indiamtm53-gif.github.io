@@ -303,6 +303,7 @@ Teknoloji
 <input type="text" id="searchInput" class="search-box" placeholder="🔍 Haber Ara..." onkeyup="searchNews()">
 
 <h2 class="section-title">Son Haberler</h2>
+<div id="sonHaberlerOtomatik" class="news-grid"></div>
 <div class="panel" style="margin-bottom:25px;">
 <h3 style="color:#EA580C;">🔥 Trend Haberler</h3>
 <div class="summary-box" style="margin-top:15px;">
@@ -503,7 +504,27 @@ if(!alan) return;
 alan.innerHTML="";
 
 data.slice(0,5).forEach(haber=>{
+const sonAlan=document.getElementById("sonHaberlerOtomatik");
 
+if(sonAlan){
+sonAlan.innerHTML="";
+
+data.slice(0,6).forEach(haber=>{
+sonAlan.innerHTML+=`
+<div class="news-card">
+<img src="${haber.gorsel}" alt="${haber.baslik}">
+<span class="category-tag">${haber.kategori.toUpperCase()}</span>
+<h3>${haber.baslik}</h3>
+<p>${haber.ozet.substring(0,120)}...</p>
+<div class="news-info">
+<span>📅 ${haber.tarih}</span>
+<span>📰 ${haber.kaynak}</span>
+</div>
+<a class="read-more" href="${haber.dosya}">Devamını Oku →</a>
+</div>
+`;
+});
+}
 alan.innerHTML += `
 <div class="news-card" style="margin-top:20px;overflow:hidden;border-radius:15px;box-shadow:0 4px 10px rgba(0,0,0,.1);">
 
