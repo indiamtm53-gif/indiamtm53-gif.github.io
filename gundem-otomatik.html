@@ -3,28 +3,328 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Gundem Otomatik Haberleri - Ülkeden Haberler</title>
-<link rel="icon" href="favicon.png">
+<title>Gündem Otomatik Haberleri - Ülkeden Haberler</title>
+<meta name="description" content="Türkiye gündemine dair otomatik sistem tarafından güncellenen son haberler.">
+<link rel="icon" type="image/png" href="favicon.png">
+
+<style>
+:root{
+--bg:#f4f6f9;
+--card:#ffffff;
+--text:#0f172a;
+--muted:#64748b;
+--primary:#2563eb;
+--primary2:#1d4ed8;
+--danger:#dc2626;
+--green:#10b981;
+--orange:#f59e0b;
+--border:#e2e8f0;
+--shadow:0 10px 30px rgba(15,23,42,.09);
+}
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,Helvetica,sans-serif}
+body{background:var(--bg);color:var(--text);line-height:1.7}
+a{text-decoration:none;color:inherit}
+img{max-width:100%;display:block}
+.site-header{background:#0f172a;color:white;position:sticky;top:0;z-index:1000;box-shadow:0 4px 18px rgba(0,0,0,.18)}
+.header-inner{width:92%;max-width:1200px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 0}
+.brand{display:flex;align-items:center;gap:12px;font-weight:900;font-size:22px}
+.brand img{height:52px;border-radius:10px}
+.nav{display:flex;gap:16px;font-weight:bold;font-size:14px}
+.nav a{color:#e2e8f0;padding:8px 10px;border-radius:8px}
+.nav a:hover{background:rgba(255,255,255,.08);color:white}
+.actions{display:flex;gap:10px}
+.btn{border:none;background:var(--primary);color:white;padding:9px 12px;border-radius:10px;font-weight:bold;cursor:pointer}
+.mobile-menu{display:none;background:#111827;border-top:1px solid rgba(255,255,255,.08);padding:10px 4%}
+.mobile-menu.show{display:block}
+.mobile-menu a{display:block;color:white;padding:12px;border-bottom:1px solid rgba(255,255,255,.08);font-weight:bold}
+.hero{background:linear-gradient(135deg,rgba(15,23,42,.94),rgba(37,99,235,.74)),url("https://picsum.photos/1600/700?haber") center/cover;color:white;padding:58px 0 48px}
+.hero-inner{width:92%;max-width:1200px;margin:auto;display:grid;grid-template-columns:1.45fr .85fr;gap:24px;align-items:center}
+.hero h1{font-size:42px;line-height:1.15;margin-bottom:16px}
+.hero p{color:#dbeafe;font-size:18px;max-width:720px}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px}
+.badge{font-size:13px;font-weight:bold;padding:8px 12px;border-radius:999px;background:rgba(255,255,255,.14);border:1px solid rgba(255,255,255,.18)}
+.hero-panel{background:rgba(255,255,255,.12);border:1px solid rgba(255,255,255,.2);padding:22px;border-radius:20px;backdrop-filter:blur(8px)}
+.hero-panel a{display:block;color:white;padding:8px 0;border-bottom:1px solid rgba(255,255,255,.15);font-weight:bold}
+.container{width:92%;max-width:1200px;margin:auto;padding:34px 0}
+.section-title{font-size:28px;line-height:1.2;margin-bottom:6px}
+.section-subtitle{color:var(--muted);margin-bottom:22px}
+.news-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.news-card{background:var(--card);border-radius:20px;overflow:hidden;box-shadow:var(--shadow);border:1px solid rgba(226,232,240,.8);transition:.25s ease}
+.news-card:hover{transform:translateY(-5px);box-shadow:0 16px 36px rgba(15,23,42,.14)}
+.news-img{height:210px;width:100%;object-fit:cover;background:#e2e8f0}
+.news-body{padding:18px}
+.badge-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:12px}
+.tag{font-size:11px;font-weight:900;letter-spacing:.3px;padding:6px 9px;border-radius:8px;color:white}
+.tag.breaking{background:var(--danger)}
+.tag.category{background:var(--primary)}
+.news-title{font-size:20px;line-height:1.28;margin-bottom:10px}
+.news-meta{display:flex;flex-wrap:wrap;gap:10px;color:var(--muted);font-size:13px;margin-bottom:12px}
+.news-desc{color:#334155;font-size:15px;margin-bottom:16px}
+.action-row{display:flex;flex-wrap:wrap;gap:9px}
+.action{display:inline-flex;align-items:center;justify-content:center;border:none;border-radius:10px;padding:10px 12px;font-weight:bold;font-size:14px;cursor:pointer}
+.read{background:var(--primary);color:white}
+.source{background:var(--green);color:white}
+.share{background:var(--orange);color:white}
+.article-layout{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:24px;align-items:start}
+.article-card{background:var(--card);border-radius:22px;box-shadow:var(--shadow);overflow:hidden;border:1px solid rgba(226,232,240,.8)}
+.article-cover{height:430px;width:100%;object-fit:cover}
+.article-content{padding:28px}
+.article-title{font-size:38px;line-height:1.15;margin:14px 0}
+.article-text{font-size:19px;color:#334155;margin:20px 0}
+.source-box{background:#eff6ff;border-left:5px solid var(--primary);padding:16px;border-radius:14px;margin:18px 0}
+.sidebar{display:flex;flex-direction:column;gap:18px;position:sticky;top:92px}
+.side-card{background:var(--card);border:1px solid rgba(226,232,240,.8);border-radius:20px;padding:20px;box-shadow:var(--shadow)}
+.side-link{display:block;padding:12px 0;border-bottom:1px solid var(--border);font-weight:bold;font-size:14px;color:var(--text)}
+.side-link:last-child{border-bottom:none}
+.footer{margin-top:42px;background:#0f172a;color:white;padding:40px 0}
+.footer-inner{width:92%;max-width:1200px;margin:auto;display:grid;grid-template-columns:2fr 1fr 1fr;gap:24px}
+.footer p,.footer a{color:#cbd5e1}
+.footer h3{margin-bottom:12px}
+.footer a{display:block;margin:8px 0}
+body.dark{--bg:#0b1120;--card:#111827;--text:#f8fafc;--muted:#cbd5e1;--border:#334155;--shadow:0 10px 30px rgba(0,0,0,.28);background:var(--bg);color:var(--text)}
+body.dark .news-desc,body.dark .article-text{color:#d1d5db}
+body.dark .section-title,body.dark .news-title,body.dark .article-title,body.dark .side-link{color:#f8fafc}
+body.dark .source-box{background:#172554}
+@media(max-width:950px){.hero-inner,.article-layout{grid-template-columns:1fr}.sidebar{position:static}.news-grid{grid-template-columns:1fr}.article-cover{height:300px}}
+@media(max-width:760px){.header-inner{flex-wrap:wrap}.nav{display:none}.brand img{height:44px}.hero{padding:42px 0}.hero h1{font-size:31px}.container{padding:26px 0}.article-title{font-size:30px}.article-content{padding:20px}.news-img{height:190px}.footer-inner{grid-template-columns:1fr}}
+</style>
+
 </head>
 <body>
 
-<h1>Gundem Otomatik Haberleri</h1>
+<header class="site-header">
+<div class="header-inner">
+<a class="brand" href="index.html"><img src="logo.png" alt="Ülkeden Haberler Logo"><span>Ülkeden Haberler</span></a>
+<nav class="nav">
+<a href="index.html">Ana Sayfa</a>
+<a href="otomatik-gundem.html">Otomatik Haberler</a>
+<a href="gundem.html">Gündem</a>
+<a href="ekonomi.html">Ekonomi</a>
+<a href="teknoloji.html">Teknoloji</a>
+</nav>
+<div class="actions"><button class="btn" id="menuBtn">☰ Menü</button><button class="btn" id="darkBtn">🌙 Mod</button></div>
+</div>
+<div class="mobile-menu" id="mobileMenu">
+<a href="index.html">Ana Sayfa</a>
+<a href="otomatik-gundem.html">Otomatik Haberler</a>
+<a href="gundem-otomatik.html">Gündem Otomatik</a>
+<a href="ekonomi-otomatik.html">Ekonomi Otomatik</a>
+<a href="teknoloji-otomatik.html">Teknoloji Otomatik</a>
+</div>
+</header>
 
-<ul>
-<li><a href="auto-cumhurbaskani-erdogan-guvenlik-anlayisimizi-yeniden-sekillen.html">Cumhurbaşkanı Erdoğan: Güvenlik anlayışımızı yeniden şekillendirmeliyiz</a></li>
-<li><a href="auto-trump-iran-ile-yarin-dohada-gorusme-olacak.html">Trump: İran ile yarın Doha&#x27;da görüşme olacak</a></li>
-<li><a href="auto-kaan-nato-ulkelerine-goz-kirpiyor.html">KAAN NATO ülkelerine göz kırpıyor</a></li>
-<li><a href="auto-ogrenci-affi-tbmm-gundemine-gelecek.html">Öğrenci affı TBMM gündemine gelecek</a></li>
-<li><a href="auto-5-soruda-tasinmaz-satislarinda-guvenli-odeme-sistemi.html">5 soruda taşınmaz satışlarında &#x27;Güvenli Ödeme Sistemi&#x27;</a></li>
-<li><a href="auto-mum-rescued-from-venezuela-rubble-with-newborn-baby-tells-bb.html">Mum rescued from Venezuela rubble with newborn baby tells BBC how he helped her survive</a></li>
-<li><a href="auto-five-dead-in-shooting-at-youth-welfare-centre-in-northern-ge.html">Five dead in shooting at youth welfare centre in northern Germany</a></li>
-<li><a href="auto-us-supreme-court-rejects-trumps-appeal-of-e-jean-carrolls-se.html">US Supreme Court rejects Trump&#x27;s appeal of E Jean Carroll&#x27;s sexual abuse case</a></li>
-<li><a href="auto-dr-congo-bans-mass-gatherings-in-the-capital-to-prevent-spre.html">DR Congo bans mass gatherings in the  capital to prevent spread of Ebola</a></li>
-<li><a href="auto-us-says-it-has-agreed-to-stand-down-after-exchange-of-strike.html">US says it has agreed to &#x27;stand down&#x27; after exchange of strikes with Iran</a></li>
+<section class="hero">
+<div class="hero-inner">
+<div>
+<h1>Gündem Otomatik Haberleri</h1>
+<p>Türkiye gündemine dair otomatik sistem tarafından güncellenen son haberler.</p>
+<div class="badges"><span class="badge">🤖 Otomatik Sistem</span><span class="badge">📰 Güncel İçerik</span><span class="badge">🌙 Dark Mode</span><span class="badge">📱 Mobil Uyumlu</span></div>
+</div>
+<div class="hero-panel">
+<h3>Hızlı Erişim</h3>
+<a href="otomatik-gundem.html">Tüm Otomatik Haberler</a>
+<a href="gundem-otomatik.html">Gündem Haberleri</a>
+<a href="ekonomi-otomatik.html">Ekonomi Haberleri</a>
+<a href="teknoloji-otomatik.html">Teknoloji Haberleri</a>
+</div>
+</div>
+</section>
+<main class="container">
+<h2 class="section-title">Gündem Otomatik Haberleri</h2>
+<p class="section-subtitle">Toplam haber: 10</p>
+<div class="article-layout">
+<section><div class="news-grid">
+<article class="news-card">
+<img class="news-img" src="https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2472000/erdogan-2472333.jpg" alt="Cumhurbaşkanı Erdoğan: Güvenlik anlayışımızı yeniden şekillendirmeliyiz" loading="lazy">
+<div class="news-body">
+<div class="badge-row"><span class="tag breaking">SON DAKİKA</span><span class="tag category">GUNDEM</span></div>
+<h3 class="news-title">Cumhurbaşkanı Erdoğan: Güvenlik anlayışımızı yeniden şekillendirmeliyiz</h3>
+<div class="news-meta"><span>📰 TRT Haber</span><span>📅 29.06.2026</span></div>
+<p class="news-desc">Cumhurbaşkanı Recep Tayyip Erdoğan, &quot;(NATO) İttifakımızın bilhassa doğu ve güneydoğu sınırlarında cereyan eden savaş, kriz, terör ve düzensi...</p>
+<div class="action-row">
+<a class="action read" href="auto-cumhurbaskani-erdogan-guvenlik-anlayisimizi-yeniden-sekillen.html">Haberi Oku →</a>
+<a class="action source" href="https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-guvenlik-anlayisimizi-yeniden-sekillendirmeliyiz-949662.html" target="_blank" rel="noopener noreferrer">Kaynağa Git 🌍</a>
+<button class="action share" onclick="sharePage('Cumhurbaşkanı Erdoğan: Güvenlik anlayışımızı yeniden şekillendirmeliyiz', 'auto-cumhurbaskani-erdogan-guvenlik-anlayisimizi-yeniden-sekillen.html')">📤 Paylaş</button>
+</div>
+</div>
+</article>
 
-</ul>
 
-<a href="otomatik-gundem.html">Ana Listeye Dön</a>
+<article class="news-card">
+<img class="news-img" src="https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2470000/donald-trumpaa-2470374.jpg" alt="Trump: İran ile yarın Doha&#x27;da görüşme olacak" loading="lazy">
+<div class="news-body">
+<div class="badge-row"><span class="tag breaking">SON DAKİKA</span><span class="tag category">GUNDEM</span></div>
+<h3 class="news-title">Trump: İran ile yarın Doha&#x27;da görüşme olacak</h3>
+<div class="news-meta"><span>📰 TRT Haber</span><span>📅 29.06.2026</span></div>
+<p class="news-desc">ABD Başkanı Donald Trump, İran&#x27;ın görüşme talep ettiğini açıklayarak, yarın Doha&#x27;da toplantı olacağını duyurdu....</p>
+<div class="action-row">
+<a class="action read" href="auto-trump-iran-ile-yarin-dohada-gorusme-olacak.html">Haberi Oku →</a>
+<a class="action source" href="https://www.trthaber.com/haber/dunya/trump-iran-ile-yarin-dohada-gorusme-olacak-949676.html" target="_blank" rel="noopener noreferrer">Kaynağa Git 🌍</a>
+<button class="action share" onclick="sharePage('Trump: İran ile yarın Doha&#x27;da görüşme olacak', 'auto-trump-iran-ile-yarin-dohada-gorusme-olacak.html')">📤 Paylaş</button>
+</div>
+</div>
+</article>
+
+
+<article class="news-card">
+<img class="news-img" src="https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2472000/kaan-milli-muharip-ucak-2472179.jpg" alt="KAAN NATO ülkelerine göz kırpıyor" loading="lazy">
+<div class="news-body">
+<div class="badge-row"><span class="tag breaking">SON DAKİKA</span><span class="tag category">GUNDEM</span></div>
+<h3 class="news-title">KAAN NATO ülkelerine göz kırpıyor</h3>
+<div class="news-meta"><span>📰 TRT Haber</span><span>📅 29.06.2026</span></div>
+<p class="news-desc">Son dönemlerde Avrupa ülkelerinin en büyük sorunlarından biri de ortak yürütülen savunma sanayii projelerindeki hayal kırıklıkları… Hava kuv...</p>
+<div class="action-row">
+<a class="action read" href="auto-kaan-nato-ulkelerine-goz-kirpiyor.html">Haberi Oku →</a>
+<a class="action source" href="https://www.trthaber.com/haber/gundem/kaan-nato-ulkelerine-goz-kirpiyor-949637.html" target="_blank" rel="noopener noreferrer">Kaynağa Git 🌍</a>
+<button class="action share" onclick="sharePage('KAAN NATO ülkelerine göz kırpıyor', 'auto-kaan-nato-ulkelerine-goz-kirpiyor.html')">📤 Paylaş</button>
+</div>
+</div>
+</article>
+
+
+<article class="news-card">
+<img class="news-img" src="https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2470000/universite-ogrenci-aa-2470882.jpg" alt="Öğrenci affı TBMM gündemine gelecek" loading="lazy">
+<div class="news-body">
+<div class="badge-row"><span class="tag breaking">SON DAKİKA</span><span class="tag category">GUNDEM</span></div>
+<h3 class="news-title">Öğrenci affı TBMM gündemine gelecek</h3>
+<div class="news-meta"><span>📰 TRT Haber</span><span>📅 29.06.2026</span></div>
+<p class="news-desc">AK Parti milletvekilleri, 1 Temmuz 2022&#x27;den itibaren ilişiği kesilen ön lisans, lisans ve doktora öğrencileri ile kayıt yaptırma hakkı kazan...</p>
+<div class="action-row">
+<a class="action read" href="auto-ogrenci-affi-tbmm-gundemine-gelecek.html">Haberi Oku →</a>
+<a class="action source" href="https://www.trthaber.com/haber/gundem/ogrenci-affi-tbmm-gundemine-gelecek-949659.html" target="_blank" rel="noopener noreferrer">Kaynağa Git 🌍</a>
+<button class="action share" onclick="sharePage('Öğrenci affı TBMM gündemine gelecek', 'auto-ogrenci-affi-tbmm-gundemine-gelecek.html')">📤 Paylaş</button>
+</div>
+</div>
+</article>
+
+
+<article class="news-card">
+<img class="news-img" src="https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2440000/emlak-konut-2441744.jpg" alt="5 soruda taşınmaz satışlarında &#x27;Güvenli Ödeme Sistemi&#x27;" loading="lazy">
+<div class="news-body">
+<div class="badge-row"><span class="tag breaking">SON DAKİKA</span><span class="tag category">GUNDEM</span></div>
+<h3 class="news-title">5 soruda taşınmaz satışlarında &#x27;Güvenli Ödeme Sistemi&#x27;</h3>
+<div class="news-meta"><span>📰 TRT Haber</span><span>📅 29.06.2026</span></div>
+<p class="news-desc">Ticaret Bakanlığı tarafından taşınmaz satışına yönelik geliştirilen Güvenli Ödeme Sistemi, satış bedelinin güvenli ve eş zamanlı el değiştir...</p>
+<div class="action-row">
+<a class="action read" href="auto-5-soruda-tasinmaz-satislarinda-guvenli-odeme-sistemi.html">Haberi Oku →</a>
+<a class="action source" href="https://www.trthaber.com/haber/ekonomi/5-soruda-tasinmaz-satislarinda-guvenli-odeme-sistemi-949645.html" target="_blank" rel="noopener noreferrer">Kaynağa Git 🌍</a>
+<button class="action share" onclick="sharePage('5 soruda taşınmaz satışlarında &#x27;Güvenli Ödeme Sistemi&#x27;', 'auto-5-soruda-tasinmaz-satislarinda-guvenli-odeme-sistemi.html')">📤 Paylaş</button>
+</div>
+</div>
+</article>
+
+
+<article class="news-card">
+<img class="news-img" src="https://picsum.photos/1000/500?random" alt="Mum rescued from Venezuela rubble with newborn baby tells BBC how he helped her survive" loading="lazy">
+<div class="news-body">
+<div class="badge-row"><span class="tag breaking">SON DAKİKA</span><span class="tag category">GUNDEM</span></div>
+<h3 class="news-title">Mum rescued from Venezuela rubble with newborn baby tells BBC how he helped her survive</h3>
+<div class="news-meta"><span>📰 BBC World</span><span>📅 29.06.2026</span></div>
+<p class="news-desc">The &quot;miracle&quot; rescue of 18-day-old baby Juan David is a symbol of hope in Venezuela after the devastating earthquakes....</p>
+<div class="action-row">
+<a class="action read" href="auto-mum-rescued-from-venezuela-rubble-with-newborn-baby-tells-bb.html">Haberi Oku →</a>
+<a class="action source" href="https://www.bbc.co.uk/news/articles/clyw3rkj2p7o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Kaynağa Git 🌍</a>
+<button class="action share" onclick="sharePage('Mum rescued from Venezuela rubble with newborn baby tells BBC how he helped her survive', 'auto-mum-rescued-from-venezuela-rubble-with-newborn-baby-tells-bb.html')">📤 Paylaş</button>
+</div>
+</div>
+</article>
+
+
+<article class="news-card">
+<img class="news-img" src="https://picsum.photos/1000/500?random" alt="Sixth person dies after shooting at youth welfare centre in Germany" loading="lazy">
+<div class="news-body">
+<div class="badge-row"><span class="tag breaking">SON DAKİKA</span><span class="tag category">GUNDEM</span></div>
+<h3 class="news-title">Sixth person dies after shooting at youth welfare centre in Germany</h3>
+<div class="news-meta"><span>📰 BBC World</span><span>📅 29.06.2026</span></div>
+<p class="news-desc">Four women and a man were shot dead at the scene while a sixth person died in hospital, police say....</p>
+<div class="action-row">
+<a class="action read" href="auto-sixth-person-dies-after-shooting-at-youth-welfare-centre-in-.html">Haberi Oku →</a>
+<a class="action source" href="https://www.bbc.co.uk/news/articles/c17yzzw1vkjo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Kaynağa Git 🌍</a>
+<button class="action share" onclick="sharePage('Sixth person dies after shooting at youth welfare centre in Germany', 'auto-sixth-person-dies-after-shooting-at-youth-welfare-centre-in-.html')">📤 Paylaş</button>
+</div>
+</div>
+</article>
+
+
+<article class="news-card">
+<img class="news-img" src="https://picsum.photos/1000/500?random" alt="Supreme Court rejects Trump&#x27;s appeal of E Jean Carroll&#x27;s sexual abuse case" loading="lazy">
+<div class="news-body">
+<div class="badge-row"><span class="tag breaking">SON DAKİKA</span><span class="tag category">GUNDEM</span></div>
+<h3 class="news-title">Supreme Court rejects Trump&#x27;s appeal of E Jean Carroll&#x27;s sexual abuse case</h3>
+<div class="news-meta"><span>📰 BBC World</span><span>📅 29.06.2026</span></div>
+<p class="news-desc">The decision means the US president will now have to pay her the $5m (£3.6m) in damages she had been awarded....</p>
+<div class="action-row">
+<a class="action read" href="auto-supreme-court-rejects-trumps-appeal-of-e-jean-carrolls-sexua.html">Haberi Oku →</a>
+<a class="action source" href="https://www.bbc.co.uk/news/articles/cn8q2z5wpn2o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Kaynağa Git 🌍</a>
+<button class="action share" onclick="sharePage('Supreme Court rejects Trump&#x27;s appeal of E Jean Carroll&#x27;s sexual abuse case', 'auto-supreme-court-rejects-trumps-appeal-of-e-jean-carrolls-sexua.html')">📤 Paylaş</button>
+</div>
+</div>
+</article>
+
+
+<article class="news-card">
+<img class="news-img" src="https://picsum.photos/1000/500?random" alt="DR Congo bans mass gatherings in the  capital to prevent spread of Ebola" loading="lazy">
+<div class="news-body">
+<div class="badge-row"><span class="tag breaking">SON DAKİKA</span><span class="tag category">GUNDEM</span></div>
+<h3 class="news-title">DR Congo bans mass gatherings in the  capital to prevent spread of Ebola</h3>
+<div class="news-meta"><span>📰 BBC World</span><span>📅 29.06.2026</span></div>
+<p class="news-desc">Opposition politicians accuse the government of using the outbreak to halt a planned protest....</p>
+<div class="action-row">
+<a class="action read" href="auto-dr-congo-bans-mass-gatherings-in-the-capital-to-prevent-spre.html">Haberi Oku →</a>
+<a class="action source" href="https://www.bbc.co.uk/news/articles/c992k7zk981o?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Kaynağa Git 🌍</a>
+<button class="action share" onclick="sharePage('DR Congo bans mass gatherings in the  capital to prevent spread of Ebola', 'auto-dr-congo-bans-mass-gatherings-in-the-capital-to-prevent-spre.html')">📤 Paylaş</button>
+</div>
+</div>
+</article>
+
+
+<article class="news-card">
+<img class="news-img" src="https://picsum.photos/1000/500?random" alt="US says it has agreed to &#x27;stand down&#x27; after exchange of strikes with Iran" loading="lazy">
+<div class="news-body">
+<div class="badge-row"><span class="tag breaking">SON DAKİKA</span><span class="tag category">GUNDEM</span></div>
+<h3 class="news-title">US says it has agreed to &#x27;stand down&#x27; after exchange of strikes with Iran</h3>
+<div class="news-meta"><span>📰 BBC World</span><span>📅 29.06.2026</span></div>
+<p class="news-desc">A series of strikes over the weekend saw the US and Iran accuse each other of violating the ceasefire agreement....</p>
+<div class="action-row">
+<a class="action read" href="auto-us-says-it-has-agreed-to-stand-down-after-exchange-of-strike.html">Haberi Oku →</a>
+<a class="action source" href="https://www.bbc.co.uk/news/articles/c872rjw17qpo?at_medium=RSS&amp;at_campaign=rss" target="_blank" rel="noopener noreferrer">Kaynağa Git 🌍</a>
+<button class="action share" onclick="sharePage('US says it has agreed to &#x27;stand down&#x27; after exchange of strikes with Iran', 'auto-us-says-it-has-agreed-to-stand-down-after-exchange-of-strike.html')">📤 Paylaş</button>
+</div>
+</div>
+</article>
+</div></section>
+<aside class="sidebar">
+<div class="side-card"><h3>🔥 Öne Çıkanlar</h3><a class="side-link" href="auto-cumhurbaskani-erdogan-guvenlik-anlayisimizi-yeniden-sekillen.html">Cumhurbaşkanı Erdoğan: Güvenlik anlayışımızı yeniden şekillendirmeliyiz</a>
+<a class="side-link" href="auto-trump-iran-ile-yarin-dohada-gorusme-olacak.html">Trump: İran ile yarın Doha&#x27;da görüşme olacak</a>
+<a class="side-link" href="auto-kaan-nato-ulkelerine-goz-kirpiyor.html">KAAN NATO ülkelerine göz kırpıyor</a>
+<a class="side-link" href="auto-ogrenci-affi-tbmm-gundemine-gelecek.html">Öğrenci affı TBMM gündemine gelecek</a>
+<a class="side-link" href="auto-5-soruda-tasinmaz-satislarinda-guvenli-odeme-sistemi.html">5 soruda taşınmaz satışlarında &#x27;Güvenli Ödeme Sistemi&#x27;</a></div>
+<div class="side-card"><h3>↩️ Geri Dön</h3><a class="side-link" href="index.html">Ana Sayfa</a><a class="side-link" href="otomatik-gundem.html">Otomatik Haberler</a></div>
+</aside>
+</div>
+</main>
+
+<footer class="footer">
+<div class="footer-inner">
+<div><h3>📰 Ülkeden Haberler</h3><p>Türkiye ve dünyadan güncel haberleri otomatik sistem desteğiyle takip eden modern haber platformu.</p></div>
+<div><h3>Kategoriler</h3><a href="gundem.html">Gündem</a><a href="ekonomi.html">Ekonomi</a><a href="spor.html">Spor</a><a href="teknoloji.html">Teknoloji</a></div>
+<div><h3>Hızlı Linkler</h3><a href="index.html">Ana Sayfa</a><a href="hakkimizda.html">Hakkımızda</a><a href="iletisim.html">İletişim</a></div>
+</div>
+</footer>
+<script>
+const menuBtn=document.getElementById("menuBtn");
+const mobileMenu=document.getElementById("mobileMenu");
+const darkBtn=document.getElementById("darkBtn");
+if(localStorage.getItem("theme")==="dark"){document.body.classList.add("dark");}
+if(menuBtn){menuBtn.addEventListener("click",()=>mobileMenu.classList.toggle("show"));}
+if(darkBtn){darkBtn.addEventListener("click",()=>{document.body.classList.toggle("dark");localStorage.setItem("theme",document.body.classList.contains("dark") ? "dark" : "light");});}
+function sharePage(title,url){
+const fullUrl=new URL(url,window.location.href).href;
+if(navigator.share){navigator.share({title:title,url:fullUrl});}
+else if(navigator.clipboard){navigator.clipboard.writeText(fullUrl);alert("Link kopyalandı.");}
+else{alert(fullUrl);}
+}
+</script>
 
 </body>
 </html>
