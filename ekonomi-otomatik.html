@@ -85,6 +85,12 @@ body.dark{--bg:#0b1120;--card:#111827;--text:#f8fafc;--muted:#cbd5e1;--border:#3
 body.dark .news-desc,body.dark .article-text{color:#d1d5db}
 body.dark .section-title,body.dark .news-title,body.dark .article-title,body.dark .side-link{color:#f8fafc}
 body.dark .source-box{background:#172554}
+
+.ad-box{background:linear-gradient(135deg,#f8fafc,#e2e8f0);border:2px dashed #cbd5e1;border-radius:18px;min-height:92px;display:flex;align-items:center;justify-content:center;text-align:center;color:#475569;font-weight:900;margin:22px 0;padding:18px}
+.ad-box small{display:block;color:#64748b;font-weight:bold;margin-top:4px}
+.ad-sidebar{min-height:260px}
+body.dark .ad-box{background:linear-gradient(135deg,#111827,#1f2937);border-color:#334155;color:#e5e7eb}
+
 @media(max-width:950px){.hero-inner,.article-layout{grid-template-columns:1fr}.sidebar{position:static}.news-grid{grid-template-columns:1fr}.article-cover{height:300px}}
 @media(max-width:760px){.header-inner{flex-wrap:wrap}.nav{display:none}.brand img{height:44px}.hero{padding:42px 0}.hero h1{font-size:31px}.container{padding:26px 0}.article-title{font-size:30px}.article-content{padding:20px}.news-img{height:190px}.footer-inner{grid-template-columns:1fr}}
 </style>
@@ -132,10 +138,26 @@ body.dark .source-box{background:#172554}
 <main class="container">
 <h2 class="section-title">Ekonomi Otomatik Haberleri</h2>
 <p class="section-subtitle">Toplam haber: 0</p>
+
+<div class="ad-box">
+<div>
+📢 Reklam Alanı
+<small>Google AdSense için hazır bölüm - Liste üstü reklam</small>
+</div>
+</div>
+
 <div class="article-layout">
 <section><div class="news-grid"></div></section>
 <aside class="sidebar">
 <div class="side-card"><h3>🔥 Öne Çıkanlar</h3></div>
+
+<div class="ad-box ad-sidebar">
+<div>
+📢 Reklam Alanı
+<small>Google AdSense için hazır bölüm - Sidebar reklam</small>
+</div>
+</div>
+
 <div class="side-card"><h3>↩️ Geri Dön</h3><a class="side-link" href="index.html">Ana Sayfa</a><a class="side-link" href="otomatik-gundem.html">Otomatik Haberler</a></div>
 </aside>
 </div>
