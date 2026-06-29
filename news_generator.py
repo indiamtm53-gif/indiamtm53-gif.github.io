@@ -187,9 +187,28 @@ body.dark{--bg:#0b1120;--card:#111827;--text:#f8fafc;--muted:#cbd5e1;--border:#3
 body.dark .news-desc,body.dark .article-text{color:#d1d5db}
 body.dark .section-title,body.dark .news-title,body.dark .article-title,body.dark .side-link{color:#f8fafc}
 body.dark .source-box{background:#172554}
+
+.ad-box{background:linear-gradient(135deg,#f8fafc,#e2e8f0);border:2px dashed #cbd5e1;border-radius:18px;min-height:92px;display:flex;align-items:center;justify-content:center;text-align:center;color:#475569;font-weight:900;margin:22px 0;padding:18px}
+.ad-box small{display:block;color:#64748b;font-weight:bold;margin-top:4px}
+.ad-sidebar{min-height:260px}
+body.dark .ad-box{background:linear-gradient(135deg,#111827,#1f2937);border-color:#334155;color:#e5e7eb}
+
 @media(max-width:950px){.hero-inner,.article-layout{grid-template-columns:1fr}.sidebar{position:static}.news-grid{grid-template-columns:1fr}.article-cover{height:300px}}
 @media(max-width:760px){.header-inner{flex-wrap:wrap}.nav{display:none}.brand img{height:44px}.hero{padding:42px 0}.hero h1{font-size:31px}.container{padding:26px 0}.article-title{font-size:30px}.article-content{padding:20px}.news-img{height:190px}.footer-inner{grid-template-columns:1fr}}
 </style>
+"""
+
+
+
+def reklam_html(konum="genel", sidebar=False):
+    sinif = "ad-box ad-sidebar" if sidebar else "ad-box"
+    return f"""
+<div class="{sinif}">
+<div>
+📢 Reklam Alanı
+<small>Google AdSense için hazır bölüm - {konum}</small>
+</div>
+</div>
 """
 
 
@@ -312,10 +331,12 @@ def liste_sayfasi_html(baslik, aciklama, haberler, aktif_kategori=None):
 <main class="container">
 <h2 class="section-title">{e(baslik)}</h2>
 <p class="section-subtitle">Toplam haber: {len(liste)}</p>
+{reklam_html("Liste üstü reklam")}
 <div class="article-layout">
 <section><div class="news-grid">{kartlar}</div></section>
 <aside class="sidebar">
 <div class="side-card"><h3>🔥 Öne Çıkanlar</h3>{populer}</div>
+{reklam_html("Sidebar reklam", sidebar=True)}
 <div class="side-card"><h3>↩️ Geri Dön</h3><a class="side-link" href="index.html">Ana Sayfa</a><a class="side-link" href="otomatik-gundem.html">Otomatik Haberler</a></div>
 </aside>
 </div>
@@ -380,6 +401,7 @@ def haber_sayfasi_olustur(haber):
 <div class="badge-row"><span class="tag breaking">SON DAKİKA</span><span class="tag category">{kategori}</span></div>
 <h1 class="article-title">{baslik}</h1>
 <div class="news-meta"><span>📅 {tarih}</span><span>📰 {kaynak}</span><span>⏱️ {okuma_suresi} dk okuma</span></div>
+{reklam_html("Haber üstü reklam")}
 <p class="article-text">{ozet}</p>
 <div class="source-box">
 <strong>Kaynak Bilgisi</strong><br>
@@ -390,9 +412,11 @@ Bu içerik RSS kaynağından alınan bilgilerle otomatik olarak oluşturulmuştu
 <button class="action share" onclick="sharePage('{baslik}', '{dosya}')">📤 Paylaş</button>
 <a class="action read" href="otomatik-gundem.html">← Otomatik Haberlere Dön</a>
 </div>
+{reklam_html("Haber altı reklam")}
 </div>
 </article>
 <aside class="sidebar">
+{reklam_html("Haber sidebar reklam", sidebar=True)}
 <div class="side-card"><h3>📰 Haber Bilgileri</h3><a class="side-link">Kategori: {kategori}</a><a class="side-link">Kaynak: {kaynak}</a><a class="side-link">Tarih: {tarih}</a></div>
 <div class="side-card"><h3>📂 Kategoriler</h3><a class="side-link" href="gundem-otomatik.html">Gündem</a><a class="side-link" href="ekonomi-otomatik.html">Ekonomi</a><a class="side-link" href="teknoloji-otomatik.html">Teknoloji</a></div>
 </aside>
