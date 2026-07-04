@@ -50,16 +50,6 @@
         "gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2432000/tarim-2433319.jpg"
     },
     {
-        "baslik": "Fireworks, flyovers and a 'really long' Trump speech ahead as US celebrates 250th",
-        "link": "https://www.bbc.co.uk/news/articles/cp36l4e6v9po?at_medium=RSS&at_campaign=rss",
-        "ozet": "The celebrations in the US capital will feature 850,000 fireworks, a \"really long\" speech from the president and scorching temperatures.",
-        "kategori": "gundem",
-        "dosya": "auto-fireworks-flyovers-and-a-really-long-trump-speech-ahead-as-u.html",
-        "kaynak": "BBC World",
-        "tarih": "04.07.2026",
-        "gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
         "baslik": "Brutal heat cancels Fourth of July events, from DC to Philadelphia",
         "link": "https://www.bbc.co.uk/news/articles/cevlkzer7vdo?at_medium=RSS&at_campaign=rss",
         "ozet": "More than 165 million people are enduring dangerous heat and humidity, with temperatures expected to stay at 38C (100F) for several days.",
@@ -95,6 +85,16 @@
         "ozet": "Serena Williams pulls out of her planned Wimbledon doubles appearance with older sister Venus because of a knee injury.",
         "kategori": "gundem",
         "dosya": "auto-injury-ends-williams-wimbledon-comeback.html",
+        "kaynak": "BBC World",
+        "tarih": "04.07.2026",
+        "gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "Pope urges Europe to do more for migrants while visiting gateway island",
+        "link": "https://www.bbc.co.uk/news/articles/c5yz83n7q5no?at_medium=RSS&at_campaign=rss",
+        "ozet": "The pontiff pays tribute to migrants who lost their lives at sea at a cemetery on the Italian island of Lampedusa.",
+        "kategori": "ekonomi",
+        "dosya": "auto-pope-urges-europe-to-do-more-for-migrants-while-visiting-gat.html",
         "kaynak": "BBC World",
         "tarih": "04.07.2026",
         "gorsel": "https://picsum.photos/1000/500?random"
