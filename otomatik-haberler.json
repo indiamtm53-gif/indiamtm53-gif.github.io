@@ -1,33 +1,13 @@
 [
     {
-        "baslik": "Cumhurbaşkanı Erdoğan'ın NATO Zirvesi öncesi diplomasi trafiği başladı",
-        "link": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdoganin-nato-zirvesi-oncesi-diplomasi-trafigi-basladi-950393.html",
-        "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, Cumhurbaşkanlığı Külliyesi'nde Bulgaristan Başbakanı Rumen Radev'i kabul etti.",
+        "baslik": "Cumhurbaşkanı Erdoğan, NATO Genel Sekreteri Rutte'yi kabul etti",
+        "link": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-nato-genel-sekreteri-rutteyi-kabul-etti-950420.html",
+        "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, NATO Genel Sekreteri Mark Rutte'yi kabul etti.",
         "kategori": "gundem",
-        "dosya": "auto-cumhurbaskani-erdoganin-nato-zirvesi-oncesi-diplomasi-trafig.html",
+        "dosya": "auto-cumhurbaskani-erdogan-nato-genel-sekreteri-rutteyi-kabul-ett.html",
         "kaynak": "TRT Haber",
         "tarih": "06.07.2026",
-        "gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2474000/erdogan-radev-2474132.jpg"
-    },
-    {
-        "baslik": "ABD Başkanı Trump yarın Türkiye'ye geliyor",
-        "link": "https://www.trthaber.com/haber/gundem/abd-baskani-trump-yarin-turkiyeye-geliyor-950399.html",
-        "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan’ın davetine icabetle Amerika Birleşik Devletleri Başkanı Donald Trump, yarın tarihinde Türkiye'ye resmi bir ziyaret gerçekleştirecek.",
-        "kategori": "gundem",
-        "dosya": "auto-abd-baskani-trump-yarin-turkiyeye-geliyor.html",
-        "kaynak": "TRT Haber",
-        "tarih": "06.07.2026",
-        "gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2314000/erdogan-trump-aa-2314256.jpg"
-    },
-    {
-        "baslik": "NATO Genel Sekreteri Rutte Ankara'da",
-        "link": "https://www.trthaber.com/haber/dunya/nato-genel-sekreteri-rutte-ankarada-950389.html",
-        "ozet": "NATO Genel Sekreteri Mark Rutte, NATO Zirvesi için Ankara'ya geldi.",
-        "kategori": "gundem",
-        "dosya": "auto-nato-genel-sekreteri-rutte-ankarada.html",
-        "kaynak": "TRT Haber",
-        "tarih": "06.07.2026",
-        "gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2408000/mark-rutte-reu-2408236.jpg"
+        "gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2474000/erdogan-rutte-trt-2474203.jpg"
     },
     {
         "baslik": "NATO Ankara Zirvesi anısına 5 liralık hatıra parası basıldı",
@@ -40,6 +20,16 @@
         "gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2474000/5-tl-2474121.jpg"
     },
     {
+        "baslik": "12 Dev Adam Dünya Kupası yolunda 6'da 6 yaptı",
+        "link": "https://www.trthaber.com/haber/turkiye/12-dev-adam-dunya-kupasi-yolunda-6da-6-yapti-950425.html",
+        "ozet": "A Milli Erkek Basketbol Takımı, FIBA 2027 Dünya Kupası Avrupa Elemeleri 1. Tur C Grubu'ndaki 6. ve son maçında İsviçre'yi konuk etti. A Milli Erkek Basketbol Takımı, İsviçre'yi 95-72 mağlup etti ve Dünya Kupası yolunda 6'da 6 yaptı.",
+        "kategori": "gundem",
+        "dosya": "auto-12-dev-adam-dunya-kupasi-yolunda-6da-6-yapti.html",
+        "kaynak": "TRT Haber",
+        "tarih": "06.07.2026",
+        "gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2474000/milli-basketbol-takimi-aa-2474208.jpg"
+    },
+    {
         "baslik": "İletişim Başkanı Duran: Ankara'da NATO 3.0 söylemiyle küresel mimari şekillenecek",
         "link": "https://www.trthaber.com/haber/gundem/iletisim-baskani-duran-ankarada-nato-30-soylemiyle-kuresel-mimari-sekillenecek-950369.html",
         "ozet": "İletişim Başkanı Burhanettin Duran, Ankara'da düzenlenecek NATO Zirvesi'ne ilişkin, \"NATO 3.0 söylemiyle gündeme gelen bu zirve; hem NATO'nun geleceği hem de küresel mimarinin nasıl şekilleneceği açısından çok önemli bir dönüm noktası olacak\" dedi.",
@@ -50,11 +40,51 @@
         "gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2474000/duran-2474104.jpg"
     },
     {
-        "baslik": "Ukraine warns of interceptor missile shortage as 21 killed in Kyiv region",
+        "baslik": "Cumhurbaşkanı Erdoğan'ın NATO Zirvesi öncesi diplomasi trafiği başladı",
+        "link": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdoganin-nato-zirvesi-oncesi-diplomasi-trafigi-basladi-950393.html",
+        "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, Cumhurbaşkanlığı Külliyesi'nde Bulgaristan Başbakanı Rumen Radev'i kabul etti.",
+        "kategori": "gundem",
+        "dosya": "auto-cumhurbaskani-erdoganin-nato-zirvesi-oncesi-diplomasi-trafig.html",
+        "kaynak": "TRT Haber",
+        "tarih": "06.07.2026",
+        "gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2474000/erdogan-radev-2474132.jpg"
+    },
+    {
+        "baslik": "Trump confirms he asked Fifa to review Balogun ban",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c1myykx0gmxo?at_medium=RSS&at_campaign=rss",
+        "ozet": "President Donald Trump confirms he asked Fifa to review United States striker Folarin Balogun's one-match suspension at the World Cup.",
+        "kategori": "gundem",
+        "dosya": "auto-trump-confirms-he-asked-fifa-to-review-balogun-ban.html",
+        "kaynak": "BBC World",
+        "tarih": "06.07.2026",
+        "gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "Ukraine warns of interceptor missile shortage as 23 killed in Kyiv region",
         "link": "https://www.bbc.co.uk/news/articles/cewqqnd7zdwo?at_medium=RSS&at_campaign=rss",
         "ozet": "President Zelensky says Sunday's \"massive Russian attack\" on Kyiv consisted of 68 missiles and 351 strike drones.",
         "kategori": "teknoloji",
-        "dosya": "auto-ukraine-warns-of-interceptor-missile-shortage-as-21-killed-i.html",
+        "dosya": "auto-ukraine-warns-of-interceptor-missile-shortage-as-23-killed-i.html",
+        "kaynak": "BBC World",
+        "tarih": "06.07.2026",
+        "gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "Charlie Kirk's family attends hearing for suspect charged with his murder",
+        "link": "https://www.bbc.co.uk/news/articles/c1myyyyjvx5o?at_medium=RSS&at_campaign=rss",
+        "ozet": "Tyler Robinson, 23, is accused of murdering Kirk, a key Trump ally and founder of youth organisation Turning Point USA.",
+        "kategori": "gundem",
+        "dosya": "auto-charlie-kirks-family-attends-hearing-for-suspect-charged-wit.html",
+        "kaynak": "BBC World",
+        "tarih": "06.07.2026",
+        "gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "Ex-Syrian intelligence chief found guilty of torture and sexual abuse by Austrian court",
+        "link": "https://www.bbc.co.uk/news/articles/cy8ddd1m3mpo?at_medium=RSS&at_campaign=rss",
+        "ozet": "Two former Syrian officials went on trial in Vienna, Austria, accused of crimes against opponents of former Syrian leader Bashar al-Assad",
+        "kategori": "gundem",
+        "dosya": "auto-ex-syrian-intelligence-chief-found-guilty-of-torture-and-sex.html",
         "kaynak": "BBC World",
         "tarih": "06.07.2026",
         "gorsel": "https://picsum.photos/1000/500?random"
@@ -65,36 +95,6 @@
         "ozet": "Many people were waving Iranian flags and red banners symbolising vengeance for the former supreme leader's war death.",
         "kategori": "gundem",
         "dosya": "auto-huge-crowds-fill-tehran-streets-for-khameneis-funeral-proces.html",
-        "kaynak": "BBC World",
-        "tarih": "06.07.2026",
-        "gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Wildfire in southern France forces evacuation of 10,000 people",
-        "link": "https://www.bbc.co.uk/news/articles/crlwweye9glo?at_medium=RSS&at_campaign=rss",
-        "ozet": "Tour de France organisers ban spectators from stage three as a wildfire hits the Pyrénées-Orientales region.",
-        "kategori": "gundem",
-        "dosya": "auto-wildfire-in-southern-france-forces-evacuation-of-10000-peopl.html",
-        "kaynak": "BBC World",
-        "tarih": "06.07.2026",
-        "gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Red card system in disarray over Trump, Fifa and Balogun decision",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cly99dxjkxxo?at_medium=RSS&at_campaign=rss",
-        "ozet": "The decision to effectively overturn the red card shown to United States forward Folarin Balogun leaves many unanswered questions.",
-        "kategori": "gundem",
-        "dosya": "auto-red-card-system-in-disarray-over-trump-fifa-and-balogun-deci.html",
-        "kaynak": "BBC World",
-        "tarih": "06.07.2026",
-        "gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "'I ate ketchup and cheese,' says Venezuelan girl trapped under quake rubble for 32 hours",
-        "link": "https://www.bbc.co.uk/news/articles/c9922x87nj8o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Fabiana was trapped in the rubble of a 10-storey residential building after two earthquakes rocked Venezuela in June.",
-        "kategori": "gundem",
-        "dosya": "auto-i-ate-ketchup-and-cheese-says-venezuelan-girl-trapped-under-.html",
         "kaynak": "BBC World",
         "tarih": "06.07.2026",
         "gorsel": "https://picsum.photos/1000/500?random"
