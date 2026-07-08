@@ -286,10 +286,12 @@ gtag('config','G-WQW2XLPGKC');
 </div>
 
 <div class="container">
-<h2 class="section-title">Hava Durumu</h2>
-<div class="info-grid"><div class="city"><h3>İstanbul</h3><p>24°C</p></div><div class="city"><h3>Ankara</h3><p>26°C</p></div><div class="city"><h3>İzmir</h3><p>29°C</p></div><div class="city"><h3>Gaziantep</h3><p>31°C</p></div></div>
+<h2 class="section-title">🌤️ Canlı Hava Durumu</h2>
+<div id="liveWeather" class="info-grid"></div>
+
 <h2 class="section-title">📍 Son Depremler</h2>
-<div class="info-grid"><div class="city"><h3>Malatya</h3><p>4.2</p></div><div class="city"><h3>Hatay</h3><p>3.8</p></div><div class="city"><h3>İzmir</h3><p>2.9</p></div></div>
+<div id="liveEarthquakes" class="info-grid"></div>
+</div>
 <h2 class="section-title">💵 Döviz ve Altın</h2>
 <div class="info-grid"><div class="city"><h3>USD</h3><p>39.25 ₺</p></div><div class="city"><h3>EUR</h3><p>45.12 ₺</p></div><div class="city"><h3>Gram Altın</h3><p>4320 ₺</p></div><div class="city"><h3>Çeyrek</h3><p>7120 ₺</p></div></div>
 <div class="trust-box">✅ Güncel Haberler &nbsp; ✅ Tarafsız Yayın &nbsp; ✅ 7/24 Güncelleme</div>
@@ -361,5 +363,79 @@ if(trend){trend.innerHTML="";haberler.slice(0,4).forEach(haber=>{trend.innerHTML
 })
 .catch(err=>{console.error(err);});
 </script>
+ <script>
+const cities=[
+{name:"İstanbul",lat:41.0082,lon:28.9784},
+{name:"Ankara",lat:39.9334,lon:32.8597},
+{name:"İzmir",lat:38.4192,lon:27.1287},
+{name:"Gaziantep",lat:37.0662,lon:37.3833}
+];
+
+async function loadWeather(){
+const box=document.getElementById("liveWeather");
+if(!box) return;
+box.innerHTML="";
+
+for(const c of cities){
+try{
+const url=`https://api.open-meteo.com/v1/forecast?latitude=${c.lat}&longitude=${c.lon}&current=temperature_2m,relative_humidity_2m,wind_speed_10m&timezone=auto`;
+const res=await fetch(url);
+const data=await res.json();
+box.innerHTML+=`
+<div class="city">
+<h3>${c.name}</h3>
+<p>${Math.round(data.current.temperature_2m)}°C</p>
+<small>💧 Nem: ${data.current.relative_humidity_2m}%</small><br>
+<small>💨 Rüzgar: ${data.current.wind_speed_10m} km/s</small>
+</div>`;
+}catch(e){
+box.innerHTML+=`<div class="city"><h3>${c.name}</h3><p>Veri alınamadı</p></div>`;
+}
+}
+}
+
+async function loadEarthquakes(){
+const box=document.getElementById("liveEarthquakes");
+if(!box) return;
+
+const d=new Date();
+d.setDate(d.getDate()-7);
+const start=d.toISOString().split("T")[0];
+
+const url=`https://earthquake.usgs.gov/fdsnws/event/1/query?format=geojson&starttime=${start}&minlatitude=35.5&maxlatitude=42.5&minlongitude=25&maxlongitude=45&minmagnitude=2.5&orderby=time&limit=6`;
+
+try{
+const res=await fetch(url);
+const data=await res.json();
+
+box.innerHTML="";
+data.features.forEach(eq=>{
+const mag=eq.properties.mag;
+const place=eq.properties.place;
+const time=new Date(eq.properties.time).toLocaleString("tr-TR");
+
+box.innerHTML+=`
+<div class="city">
+<h3>${place}</h3>
+<p>${mag}</p>
+<small>🕒 ${time}</small>
+</div>`;
+});
+
+if(data.features.length===0){
+box.innerHTML=`<div class="city"><h3>Son Deprem</h3><p>Veri yok</p></div>`;
+}
+
+}catch(e){
+box.innerHTML=`<div class="city"><h3>Deprem Verisi</h3><p>Alınamadı</p></div>`;
+}
+}
+
+loadWeather();
+loadEarthquakes();
+
+setInterval(loadWeather,900000);
+setInterval(loadEarthquakes,900000);
+</script>    
 </body>
 </html>
