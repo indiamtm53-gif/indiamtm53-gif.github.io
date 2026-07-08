@@ -273,27 +273,8 @@ gtag('config','G-WQW2XLPGKC');
 <div class="news-card"><img src="https://picsum.photos/500/300?12" loading="lazy" alt="Özel haber"><span class="category-tag">ÖZEL</span><h3>Özel Haber</h3><p>Editörlerimizin seçtiği içerikler.</p><div class="news-info"><span>📅 19 Haziran 2026</span><span>👁️ 6.740</span></div><a class="read-more" href="yapay-zeka.html">Devamını Oku →</a></div>
 </div>
 </main>
-<aside class="sidebar">
-<h2>🔥 En Çok Okunanlar</h2>
-<div id="enCokOkunanlar"></div>
-<hr style="margin:20px 0;border:none;border-top:1px solid var(--border);">
-<h2>⭐ Editörün Seçtikleri</h2>
-<div class="popular-item"><a href="afet-hazirlik.html">Haftanın En Önemli Gelişmesi</a></div>
-<div class="popular-item"><a href="borsa-yukselis.html">Ekonomide Kritik Karar</a></div>
-<div class="popular-item"><a href="yapay-zeka.html">Yapay Zeka Teknolojileri</a></div>
-</aside>
-</div>
-</div>
-
-<div class="container">
-<h2 class="section-title">🌤️ Canlı Hava Durumu</h2>
-<div id="liveWeather" class="info-grid"></div>
-
-<h2 class="section-title">📍 Son Depremler</h2>
-<div id="liveEarthquakes" class="info-grid"></div>
-</div>
-<h2 class="section-title">💵 Döviz ve Altın</h2>
-<div class="info-grid"><div class="city"><h3>USD</h3><p>39.25 ₺</p></div><div class="city"><h3>EUR</h3><p>45.12 ₺</p></div><div class="city"><h3>Gram Altın</h3><p>4320 ₺</p></div><div class="city"><h3>Çeyrek</h3><p>7120 ₺</p></div></div>
+<aside class="sidebar"><h2 class="section-title">💵 Canlı Döviz Kurları</h2>
+<div id="liveCurrency" class="info-grid"></div>
 <div class="trust-box">✅ Güncel Haberler &nbsp; ✅ Tarafsız Yayın &nbsp; ✅ 7/24 Güncelleme</div>
 <div class="notify"><button onclick="enableNotifications()">🔔 Bildirimleri Aç</button></div>
 </div>
@@ -436,6 +417,32 @@ loadEarthquakes();
 
 setInterval(loadWeather,900000);
 setInterval(loadEarthquakes,900000);
-</script>    
+</script>
+<script>
+async function loadCurrency(){
+const box=document.getElementById("liveCurrency");
+if(!box) return;
+
+try{
+const res=await fetch("https://api.frankfurter.dev/v2/latest?base=TRY&symbols=USD,EUR,GBP");
+const data=await res.json();
+
+const usd=(1 / data.rates.USD).toFixed(2);
+const eur=(1 / data.rates.EUR).toFixed(2);
+const gbp=(1 / data.rates.GBP).toFixed(2);
+
+box.innerHTML=`
+<div class="city"><h3>USD</h3><p>${usd} ₺</p><small>Amerikan Doları</small></div>
+<div class="city"><h3>EUR</h3><p>${eur} ₺</p><small>Euro</small></div>
+<div class="city"><h3>GBP</h3><p>${gbp} ₺</p><small>İngiliz Sterlini</small></div>
+`;
+}catch(e){
+box.innerHTML=`<div class="city"><h3>Döviz</h3><p>Veri alınamadı</p></div>`;
+}
+}
+
+loadCurrency();
+setInterval(loadCurrency,900000);
+</script>     
 </body>
 </html>
