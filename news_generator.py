@@ -4,8 +4,10 @@ import json
 import os
 import re
 import html
+import urllib.request
+import urllib.error
 
-SITE_URL = "https://indiamtm53-gif.github.io/ulkeden-haberler"
+SITE_URL = "https://indiamtm53-gif.github.io"
 
 RSS_KAYNAKLARI = [
     "https://www.trthaber.com/manset_articles.rss",
@@ -533,6 +535,151 @@ def ana_sayfa_kutusu_olustur(haberler):
 
     with open("ana-sayfa-haberleri.html", "w", encoding="utf-8") as f:
         f.write(kutu)
+
+
+
+def url_json_oku(url, timeout=15):
+    try:
+        req = urllib.request.Request(
+            url,
+            headers={
+                "User-Agent": "Mozilla/5.0 (Ülkeden Haberler Bot)",
+                "Accept": "application/json"
+            }
+        )
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            return json.loads(response.read().decode("utf-8"))
+    except Exception as hata:
+        print(f"Veri alınamadı: {url} | {hata}")
+        return None
+
+
+def hava_durumu_json_olustur():
+    sehirler = [
+        {"sehir": "İstanbul", "lat": 41.0082, "lon": 28.9784},
+        {"sehir": "Ankara", "lat": 39.9334, "lon": 32.8597},
+        {"sehir": "İzmir", "lat": 38.4192, "lon": 27.1287},
+        {"sehir": "Gaziantep", "lat": 37.0662, "lon": 37.3833}
+    ]
+
+    sonuc = []
+
+    for s in sehirler:
+        url = (
+            "https://api.open-meteo.com/v1/forecast"
+            f"?latitude={s['lat']}&longitude={s['lon']}"
+            "&current=temperature_2m,relative_humidity_2m,wind_speed_10m,apparent_temperature"
+            "&timezone=auto"
+        )
+
+        data = url_json_oku(url)
+        current = data.get("current", {}) if data else {}
+
+        sonuc.append({
+            "sehir": s["sehir"],
+            "sicaklik": current.get("temperature_2m"),
+            "hissedilen": current.get("apparent_temperature"),
+            "nem": current.get("relative_humidity_2m"),
+            "ruzgar": current.get("wind_speed_10m"),
+            "guncelleme": datetime.now().strftime("%d.%m.%Y %H:%M")
+        })
+
+    with open("hava-durumu.json", "w", encoding="utf-8") as f:
+        json.dump(sonuc, f, ensure_ascii=False, indent=4)
+
+
+def son_depremler_json_olustur():
+    sonuc = []
+
+    # Türkiye ve çevresi - son 14 gün
+    start = datetime.now().strftime("%Y-%m-%d")
+    url = (
+        "https://earthquake.usgs.gov/fdsnws/event/1/query"
+        "?format=geojson"
+        "&starttime=2020-01-01"
+        "&minlatitude=35&maxlatitude=43"
+        "&minlongitude=25&maxlongitude=46"
+        "&minmagnitude=1.5"
+        "&orderby=time"
+        "&limit=8"
+    )
+
+    data = url_json_oku(url)
+
+    if data and "features" in data:
+        for eq in data["features"][:8]:
+            prop = eq.get("properties", {})
+            geo = eq.get("geometry", {})
+            coords = geo.get("coordinates", [])
+
+            zaman = prop.get("time")
+            if zaman:
+                try:
+                    zaman = datetime.fromtimestamp(zaman / 1000).strftime("%d.%m.%Y %H:%M")
+                except Exception:
+                    zaman = ""
+
+            sonuc.append({
+                "yer": prop.get("place", "Türkiye çevresi"),
+                "buyukluk": prop.get("mag", "-"),
+                "zaman": zaman,
+                "derinlik": coords[2] if len(coords) > 2 else "",
+                "guncelleme": datetime.now().strftime("%d.%m.%Y %H:%M")
+            })
+
+    with open("son-depremler.json", "w", encoding="utf-8") as f:
+        json.dump(sonuc, f, ensure_ascii=False, indent=4)
+
+
+def doviz_json_olustur():
+    sonuc = []
+
+    # Güvenilir ücretsiz kur servisi
+    data = url_json_oku("https://api.frankfurter.app/latest?from=TRY&to=USD,EUR,GBP")
+
+    if data and "rates" in data:
+        rates = data["rates"]
+
+        def ters_kur(kod):
+            try:
+                return round(1 / float(rates[kod]), 2)
+            except Exception:
+                return None
+
+        sonuc = [
+            {"kod": "USD", "ad": "Amerikan Doları", "deger": ters_kur("USD"), "birim": "₺"},
+            {"kod": "EUR", "ad": "Euro", "deger": ters_kur("EUR"), "birim": "₺"},
+            {"kod": "GBP", "ad": "İngiliz Sterlini", "deger": ters_kur("GBP"), "birim": "₺"}
+        ]
+
+    with open("doviz.json", "w", encoding="utf-8") as f:
+        json.dump(sonuc, f, ensure_ascii=False, indent=4)
+
+
+def altin_json_olustur():
+    # Ücretsiz ve stabil altın API'si olmadan sahte veri üretmiyoruz.
+    # AdSense ve güven açısından boş/uyarı JSON üretmek daha doğru.
+    sonuc = [
+        {
+            "kod": "ALTIN",
+            "ad": "Altın verisi",
+            "deger": None,
+            "birim": "₺",
+            "not": "Güvenilir canlı altın kaynağı bağlanınca otomatik güncellenecek."
+        }
+    ]
+
+    with open("altin.json", "w", encoding="utf-8") as f:
+        json.dump(sonuc, f, ensure_ascii=False, indent=4)
+
+
+def canli_veriler_json_olustur():
+    print("Canlı veri sistemi başladı.")
+    hava_durumu_json_olustur()
+    son_depremler_json_olustur()
+    doviz_json_olustur()
+    altin_json_olustur()
+    print("Canlı veri JSON dosyaları oluşturuldu.")
 
 
 def json_olustur(haberler):
