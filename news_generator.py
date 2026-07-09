@@ -497,9 +497,46 @@ def kategori_sayfalari_olustur(haberler):
             f.write(sayfa)
 
 
+
 def sitemap_olustur(haberler):
+    statik_sayfalar = [
+        "index.html",
+        "gundem.html",
+        "ekonomi.html",
+        "spor.html",
+        "teknoloji.html",
+        "hava-durumu.html",
+        "hakkimizda.html",
+        "iletisim.html",
+        "gizlilik.html",
+        "cerez-politikasi.html",
+        "kullanim-sartlari.html",
+        "otomatik-gundem.html",
+        "gundem-otomatik.html",
+        "ekonomi-otomatik.html",
+        "teknoloji-otomatik.html"
+    ]
+
     sitemap = """<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+"""
+
+    sitemap += f"""
+<url>
+<loc>{SITE_URL}/</loc>
+<priority>1.0</priority>
+<changefreq>daily</changefreq>
+</url>
+"""
+
+    for sayfa in statik_sayfalar:
+        if os.path.exists(sayfa):
+            sitemap += f"""
+<url>
+<loc>{SITE_URL}/{sayfa}</loc>
+<priority>0.7</priority>
+<changefreq>weekly</changefreq>
+</url>
 """
 
     for haber in haberler:
@@ -507,12 +544,16 @@ def sitemap_olustur(haberler):
 <url>
 <loc>{SITE_URL}/{haber["dosya"]}</loc>
 <priority>0.8</priority>
+<changefreq>daily</changefreq>
 </url>
 """
 
     sitemap += """
 </urlset>
 """
+
+    with open("sitemap.xml", "w", encoding="utf-8") as f:
+        f.write(sitemap)
 
     with open("otomatik-sitemap.xml", "w", encoding="utf-8") as f:
         f.write(sitemap)
@@ -736,6 +777,16 @@ def json_olustur(haberler):
         json.dump(haberler, f, ensure_ascii=False, indent=4)
 
 
+def robots_txt_olustur():
+    robots = f"""User-agent: *
+Allow: /
+
+Sitemap: {SITE_URL}/sitemap.xml
+"""
+    with open("robots.txt", "w", encoding="utf-8") as f:
+        f.write(robots)
+
+
 def log_yaz():
     with open("otomasyon-log.txt", "a", encoding="utf-8") as f:
         f.write(f"Sistem çalıştı: {datetime.now()}\n")
@@ -760,6 +811,7 @@ def main():
     otomatik_liste_olustur(haberler)
     kategori_sayfalari_olustur(haberler)
     sitemap_olustur(haberler)
+    robots_txt_olustur()
     ana_sayfa_kutusu_olustur(haberler)
     canli_veriler_json_olustur()
     log_yaz()
