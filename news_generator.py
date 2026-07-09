@@ -631,10 +631,10 @@ def son_depremler_json_olustur():
         json.dump(sonuc, f, ensure_ascii=False, indent=4)
 
 
+
 def doviz_json_olustur():
     sonuc = []
 
-    # Güvenilir ücretsiz kur servisi
     data = url_json_oku("https://api.frankfurter.app/latest?from=TRY&to=USD,EUR,GBP")
 
     if data and "rates" in data:
@@ -646,28 +646,77 @@ def doviz_json_olustur():
             except Exception:
                 return None
 
-        sonuc = [
+        sonuc.extend([
             {"kod": "USD", "ad": "Amerikan Doları", "deger": ters_kur("USD"), "birim": "₺"},
             {"kod": "EUR", "ad": "Euro", "deger": ters_kur("EUR"), "birim": "₺"},
             {"kod": "GBP", "ad": "İngiliz Sterlini", "deger": ters_kur("GBP"), "birim": "₺"}
-        ]
+        ])
+
+    btc = url_json_oku("https://api.coingecko.com/api/v3/simple/price?ids=bitcoin&vs_currencies=try")
+    if btc and "bitcoin" in btc:
+        sonuc.append({
+            "kod": "BTC",
+            "ad": "Bitcoin",
+            "deger": btc["bitcoin"].get("try"),
+            "birim": "₺"
+        })
 
     with open("doviz.json", "w", encoding="utf-8") as f:
         json.dump(sonuc, f, ensure_ascii=False, indent=4)
 
 
+
 def altin_json_olustur():
-    # Ücretsiz ve stabil altın API'si olmadan sahte veri üretmiyoruz.
-    # AdSense ve güven açısından boş/uyarı JSON üretmek daha doğru.
-    sonuc = [
-        {
-            "kod": "ALTIN",
-            "ad": "Altın verisi",
-            "deger": None,
-            "birim": "₺",
-            "not": "Güvenilir canlı altın kaynağı bağlanınca otomatik güncellenecek."
-        }
-    ]
+    sonuc = []
+
+    data = url_json_oku("https://finans.truncgil.com/today.json")
+
+    def temiz_sayi(deger):
+        if not deger:
+            return None
+        deger = str(deger).replace("₺", "").replace("$", "").replace(".", "").replace(",", ".").strip()
+        try:
+            return round(float(deger), 2)
+        except Exception:
+            return str(deger)
+
+    if data:
+        eslesmeler = [
+            ("Gram Altın", "GRAM", "Gram Altın"),
+            ("Çeyrek Altın", "CEYREK", "Çeyrek Altın"),
+            ("Yarım Altın", "YARIM", "Yarım Altın"),
+            ("Cumhuriyet Altını", "CUMHURIYET", "Cumhuriyet Altını")
+        ]
+
+        for kaynak_adi, kod, ad in eslesmeler:
+            item = data.get(kaynak_adi)
+            if isinstance(item, dict):
+                sonuc.append({
+                    "kod": kod,
+                    "ad": ad,
+                    "deger": temiz_sayi(item.get("Selling") or item.get("Satış") or item.get("Alış")),
+                    "birim": "₺"
+                })
+
+        bist = data.get("BIST 100") or data.get("BIST100")
+        if isinstance(bist, dict):
+            sonuc.append({
+                "kod": "BIST100",
+                "ad": "BIST 100",
+                "deger": temiz_sayi(bist.get("Selling") or bist.get("Son") or bist.get("Alış")),
+                "birim": ""
+            })
+
+    if not sonuc:
+        sonuc = [
+            {
+                "kod": "ALTIN",
+                "ad": "Altın verisi",
+                "deger": None,
+                "birim": "₺",
+                "not": "Canlı altın kaynağına şu an erişilemedi."
+            }
+        ]
 
     with open("altin.json", "w", encoding="utf-8") as f:
         json.dump(sonuc, f, ensure_ascii=False, indent=4)
