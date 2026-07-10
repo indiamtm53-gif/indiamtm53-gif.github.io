@@ -93,6 +93,42 @@ body.dark .ad-box{background:linear-gradient(135deg,#111827,#1f2937);border-colo
 
 @media(max-width:950px){.hero-inner,.article-layout{grid-template-columns:1fr}.sidebar{position:static}.news-grid{grid-template-columns:1fr}.article-cover{height:300px}}
 @media(max-width:760px){.header-inner{flex-wrap:wrap}.nav{display:none}.brand img{height:44px}.hero{padding:42px 0}.hero h1{font-size:31px}.container{padding:26px 0}.article-title{font-size:30px}.article-content{padding:20px}.news-img{height:190px}.footer-inner{grid-template-columns:1fr}}
+
+.breadcrumb{
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+align-items:center;
+font-size:14px;
+color:var(--muted);
+margin-bottom:18px;
+}
+.breadcrumb a{color:var(--primary);font-weight:800}
+.related-section{margin-top:28px}
+.related-section h2{font-size:24px;margin-bottom:16px}
+.related-grid{
+display:grid;
+grid-template-columns:repeat(3,minmax(0,1fr));
+gap:14px;
+}
+.related-card{
+display:block;
+background:var(--card);
+border:1px solid var(--border);
+border-radius:16px;
+overflow:hidden;
+box-shadow:0 6px 18px rgba(15,23,42,.07);
+transition:.2s ease;
+}
+.related-card:hover{transform:translateY(-3px)}
+.related-card img{width:100%;height:130px;object-fit:cover}
+.related-card div{padding:12px}
+.related-card strong{display:block;line-height:1.35;margin-bottom:6px}
+.related-card small{color:var(--muted)}
+body.dark .breadcrumb{color:#cbd5e1}
+body.dark .related-card{background:#111827;border-color:#334155}
+@media(max-width:760px){.related-grid{grid-template-columns:1fr}}
+
 </style>
 
 </head>
