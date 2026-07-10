@@ -7,7 +7,7 @@
 <meta name="description" content="Türkiye ve dünyadan son dakika haberleri, ekonomi, spor, teknoloji ve hava durumu gelişmeleri Ülkeden Haberler'de.">
 <meta name="keywords" content="haber, son dakika, gündem, ekonomi, spor, teknoloji, hava durumu, türkiye haberleri">
 <meta name="robots" content="index,follow">
-<link rel="canonical" href="https://indiamtm53-gif.github.io/ulkeden-haberler/">
+<link rel="canonical" href="https://indiamtm53-gif.github.io/">
 <link rel="icon" type="image/png" href="favicon.png">
 
 <link rel="manifest" href="manifest.json">
@@ -22,7 +22,7 @@
 <meta property="og:description" content="Türkiye'nin güncel haber portalı">
 <meta property="og:type" content="website">
 <meta property="og:image" content="logo.png">
-<meta property="og:url" content="https://indiamtm53-gif.github.io/ulkeden-haberler/">
+<meta property="og:url" content="https://indiamtm53-gif.github.io/">
 <meta property="og:site_name" content="Ülkeden Haberler">
 <meta property="og:locale" content="tr_TR">
 
@@ -138,25 +138,68 @@ button{font:inherit}
 
 @media(max-width:900px){nav{display:none}.hero,.quick-panels,.main-layout{grid-template-columns:1fr}.status-bar{grid-template-columns:repeat(2,1fr)}.sidebar{position:static}.slider{height:340px}.slide-content h2{font-size:26px}.featured img{height:250px}.featured-content h1{font-size:28px}}
 @media(max-width:600px){.header-inner{flex-wrap:wrap}.logo img{height:48px}.tools{margin-left:auto}.ad-box{font-size:18px;min-height:74px}.status-bar{grid-template-columns:1fr}.auto-card{grid-template-columns:1fr}.auto-img{height:190px}.slider{height:310px}.slide-content{left:18px;right:18px;bottom:18px}.slide-content h2{font-size:23px}.featured-content h1{font-size:24px}.news-grid{grid-template-columns:1fr}.footer{padding:34px 0}}
-.dark #mobileMenu{
-background:#111827 !important;
-color:white !important;
-border:1px solid #374151;
+
+.finance-strip{
+width:92%;
+max-width:1180px;
+margin:18px auto;
+display:grid;
+grid-template-columns:repeat(4,minmax(0,1fr));
+gap:12px;
+}
+.finance-strip-card{
+background:var(--card);
+border:1px solid var(--border);
+border-radius:14px;
+padding:14px;
+box-shadow:var(--shadow);
+display:flex;
+align-items:center;
+justify-content:space-between;
+gap:10px;
+}
+.finance-strip-card strong{font-size:15px}
+.finance-strip-card span{font-size:17px;font-weight:900;color:var(--blue)}
+.world-section{
+background:var(--card);
+border:1px solid var(--border);
+border-radius:22px;
+padding:22px;
+margin-bottom:28px;
+box-shadow:var(--shadow);
+}
+.world-grid{
+display:grid;
+grid-template-columns:repeat(3,minmax(0,1fr));
+gap:16px;
+}
+.world-card{
+border:1px solid var(--border);
+border-radius:16px;
+overflow:hidden;
+background:#F8FAFC;
+transition:.2s;
+}
+.world-card:hover{transform:translateY(-3px);box-shadow:var(--shadow)}
+.world-card img{width:100%;height:165px;object-fit:cover}
+.world-card-content{padding:14px}
+.world-card h3{font-size:18px;line-height:1.35;margin-bottom:8px}
+.world-card p{font-size:14px;line-height:1.5;color:#475569}
+.dynamic-list{list-style:none;padding-left:0!important}
+.dynamic-list li{padding:9px 0;border-bottom:1px solid var(--border)}
+.dynamic-list li:last-child{border-bottom:none}
+.dynamic-list a{font-weight:800;line-height:1.4}
+.dark .finance-strip-card,.dark .world-section{background:#1F2937;border-color:#374151}
+.dark .world-card{background:#111827;border-color:#374151}
+.dark .world-card p{color:#CBD5E1}
+@media(max-width:900px){
+.finance-strip{grid-template-columns:repeat(2,1fr)}
+.world-grid{grid-template-columns:1fr}
+}
+@media(max-width:600px){
+.finance-strip{grid-template-columns:1fr}
 }
 
-.dark #mobileMenu a{
-color:white !important;
-border-bottom:1px solid #374151;
-}
-
-.dark #mobileMenu a:hover{
-background:#1F2937;
-}
-
-.dark #menuBtn{
-background:#2563EB !important;
-color:white !important;
-}
 </style>
 
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-WQW2XLPGKC"></script>
@@ -205,25 +248,31 @@ gtag('config','G-WQW2XLPGKC');
 </header>
 
 <div class="ad-box">Reklam Alanı - Google AdSense İçin Hazır</div>
-<div class="ticker"><div class="ticker-content">🔥 SON DAKİKA • Türkiye gündemi sürekli güncelleniyor • Ekonomi piyasalarında son gelişmeler • Spor dünyasından flaş haberler • Teknoloji ve yapay zeka gelişmeleri • Ülkeden Haberler 7/24 yayında</div></div>
+<div class="ticker"><div class="ticker-content" id="dynamicTicker">🔥 SON DAKİKA • Türkiye gündemi sürekli güncelleniyor • Ekonomi piyasalarında son gelişmeler • Spor dünyasından flaş haberler • Teknoloji ve yapay zeka gelişmeleri • Ülkeden Haberler 7/24 yayında</div></div>
+
+
+<div class="finance-strip" id="financeSummary">
+<div class="finance-strip-card"><strong>💵 USD</strong><span>Yükleniyor...</span></div>
+<div class="finance-strip-card"><strong>💶 EUR</strong><span>Yükleniyor...</span></div>
+<div class="finance-strip-card"><strong>💷 GBP</strong><span>Yükleniyor...</span></div>
+<div class="finance-strip-card"><strong>₿ BTC</strong><span>Yükleniyor...</span></div>
+</div>
 
 <div class="container quick-panels">
 <div class="panel">
 <h3 style="color:#dc2626;">🔥 SON DAKİKA</h3>
-<ul>
-<li><a href="tbmm-duzenleme.html">TBMM'de yeni düzenleme görüşmeleri sürüyor.</a></li>
-<li><a href="ihracat-verileri.html">Ekonomide ihracat rakamları açıklandı.</a></li>
-<li><a href="transfer-donemi.html">Süper Lig ekipleri transfer çalışmalarına hız verdi.</a></li>
-<li><a href="yapay-zeka.html">Yapay zeka yatırımlarında artış yaşanıyor.</a></li>
+<ul id="lastMinuteList" class="dynamic-list">
+<li>Haberler yükleniyor...</li>
 </ul>
 </div>
 <div class="panel">
 <h3 style="color:#2563EB;">⭐ Editörün Seçimi</h3>
-<p><a href="yapay-zeka.html">Yapay Zeka Teknolojileri Gelişiyor</a></p>
-<p><a href="faiz-karari.html">Merkez Bankası Faiz Kararını Açıkladı</a></p>
-<p><a href="super-lig.html">Süper Lig'de Haftanın Sonuçları</a></p>
+<ul id="editorPicksList" class="dynamic-list">
+<li>Seçilen haberler yükleniyor...</li>
+</ul>
 </div>
 </div>
+
 
 <div class="container hero">
 <div class="slider">
@@ -272,6 +321,21 @@ gtag('config','G-WQW2XLPGKC');
 <a class="btn" href="otomatik-gundem.html">Tüm Otomatik Haberler →</a>
 <div id="otomatikHaberler"></div>
 </div>
+
+
+<div class="container world-section">
+<div class="auto-head">
+<div>
+<h2 class="section-title">🌍 Dünya Gündemi</h2>
+<p>Uluslararası gelişmeler ve dünyadan öne çıkan son haberler.</p>
+</div>
+<a class="btn" href="otomatik-gundem.html">Tüm Haberler →</a>
+</div>
+<div id="worldAgenda" class="world-grid">
+<div class="world-card"><div class="world-card-content"><h3>Haberler yükleniyor...</h3></div></div>
+</div>
+</div>
+
 
 <div class="container">
 <h2 class="section-title">Öne Çıkan Haberler</h2>
@@ -502,11 +566,91 @@ setInterval(loadLiveData,900000);
 
 
 <script>
+function safeText(value){
+return String(value ?? "").replace(/[&<>"']/g, char => ({
+"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+})[char]);
+}
+
+async function fetchLocalJson(file){
+const response=await fetch(file+"?v="+Date.now(),{cache:"no-store"});
+if(!response.ok) throw new Error(file+" yüklenemedi");
+return response.json();
+}
+
+async function loadV64Home(){
+try{
+const news=await fetchLocalJson("otomatik-haberler.json");
+const items=Array.isArray(news)?news:[];
+
+const lastMinute=document.getElementById("lastMinuteList");
+if(lastMinute){
+lastMinute.innerHTML=items.slice(0,4).map(h=>`
+<li><a href="${safeText(h.dosya)}">${safeText(h.baslik)}</a></li>
+`).join("") || "<li>Güncel haber bulunamadı.</li>";
+}
+
+const editor=document.getElementById("editorPicksList");
+if(editor){
+const picks=[...items].sort((a,b)=>
+String(b.ozet||"").length-String(a.ozet||"").length
+).slice(0,3);
+editor.innerHTML=picks.map(h=>`
+<li><a href="${safeText(h.dosya)}">${safeText(h.baslik)}</a></li>
+`).join("") || "<li>Editör seçimi bulunamadı.</li>";
+}
+
+const ticker=document.getElementById("dynamicTicker");
+if(ticker && items.length){
+ticker.textContent="🔥 SON DAKİKA • "+items.slice(0,6).map(h=>h.baslik).join(" • ");
+}
+
+const world=document.getElementById("worldAgenda");
+if(world){
+const worldItems=items.filter(h=>
+String(h.kaynak||"").toLowerCase().includes("bbc") ||
+String(h.baslik||"").match(/world|trump|nato|iran|russia|ukraine|europe|abd|dünya/i)
+).slice(0,3);
+
+const selected=worldItems.length?worldItems:items.slice(0,3);
+world.innerHTML=selected.map(h=>`
+<a class="world-card" href="${safeText(h.dosya)}">
+<img src="${safeText(h.gorsel||"logo.png")}" alt="${safeText(h.baslik)}" loading="lazy">
+<div class="world-card-content">
+<h3>${safeText(h.baslik)}</h3>
+<p>${safeText(String(h.ozet||"").slice(0,120))}${String(h.ozet||"").length>120?"...":""}</p>
+</div>
+</a>
+`).join("");
+}
+}catch(error){
+console.error("V64 haber alanları:",error);
+}
+
+try{
+const data=await fetchLocalJson("doviz.json");
+const box=document.getElementById("financeSummary");
+if(box && Array.isArray(data)){
+const order=["USD","EUR","GBP","BTC"];
+box.innerHTML=order.map(code=>{
+const item=data.find(x=>x.kod===code);
+const value=item&&item.deger!==null&&item.deger!==undefined
+?Number(item.deger).toLocaleString("tr-TR")+" "+(item.birim||"")
+:"Veri yok";
+const icon={USD:"💵",EUR:"💶",GBP:"💷",BTC:"₿"}[code]||"📈";
+return `<div class="finance-strip-card"><strong>${icon} ${code}</strong><span>${safeText(value)}</span></div>`;
+}).join("");
+}
+}catch(error){
+console.error("V64 finans özeti:",error);
+}
+}
+
+loadV64Home();
+
 if("serviceWorker" in navigator){
 window.addEventListener("load",()=>{
-navigator.serviceWorker.register("service-worker.js")
-.then(()=>console.log("Service Worker aktif"))
-.catch(err=>console.log("Service Worker hata:",err));
+navigator.serviceWorker.register("service-worker.js").catch(()=>{});
 });
 }
 </script>
