@@ -197,6 +197,42 @@ body.dark .ad-box{background:linear-gradient(135deg,#111827,#1f2937);border-colo
 
 @media(max-width:950px){.hero-inner,.article-layout{grid-template-columns:1fr}.sidebar{position:static}.news-grid{grid-template-columns:1fr}.article-cover{height:300px}}
 @media(max-width:760px){.header-inner{flex-wrap:wrap}.nav{display:none}.brand img{height:44px}.hero{padding:42px 0}.hero h1{font-size:31px}.container{padding:26px 0}.article-title{font-size:30px}.article-content{padding:20px}.news-img{height:190px}.footer-inner{grid-template-columns:1fr}}
+
+.breadcrumb{
+display:flex;
+flex-wrap:wrap;
+gap:8px;
+align-items:center;
+font-size:14px;
+color:var(--muted);
+margin-bottom:18px;
+}
+.breadcrumb a{color:var(--primary);font-weight:800}
+.related-section{margin-top:28px}
+.related-section h2{font-size:24px;margin-bottom:16px}
+.related-grid{
+display:grid;
+grid-template-columns:repeat(3,minmax(0,1fr));
+gap:14px;
+}
+.related-card{
+display:block;
+background:var(--card);
+border:1px solid var(--border);
+border-radius:16px;
+overflow:hidden;
+box-shadow:0 6px 18px rgba(15,23,42,.07);
+transition:.2s ease;
+}
+.related-card:hover{transform:translateY(-3px)}
+.related-card img{width:100%;height:130px;object-fit:cover}
+.related-card div{padding:12px}
+.related-card strong{display:block;line-height:1.35;margin-bottom:6px}
+.related-card small{color:var(--muted)}
+body.dark .breadcrumb{color:#cbd5e1}
+body.dark .related-card{background:#111827;border-color:#334155}
+@media(max-width:760px){.related-grid{grid-template-columns:1fr}}
+
 </style>
 """
 
@@ -348,10 +384,12 @@ def liste_sayfasi_html(baslik, aciklama, haberler, aktif_kategori=None):
 </html>"""
 
 
-def haber_sayfasi_olustur(haber):
+
+def haber_sayfasi_olustur(haber, tum_haberler):
     baslik = e(haber["baslik"])
     ozet = e(haber["ozet"])
-    kategori = e(haber["kategori"].upper())
+    kategori_raw = haber["kategori"]
+    kategori = e(kategori_raw.upper())
     link = e(haber["link"])
     gorsel = e(haber["gorsel"])
     kaynak = e(haber["kaynak"])
@@ -359,111 +397,218 @@ def haber_sayfasi_olustur(haber):
     dosya = e(haber["dosya"])
     canonical = f"{SITE_URL}/{dosya}"
     okuma_suresi = max(1, round(len(haber["ozet"].split()) / 180))
+    simdi_iso = datetime.now().isoformat()
+
+    kategori_sayfasi = {
+        "gundem": "gundem-otomatik.html",
+        "ekonomi": "ekonomi-otomatik.html",
+        "teknoloji": "teknoloji-otomatik.html"
+    }.get(kategori_raw, "otomatik-gundem.html")
+
+    benzerler = [
+        h for h in tum_haberler
+        if h["dosya"] != haber["dosya"] and h["kategori"] == kategori_raw
+    ][:3]
+
+    if len(benzerler) < 3:
+        ek = [
+            h for h in tum_haberler
+            if h["dosya"] != haber["dosya"] and h not in benzerler
+        ]
+        benzerler.extend(ek[:3 - len(benzerler)])
+
+    benzer_html = ""
+    for ilgili in benzerler:
+        benzer_html += f"""
+<a class="related-card" href="{e(ilgili['dosya'])}">
+<img src="{e(ilgili['gorsel'])}" alt="{e(ilgili['baslik'])}" loading="lazy">
+<div>
+<strong>{e(ilgili['baslik'])}</strong>
+<small>📰 {e(ilgili['kaynak'])} • 📅 {e(ilgili['tarih'])}</small>
+</div>
+</a>
+"""
+
+    if not benzer_html:
+        benzer_html = '<p class="section-subtitle">Şimdilik benzer haber bulunamadı.</p>'
+
+    news_schema = {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": haber["baslik"],
+        "description": haber["ozet"][:180],
+        "image": [haber["gorsel"]],
+        "datePublished": simdi_iso,
+        "dateModified": simdi_iso,
+        "articleSection": kategori_raw,
+        "author": {
+            "@type": "Organization",
+            "name": "Ülkeden Haberler"
+        },
+        "publisher": {
+            "@type": "Organization",
+            "name": "Ülkeden Haberler",
+            "logo": {
+                "@type": "ImageObject",
+                "url": f"{SITE_URL}/logo.png"
+            }
+        },
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": canonical
+        }
+    }
+
+    breadcrumb_schema = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+            {
+                "@type": "ListItem",
+                "position": 1,
+                "name": "Ana Sayfa",
+                "item": f"{SITE_URL}/"
+            },
+            {
+                "@type": "ListItem",
+                "position": 2,
+                "name": kategori_raw.title(),
+                "item": f"{SITE_URL}/{kategori_sayfasi}"
+            },
+            {
+                "@type": "ListItem",
+                "position": 3,
+                "name": haber["baslik"],
+                "item": canonical
+            }
+        ]
+    }
+
+    news_schema_json = json.dumps(news_schema, ensure_ascii=False)
+    breadcrumb_schema_json = json.dumps(breadcrumb_schema, ensure_ascii=False)
 
     sayfa = f"""<!DOCTYPE html>
 <html lang="tr">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>{baslik} - Ülkeden Haberler</title>
-<meta name="description" content="{baslik} - Ülkeden Haberler tarafından otomatik oluşturulan güncel haber.">
-
+<meta name="description" content="{e(haber['ozet'][:160])}">
 <meta name="keywords" content="{kategori.lower()}, haber, son dakika, {kaynak}, Türkiye, dünya">
-
 <meta name="author" content="Ülkeden Haberler">
-
-<meta property="og:type" content="article">
-<meta property="og:title" content="{baslik}">
-<meta property="og:description" content="{ozet[:150]}">
-<meta property="og:image" content="{gorsel}">
-<meta property="og:url" content="{SITE_URL}/{haber['dosya']}">
-
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="{baslik}">
-<meta name="twitter:description" content="{ozet[:150]}">
-<meta name="twitter:image" content="{gorsel}">
-<script type="application/ld+json">
-{{
-"@context":"https://schema.org",
-"@type":"NewsArticle",
-"headline":"{baslik}",
-"image":["{gorsel}"],
-"datePublished":"{tarih}",
-"author":{{
-"@type":"Organization",
-"name":"Ülkeden Haberler"
-}},
-"publisher":{{
-"@type":"Organization",
-"name":"Ülkeden Haberler",
-"logo":{{
-"@type":"ImageObject",
-"url":"{SITE_URL}/logo.png"
-}}
-}},
-"mainEntityOfPage":"{SITE_URL}/{haber['dosya']}"
-}}
-</script>
-<meta name="description" content="{baslik}">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
 <link rel="canonical" href="{canonical}">
 <link rel="icon" type="image/png" href="favicon.png">
-<meta property="og:title" content="{baslik}">
-<meta property="og:description" content="{baslik}">
+
 <meta property="og:type" content="article">
+<meta property="og:title" content="{baslik}">
+<meta property="og:description" content="{e(haber['ozet'][:180])}">
 <meta property="og:image" content="{gorsel}">
 <meta property="og:url" content="{canonical}">
+<meta property="og:site_name" content="Ülkeden Haberler">
+<meta property="article:section" content="{kategori}">
+<meta property="article:published_time" content="{simdi_iso}">
+
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{baslik}">
-<meta name="twitter:description" content="{baslik}">
+<meta name="twitter:description" content="{e(haber['ozet'][:180])}">
 <meta name="twitter:image" content="{gorsel}">
+
 {ortak_css()}
+
 <script type="application/ld+json">
-{{
-"@context":"https://schema.org",
-"@type":"NewsArticle",
-"headline":"{baslik}",
-"image":["{gorsel}"],
-"datePublished":"{datetime.now().isoformat()}",
-"dateModified":"{datetime.now().isoformat()}",
-"author":{{"@type":"Organization","name":"Ülkeden Haberler"}},
-"publisher":{{"@type":"Organization","name":"Ülkeden Haberler","logo":{{"@type":"ImageObject","url":"{SITE_URL}/logo.png"}}}},
-"mainEntityOfPage":"{canonical}"
-}}
+{news_schema_json}
 </script>
+
+<script type="application/ld+json">
+{breadcrumb_schema_json}
+</script>
+
 <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7206741398758511"
-     crossorigin="anonymous"></script>
+crossorigin="anonymous"></script>
 </head>
+
 <body>
 {header_html()}
+
 <main class="container">
+
+<nav class="breadcrumb" aria-label="Gezinme yolu">
+<a href="index.html">Ana Sayfa</a>
+<span>›</span>
+<a href="{kategori_sayfasi}">{kategori.title()}</a>
+<span>›</span>
+<span>{baslik}</span>
+</nav>
+
 <div class="article-layout">
+
 <article class="article-card">
 <img class="article-cover" src="{gorsel}" alt="{baslik}">
+
 <div class="article-content">
-<div class="badge-row"><span class="tag breaking">SON DAKİKA</span><span class="tag category">{kategori}</span></div>
+<div class="badge-row">
+<span class="tag breaking">SON DAKİKA</span>
+<span class="tag category">{kategori}</span>
+</div>
+
 <h1 class="article-title">{baslik}</h1>
-<div class="news-meta"><span>📅 {tarih}</span><span>📰 {kaynak}</span><span>⏱️ {okuma_suresi} dk okuma</span></div>
+
+<div class="news-meta">
+<span>📅 {tarih}</span>
+<span>📰 {kaynak}</span>
+<span>⏱️ {okuma_suresi} dk okuma</span>
+</div>
+
 {reklam_html("Haber üstü reklam")}
+
 <p class="article-text">{ozet}</p>
+
 <div class="source-box">
 <strong>Kaynak Bilgisi</strong><br>
 Bu içerik RSS kaynağından alınan bilgilerle otomatik olarak oluşturulmuştur.
 </div>
+
 <div class="action-row">
 <a class="action source" href="{link}" target="_blank" rel="noopener noreferrer">Orijinal Haberi Görüntüle 🌍</a>
 <button class="action share" onclick="sharePage('{baslik}', '{dosya}')">📤 Paylaş</button>
 <a class="action read" href="otomatik-gundem.html">← Otomatik Haberlere Dön</a>
 </div>
+
+<section class="related-section">
+<h2>📰 Bunlar da İlginizi Çekebilir</h2>
+<div class="related-grid">
+{benzer_html}
+</div>
+</section>
+
 {reklam_html("Haber altı reklam")}
 </div>
 </article>
+
 <aside class="sidebar">
 {reklam_html("Haber sidebar reklam", sidebar=True)}
-<div class="side-card"><h3>📰 Haber Bilgileri</h3><a class="side-link">Kategori: {kategori}</a><a class="side-link">Kaynak: {kaynak}</a><a class="side-link">Tarih: {tarih}</a></div>
-<div class="side-card"><h3>📂 Kategoriler</h3><a class="side-link" href="gundem-otomatik.html">Gündem</a><a class="side-link" href="ekonomi-otomatik.html">Ekonomi</a><a class="side-link" href="teknoloji-otomatik.html">Teknoloji</a></div>
+
+<div class="side-card">
+<h3>📰 Haber Bilgileri</h3>
+<a class="side-link">Kategori: {kategori}</a>
+<a class="side-link">Kaynak: {kaynak}</a>
+<a class="side-link">Tarih: {tarih}</a>
+<a class="side-link">Okuma süresi: {okuma_suresi} dakika</a>
+</div>
+
+<div class="side-card">
+<h3>📂 Kategoriler</h3>
+<a class="side-link" href="gundem-otomatik.html">Gündem</a>
+<a class="side-link" href="ekonomi-otomatik.html">Ekonomi</a>
+<a class="side-link" href="teknoloji-otomatik.html">Teknoloji</a>
+</div>
 </aside>
+
 </div>
 </main>
+
 {footer_html()}
 </body>
 </html>"""
@@ -806,7 +951,7 @@ def main():
     json_olustur(haberler)
 
     for haber in haberler:
-        haber_sayfasi_olustur(haber)
+        haber_sayfasi_olustur(haber, haberler)
 
     otomatik_liste_olustur(haberler)
     kategori_sayfalari_olustur(haberler)
