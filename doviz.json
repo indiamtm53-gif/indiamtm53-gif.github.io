@@ -14,13 +14,13 @@
     {
         "kod": "GBP",
         "ad": "İngiliz Sterlini",
-        "deger": 62.97,
+        "deger": 63.05,
         "birim": "₺"
     },
     {
         "kod": "BTC",
         "ad": "Bitcoin",
-        "deger": 3074503,
+        "deger": 3051103,
         "birim": "₺"
     }
 ]
