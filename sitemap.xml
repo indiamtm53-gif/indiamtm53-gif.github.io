@@ -157,4 +157,25 @@
 <changefreq>daily</changefreq>
 </url>
 
+
+<url>
+<loc>https://indiamtm53-gif.github.io/editorler.html</loc>
+<priority>0.7</priority>
+<changefreq>monthly</changefreq>
+</url>
+
+
+<url>
+<loc>https://indiamtm53-gif.github.io/yayin-ilkeleri.html</loc>
+<priority>0.7</priority>
+<changefreq>monthly</changefreq>
+</url>
+
+
+<url>
+<loc>https://indiamtm53-gif.github.io/404.html</loc>
+<priority>0.3</priority>
+<changefreq>monthly</changefreq>
+</url>
+
 </urlset>
