@@ -1,0 +1,9 @@
+Doğru repo: indiamtm53-gif.github.io
+
+Bu klasördeki 7 dosyanın tamamını repo ana dizinine yükleyin ve aynı isimde olanları değiştirin.
+
+Commit:
+AdSense guven sayfalari ve ana sayfa guncellendi
+
+Workflow:
+GEREKMEZ
