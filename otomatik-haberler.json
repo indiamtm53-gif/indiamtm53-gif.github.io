@@ -1,5 +1,16 @@
 [
     {
+        "baslik": "Cumhurbaşkanı Erdoğan, Pedro Sanchez ile görüştü",
+        "link": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-pedro-sanchez-ile-gorustu-951814.html",
+        "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, İspanya Hükümet Başkanı Pedro Sánchez ile telefonda görüştü. Liderler, Türkiye-İspanya ikili ilişkileri ile bölgesel ve küresel konuları ele aldı. Cumhurbaşkanı Erdoğan, İspanya Milli Takımı'nın Dünya Kupası'ndaki zaferinden dolayı Sanchez'i tebrik etti.",
+        "kategori": "gundem",
+        "dosya": "auto-cumhurbaskani-erdogan-pedro-sanchez-ile-gorustu.html",
+        "kaynak": "TRT Haber",
+        "tarih": "21.07.2026",
+        "gorsel": "images/auto/cumhurbaskani-erdogan-pedro-sanchez-ile-gorustu.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2476000/perdo-sanchezerdoganaa-2477371.jpg"
+    },
+    {
         "baslik": "Bakan Fidan: Türkiye, ASEAN'ın Diyalog Ortağı olarak kabul edildi",
         "link": "https://www.trthaber.com/haber/gundem/bakan-fidan-turkiye-aseanin-diyalog-ortagi-olarak-kabul-edildi-951802.html",
         "ozet": "Dışişleri Bakanı Hakan Fidan, Türkiye'nin, ASEAN Dışişleri Bakanları'nın Manila'da aldığı kararla ASEAN'ın Diyalog Ortağı olarak kabul edildiğini duyurdu.",
@@ -11,15 +22,26 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2470000/hakan-fidan-aa-2471957.jpg"
     },
     {
-        "baslik": "Meclis'te Terörsüz Türkiye mesaisi",
-        "link": "https://www.trthaber.com/haber/gundem/mecliste-terorsuz-turkiye-mesaisi-951778.html",
-        "ozet": "Terörsüz Türkiye hedefinde yasal düzenleme aşamasına geçiliyor. TBMM Başkanı Numan Kurtulmuş, bugün Meclis'te siyasi parti gruplarıyla görüşmelere başladı. Kurtulmuş, ilk görüşmesini MHP Genel Başkanı Devlet Bahçeli ile yaptı.",
-        "kategori": "teknoloji",
-        "dosya": "auto-mecliste-terorsuz-turkiye-mesaisi.html",
+        "baslik": "Trump, İran'ın Kazma Dağı bölgesini çok yakında vuracaklarını söyledi",
+        "link": "https://www.trthaber.com/haber/dunya/trump-iranin-kazma-dagi-bolgesini-cok-yakinda-vuracaklarini-soyledi-951817.html",
+        "ozet": "ABD Başkanı Donald Trump, Hürmüz Boğazı üzerinden yaşanan son çatışmaların ardından yeni saldırılarını İran'ın \"Kazma Dağı bölgesine çok yakında, çok güçlü biçimde\" yapacaklarını belirtti.",
+        "kategori": "gundem",
+        "dosya": "auto-trump-iranin-kazma-dagi-bolgesini-cok-yakinda-vuracaklarini-.html",
         "kaynak": "TRT Haber",
         "tarih": "21.07.2026",
-        "gorsel": "images/auto/mecliste-terorsuz-turkiye-mesaisi.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2476000/bahceli-kurtulmus-aa-2477102.jpg"
+        "gorsel": "images/auto/trump-iranin-kazma-dagi-bolgesini-cok-yakinda-vuracakla.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2476000/trump-re-2477374.jpg"
+    },
+    {
+        "baslik": "DOA Sistemi'nde toplu iadeler için Sayma ve Doğrulama Merkezleri kuruldu",
+        "link": "https://www.trthaber.com/haber/cevre/doa-sisteminde-toplu-iadeler-icin-sayma-ve-dogrulama-merkezleri-kuruldu-951803.html",
+        "ozet": "Çevre, Şehircilik ve İklim Değişikliği Bakanlığınca, Depozitosu Olan Ambalajlar (DOA) Sistemi'nde, yüksek hacimli toplu iadelerin daha etkin bir şekilde yönetilmesi amacıyla \"Sayma ve Doğrulama Merkezleri\" hayata geçirildi.",
+        "kategori": "gundem",
+        "dosya": "auto-doa-sisteminde-toplu-iadeler-icin-sayma-ve-dogrulama-merkezl.html",
+        "kaynak": "TRT Haber",
+        "tarih": "21.07.2026",
+        "gorsel": "images/auto/doa-sisteminde-toplu-iadeler-icin-sayma-ve-dogrulama-me.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2476000/doa-2476232.jpg"
     },
     {
         "baslik": "Özgür Özel: Yeni partimizi kuruyoruz",
@@ -33,50 +55,6 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2414000/ozgur-ozelaa-2414790.jpg"
     },
     {
-        "baslik": "YKS cevap kağıtları erişime açıldı",
-        "link": "https://www.trthaber.com/haber/egitim/yks-cevap-kagitlari-erisime-acildi-951791.html",
-        "ozet": "Ölçme, Seçme ve Yerleştirme Merkezi (ÖSYM) Başkanlığı, 2026 Yükseköğretim Kurumları Sınavı (2026-YKS) cevap kağıtları ve aday cevaplarını erişime açtı.",
-        "kategori": "gundem",
-        "dosya": "auto-yks-cevap-kagitlari-erisime-acildi.html",
-        "kaynak": "TRT Haber",
-        "tarih": "21.07.2026",
-        "gorsel": "images/auto/yks-cevap-kagitlari-erisime-acildi.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1632000/yks-getty-1632879.jpg"
-    },
-    {
-        "baslik": "Hac kurası yarın çekilecek",
-        "link": "https://www.trthaber.com/haber/gundem/hac-kurasi-yarin-cekilecek-951768.html",
-        "ozet": "Diyanet İşleri Başkanlığınca 2027 hac kurası yarın çekilecek. Kuraya 1 milyon 878 bin 46 hacı adayı katılacak.",
-        "kategori": "gundem",
-        "dosya": "auto-hac-kurasi-yarin-cekilecek.html",
-        "kaynak": "TRT Haber",
-        "tarih": "21.07.2026",
-        "gorsel": "images/auto/hac-kurasi-yarin-cekilecek.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2464000/hacaa-2465044.jpg"
-    },
-    {
-        "baslik": "Trump slaps 50% tariffs on Canada and Carney vows to 'intensify' trade talks",
-        "link": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
-        "ozet": "The duties mark a major escalation in trade tensions between the North American neighbours.",
-        "kategori": "gundem",
-        "dosya": "auto-trump-slaps-50-tariffs-on-canada-and-carney-vows-to-intensif.html",
-        "kaynak": "BBC World",
-        "tarih": "21.07.2026",
-        "gorsel": "images/auto/trump-slaps-50-tariffs-on-canada-and-carney-vows-to-int.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
-        "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
-        "ozet": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan.",
-        "kategori": "gundem",
-        "dosya": "auto-us-launches-fresh-strikes-on-iran-as-trump-warns-of-retaliat.html",
-        "kaynak": "BBC World",
-        "tarih": "21.07.2026",
-        "gorsel": "images/auto/us-launches-fresh-strikes-on-iran-as-trump-warns-of-ret.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
         "baslik": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
         "link": "https://www.bbc.co.uk/news/articles/cy8mynlmn55o?at_medium=RSS&at_campaign=rss",
         "ozet": "A US-brokered agreement should see Israeli troops pulling out of a small part of Lebanon occupied during their conflict with Hezbollah.",
@@ -85,6 +63,28 @@
         "kaynak": "BBC World",
         "tarih": "21.07.2026",
         "gorsel": "images/auto/lebanese-army-says-troops-deploying-in-pilot-zone-after.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "Carney looking at 'all options' as Trump announces 50% tariffs on Canada",
+        "link": "https://www.bbc.co.uk/news/articles/cg4dzq3x3e1o?at_medium=RSS&at_campaign=rss",
+        "ozet": "The duties mark a major escalation in trade tensions between the North American neighbours.",
+        "kategori": "gundem",
+        "dosya": "auto-carney-looking-at-all-options-as-trump-announces-50-tariffs-.html",
+        "kaynak": "BBC World",
+        "tarih": "21.07.2026",
+        "gorsel": "images/auto/carney-looking-at-all-options-as-trump-announces-50-tar.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "Dozens hurt in Bologna protests after man dies while being restrained by police",
+        "link": "https://www.bbc.co.uk/news/articles/c86nwgw148xo?at_medium=RSS&at_campaign=rss",
+        "ozet": "Thousands of people took to the streets demanding justice for a Moroccan-born man who died on Sunday.",
+        "kategori": "teknoloji",
+        "dosya": "auto-dozens-hurt-in-bologna-protests-after-man-dies-while-being-r.html",
+        "kaynak": "BBC World",
+        "tarih": "21.07.2026",
+        "gorsel": "images/auto/dozens-hurt-in-bologna-protests-after-man-dies-while-be.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
@@ -99,14 +99,14 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Dozens hurt in Bologna protests after man dies while being restrained by police",
-        "link": "https://www.bbc.co.uk/news/articles/c86nwgw148xo?at_medium=RSS&at_campaign=rss",
-        "ozet": "Thousands of people took to the streets demanding justice for a Moroccan-born man who died on Sunday.",
-        "kategori": "teknoloji",
-        "dosya": "auto-dozens-hurt-in-bologna-protests-after-man-dies-while-being-r.html",
+        "baslik": "US launches fresh strikes on Iran, as Trump warns of retaliation for deaths of soldiers",
+        "link": "https://www.bbc.co.uk/news/articles/cx25wg2x26do?at_medium=RSS&at_campaign=rss",
+        "ozet": "Iran says it has hit two ships in the Strait of Hormuz as well as targets in Bahrain and Jordan.",
+        "kategori": "gundem",
+        "dosya": "auto-us-launches-fresh-strikes-on-iran-as-trump-warns-of-retaliat.html",
         "kaynak": "BBC World",
         "tarih": "21.07.2026",
-        "gorsel": "images/auto/dozens-hurt-in-bologna-protests-after-man-dies-while-be.jpg",
+        "gorsel": "images/auto/us-launches-fresh-strikes-on-iran-as-trump-warns-of-ret.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
