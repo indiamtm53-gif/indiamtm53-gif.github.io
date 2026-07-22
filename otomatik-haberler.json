@@ -1,12 +1,23 @@
 [
     {
+        "baslik": "TEI yerleşkesinde çıkan yangın kontrol altına alındı",
+        "link": "https://www.trthaber.com/haber/turkiye/tei-yerleskesinde-cikan-yangin-kontrol-altina-alindi-951824.html",
+        "ozet": "Savunma Sanayii Başkanı Haluk Görgün, Eskişehir'de kurulu TUSAŞ Motor Sanayii AŞ (TEI) yerleşkesinde çıkan yangının kontrol altına alındığını duyurdu.",
+        "kategori": "ekonomi",
+        "dosya": "auto-tei-yerleskesinde-cikan-yangin-kontrol-altina-alindi.html",
+        "kaynak": "TRT Haber",
+        "tarih": "22.07.2026",
+        "gorsel": "images/auto/tei-yerleskesinde-cikan-yangin-kontrol-altina-alindi.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2476000/eskisehirde-tei-yanginaa-2477377.jpg"
+    },
+    {
         "baslik": "Cumhurbaşkanı Erdoğan, Pedro Sanchez ile görüştü",
         "link": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-pedro-sanchez-ile-gorustu-951814.html",
         "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, İspanya Hükümet Başkanı Pedro Sánchez ile telefonda görüştü. Liderler, Türkiye-İspanya ikili ilişkileri ile bölgesel ve küresel konuları ele aldı. Cumhurbaşkanı Erdoğan, İspanya Milli Takımı'nın Dünya Kupası'ndaki zaferinden dolayı Sanchez'i tebrik etti.",
         "kategori": "gundem",
         "dosya": "auto-cumhurbaskani-erdogan-pedro-sanchez-ile-gorustu.html",
         "kaynak": "TRT Haber",
-        "tarih": "21.07.2026",
+        "tarih": "22.07.2026",
         "gorsel": "images/auto/cumhurbaskani-erdogan-pedro-sanchez-ile-gorustu.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2476000/perdo-sanchezerdoganaa-2477371.jpg"
     },
@@ -17,7 +28,7 @@
         "kategori": "gundem",
         "dosya": "auto-bakan-fidan-turkiye-aseanin-diyalog-ortagi-olarak-kabul-edil.html",
         "kaynak": "TRT Haber",
-        "tarih": "21.07.2026",
+        "tarih": "22.07.2026",
         "gorsel": "images/auto/bakan-fidan-turkiye-aseanin-diyalog-ortagi-olarak-kabul.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2470000/hakan-fidan-aa-2471957.jpg"
     },
@@ -28,7 +39,7 @@
         "kategori": "gundem",
         "dosya": "auto-trump-iranin-kazma-dagi-bolgesini-cok-yakinda-vuracaklarini-.html",
         "kaynak": "TRT Haber",
-        "tarih": "21.07.2026",
+        "tarih": "22.07.2026",
         "gorsel": "images/auto/trump-iranin-kazma-dagi-bolgesini-cok-yakinda-vuracakla.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2476000/trump-re-2477374.jpg"
     },
@@ -39,20 +50,20 @@
         "kategori": "gundem",
         "dosya": "auto-doa-sisteminde-toplu-iadeler-icin-sayma-ve-dogrulama-merkezl.html",
         "kaynak": "TRT Haber",
-        "tarih": "21.07.2026",
+        "tarih": "22.07.2026",
         "gorsel": "images/auto/doa-sisteminde-toplu-iadeler-icin-sayma-ve-dogrulama-me.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2476000/doa-2476232.jpg"
     },
     {
-        "baslik": "Özgür Özel: Yeni partimizi kuruyoruz",
-        "link": "https://www.trthaber.com/haber/gundem/ozgur-ozel-yeni-partimizi-kuruyoruz-951793.html",
-        "ozet": "CHP Grup Başkanı Özgür Özel, birkaç gün içinde yeni bir parti kuracaklarını açıkladı. \"Bu kürsüye vakti gelmiş bir vedanın hüznünün taşıyarak çıktım\" diyen Özel, kuracakları partinin, milletvekili sayısıyla ana muhalefet partisi olacağını ifade etti.",
-        "kategori": "gundem",
-        "dosya": "auto-ozgur-ozel-yeni-partimizi-kuruyoruz.html",
-        "kaynak": "TRT Haber",
-        "tarih": "21.07.2026",
-        "gorsel": "images/auto/ozgur-ozel-yeni-partimizi-kuruyoruz.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2414000/ozgur-ozelaa-2414790.jpg"
+        "baslik": "Zelensky sacks Ukraine's top army commander after days of protests",
+        "link": "https://www.bbc.co.uk/news/articles/cyvl35z3917o?at_medium=RSS&at_campaign=rss",
+        "ozet": "Oleksandr Syrskyi is dismissed after backlash over the removal of popular Defence Minister Mykhailo Fedorov.",
+        "kategori": "teknoloji",
+        "dosya": "auto-zelensky-sacks-ukraines-top-army-commander-after-days-of-pro.html",
+        "kaynak": "BBC World",
+        "tarih": "22.07.2026",
+        "gorsel": "images/auto/zelensky-sacks-ukraines-top-army-commander-after-days-o.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
         "baslik": "Lebanese army says troops deploying in 'pilot zone' after Israeli withdrawal",
@@ -61,7 +72,7 @@
         "kategori": "gundem",
         "dosya": "auto-lebanese-army-says-troops-deploying-in-pilot-zone-after-isra.html",
         "kaynak": "BBC World",
-        "tarih": "21.07.2026",
+        "tarih": "22.07.2026",
         "gorsel": "images/auto/lebanese-army-says-troops-deploying-in-pilot-zone-after.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
@@ -72,7 +83,7 @@
         "kategori": "gundem",
         "dosya": "auto-carney-looking-at-all-options-as-trump-announces-50-tariffs-.html",
         "kaynak": "BBC World",
-        "tarih": "21.07.2026",
+        "tarih": "22.07.2026",
         "gorsel": "images/auto/carney-looking-at-all-options-as-trump-announces-50-tar.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
@@ -83,19 +94,8 @@
         "kategori": "teknoloji",
         "dosya": "auto-dozens-hurt-in-bologna-protests-after-man-dies-while-being-r.html",
         "kaynak": "BBC World",
-        "tarih": "21.07.2026",
+        "tarih": "22.07.2026",
         "gorsel": "images/auto/dozens-hurt-in-bologna-protests-after-man-dies-while-be.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Row escalates in Ukraine over army chief's future",
-        "link": "https://www.bbc.co.uk/news/articles/c7vgel8374yo?at_medium=RSS&at_campaign=rss",
-        "ozet": "Protesters are demanding Oleksandr Syrskyi be removed and former defence minister Mykhailo Fedorov reinstated by Friday.",
-        "kategori": "teknoloji",
-        "dosya": "auto-row-escalates-in-ukraine-over-army-chiefs-future.html",
-        "kaynak": "BBC World",
-        "tarih": "21.07.2026",
-        "gorsel": "images/auto/row-escalates-in-ukraine-over-army-chiefs-future.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
@@ -105,7 +105,7 @@
         "kategori": "gundem",
         "dosya": "auto-us-launches-fresh-strikes-on-iran-as-trump-warns-of-retaliat.html",
         "kaynak": "BBC World",
-        "tarih": "21.07.2026",
+        "tarih": "22.07.2026",
         "gorsel": "images/auto/us-launches-fresh-strikes-on-iran-as-trump-warns-of-ret.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
