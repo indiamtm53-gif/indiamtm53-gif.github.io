@@ -1,5 +1,38 @@
 [
     {
+        "baslik": "Başkentte sağanak etkili oldu",
+        "link": "https://www.trthaber.com/haber/turkiye/baskentte-saganak-etkili-oldu-952161.html",
+        "ozet": "Ankara'da gece saatlerinden itibaren aralıklarla süren yağış, sabah saatlerinde de etkili oldu. Mamak'ta Mutlu Mahallesi'nde yolun çökmesi sonucu bir hafif ticari araç oluşan çukura düşerken, Turgut Özal Bulvarı'ndaki alt geçitte bir araç mahsur kaldı.",
+        "kategori": "gundem",
+        "dosya": "auto-baskentte-saganak-etkili-oldu.html",
+        "kaynak": "TRT Haber",
+        "tarih": "25.07.2026",
+        "gorsel": "images/auto/baskentte-saganak-etkili-oldu.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/yol-cokmesi-2478101.jpg"
+    },
+    {
+        "baslik": "35 il için sarı ve turuncu uyarı: Kuvvetli yağış ve fırtınaya dikkat",
+        "link": "https://www.trthaber.com/haber/gundem/35-il-icin-sari-ve-turuncu-uyari-kuvvetli-yagis-ve-firtinaya-dikkat-952165.html",
+        "ozet": "Meteoroloji Genel Müdürlüğü (MGM), aralarında İstanbul ve Ankara'nın da bulunduğu 35 il için \"sarı\" ve \"turuncu\" kodlu uyarıda bulundu. Ülkenin büyük bölümünde etkili olması beklenen kuvvetli yağış ve fırtına nedeniyle yaşanabilecek olumsuzluklara karşı vatandaşların dikkatli ve tedbirli olması istendi.",
+        "kategori": "gundem",
+        "dosya": "auto-35-il-icin-sari-ve-turuncu-uyari-kuvvetli-yagis-ve-firtinaya.html",
+        "kaynak": "TRT Haber",
+        "tarih": "25.07.2026",
+        "gorsel": "images/auto/35-il-icin-sari-ve-turuncu-uyari-kuvvetli-yagis-ve-firt.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2466000/ankara-saganak-aa-2466711.jpg"
+    },
+    {
+        "baslik": "Eyüpsultan'da yolcu otobüsü ile otomobil çarpıştı: 30 yaralı",
+        "link": "https://www.trthaber.com/haber/turkiye/eyupsultanda-yolcu-otobusu-ile-otomobil-carpisti-30-yarali-952163.html",
+        "ozet": "Eyüpsultan'da yolcu otobüsü ile otomobilin çarpıştığı kazada 30 yolcu yaralandı.",
+        "kategori": "gundem",
+        "dosya": "auto-eyupsultanda-yolcu-otobusu-ile-otomobil-carpisti-30-yarali.html",
+        "kaynak": "TRT Haber",
+        "tarih": "25.07.2026",
+        "gorsel": "images/auto/eyupsultanda-yolcu-otobusu-ile-otomobil-carpisti-30-yar.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/otobus-2478100.jpg"
+    },
+    {
         "baslik": "Bakan Gürlek: Haluk Levent Yunan adalarına kaçacaktı",
         "link": "https://www.trthaber.com/haber/gundem/bakan-gurlek-haluk-levent-yunan-adalarina-kacacakti-952141.html",
         "ozet": "Adalet Bakanı Akın Gürlek, \"Haluk Levent 12 Temmuz'da yurt dışına çıkış yapmak isterken yurt dışı çıkış yasağını öğrendi. Telefonunu kapatınca savcılarımız harekete geçti. Pazar günü Haluk Levent'i aldılar. Haluk Levent, İzmir'den tekneyle Yunan adalarına kaçacaktı\" açıklamasını yaptı.",
@@ -11,28 +44,6 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/akin-gurlek-2478092.jpg"
     },
     {
-        "baslik": "Erdoğan: Ayasofya'yı yeniden ibadete açmak bize nasip oldu",
-        "link": "https://www.trthaber.com/haber/gundem/erdogan-ayasofyayi-yeniden-ibadete-acmak-bize-nasip-oldu-952113.html",
-        "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, \"6'ncı seneyi devriyesiyle müşerref olduğumuz Ayasofya Camii Kebir'i yeniden ibadete açmak bize nasip oldu. Bundan dolayı tabii çok çok mutluyuz.\" dedi.",
-        "kategori": "gundem",
-        "dosya": "auto-erdogan-ayasofyayi-yeniden-ibadete-acmak-bize-nasip-oldu.html",
-        "kaynak": "TRT Haber",
-        "tarih": "25.07.2026",
-        "gorsel": "images/auto/erdogan-ayasofyayi-yeniden-ibadete-acmak-bize-nasip-old.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/recep-tayyip-erdogan-2478085.jpg"
-    },
-    {
-        "baslik": "Yunanistan'ın 'Türk' hazımsızlığı: Batı Trakya Türklerinin hakları gasbediliyor",
-        "link": "https://www.trthaber.com/haber/turk-dunyasi/yunanistanin-turk-hazimsizligi-bati-trakya-turklerinin-haklari-gasbediliyor-951998.html",
-        "ozet": "Yunanistan, \"Batı Trakya'da Türk yoktur\" diyerek dernek ve vakıflarda ''Türk'' kelimesinin kullanılmasını yasakladı. Baskıcı politikalara okulları kapatılarak devam edilen Batı Trakya Türkleri, Yunanistan'a karşı 'Türklük' mücadelesi veriyor.",
-        "kategori": "gundem",
-        "dosya": "auto-yunanistanin-turk-hazimsizligi-bati-trakya-turklerinin-hakla.html",
-        "kaynak": "TRT Haber",
-        "tarih": "25.07.2026",
-        "gorsel": "images/auto/yunanistanin-turk-hazimsizligi-bati-trakya-turklerinin-.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2476000/bati-trakya-turkleri-yunanistan-mucadele-2477864.jpg"
-    },
-    {
         "baslik": "Özgür Özel ve 90 vekil CHP'den istifa etti",
         "link": "https://www.trthaber.com/haber/gundem/ozgur-ozel-ve-90-vekil-chpden-istifa-etti-952094.html",
         "ozet": "Özgür Özel, Yeni Parti’nin kuruluş evraklarını imzalayarak Cumhuriyet Halk Partisi’nden istifa etti. Özel ile birlikte toplam 91 milletvekili Cumhuriyet Halk Partisi’nden istifa ederek Yeni Parti Kurucular Kurulu’na katıldı.",
@@ -42,17 +53,6 @@
         "tarih": "25.07.2026",
         "gorsel": "images/auto/ozgur-ozel-ve-90-vekil-chpden-istifa-etti.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/ozgur-ozel-2478077.jpg"
-    },
-    {
-        "baslik": "Gülistan Doku soruşturmasında 3 şüpheli adliyeye sevk edildi",
-        "link": "https://www.trthaber.com/haber/turkiye/gulistan-doku-sorusturmasinda-3-supheli-adliyeye-sevk-edildi-952093.html",
-        "ozet": "Tunceli'de 5 Ocak 2020'den itibaren kendisinden haber alınamayan üniversite öğrencisi Gülistan Doku ile ilgili yürütülen soruşturmada gözaltına alınan 15 şüpheliden aralarında eski Tunceli Valisi Tuncay Sonel'in eşinin de bulunduğu 3'ü adliyeye sevk edildi.",
-        "kategori": "gundem",
-        "dosya": "auto-gulistan-doku-sorusturmasinda-3-supheli-adliyeye-sevk-edildi.html",
-        "kaynak": "TRT Haber",
-        "tarih": "25.07.2026",
-        "gorsel": "images/auto/gulistan-doku-sorusturmasinda-3-supheli-adliyeye-sevk-e.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2454000/gulistan-2455362.jpg"
     },
     {
         "baslik": "More than 220,000 evacuated in France and Spain due to wildfires",
@@ -88,6 +88,17 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
+        "baslik": "Four Palestinians and two Israelis killed in West Bank shooting",
+        "link": "https://www.bbc.co.uk/news/articles/cx2rxmye4k3o?at_medium=RSS&at_campaign=rss",
+        "ozet": "Palestinians say villagers came under attack by settlers, while the Israeli military says a Palestinian stole a weapon and opened fire on hikers.",
+        "kategori": "ekonomi",
+        "dosya": "auto-four-palestinians-and-two-israelis-killed-in-west-bank-shoot.html",
+        "kaynak": "BBC World",
+        "tarih": "25.07.2026",
+        "gorsel": "images/auto/four-palestinians-and-two-israelis-killed-in-west-bank-.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
         "baslik": "Texts reveal 14-year-old allegedly murdered by singer D4vd had pregnancy and abortion",
         "link": "https://www.bbc.co.uk/news/articles/cr592qdj1ldo?at_medium=RSS&at_campaign=rss",
         "ozet": "Prosecutors allege D4vd started abusing the girl when she was 13 and she had threatened to expose him.",
@@ -96,17 +107,6 @@
         "kaynak": "BBC World",
         "tarih": "25.07.2026",
         "gorsel": "images/auto/texts-reveal-14-year-old-allegedly-murdered-by-singer-d.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Trump vows to investigate EU over fining of US tech companies",
-        "link": "https://www.bbc.co.uk/news/articles/cvgjenp4680o?at_medium=RSS&at_campaign=rss",
-        "ozet": "The US president says fines against Google, as well as Apple, Meta and Amazon, should be \"entirely reversed.\"",
-        "kategori": "teknoloji",
-        "dosya": "auto-trump-vows-to-investigate-eu-over-fining-of-us-tech-companie.html",
-        "kaynak": "BBC World",
-        "tarih": "25.07.2026",
-        "gorsel": "images/auto/trump-vows-to-investigate-eu-over-fining-of-us-tech-com.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
