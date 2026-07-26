@@ -1,5 +1,38 @@
 [
     {
+        "baslik": "Adım adım DOA'nın dönüşüm yolculuğu",
+        "link": "https://www.trthaber.com/haber/cevre/adim-adim-doanin-donusum-yolculugu-952228.html",
+        "ozet": "Çevre, Şehircilik ve İklim Değişikliği Bakanı Murat Kurum, DOA makinelerine bırakılan içecek ambalajlarının toplanma, ayrıştırma ve stoklanmasına ilişkin görüntüleri, \"DOA çok sevildi, her iade geleceğimize bir nefes daha oldu. Peki, DOA Makinelerine bıraktığınız şişelere ne oluyor? İşte adım adım DOA'nın dönüşüm yolculuğu\" mesajıyla paylaştı.",
+        "kategori": "gundem",
+        "dosya": "auto-adim-adim-doanin-donusum-yolculugu.html",
+        "kaynak": "TRT Haber",
+        "tarih": "26.07.2026",
+        "gorsel": "images/auto/adim-adim-doanin-donusum-yolculugu.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/doa-2478224.jpg"
+    },
+    {
+        "baslik": "LGS tercihleri için yarın son gün",
+        "link": "https://www.trthaber.com/haber/egitim/lgs-tercihleri-icin-yarin-son-gun-952218.html",
+        "ozet": "Milli Eğitim Bakanlığınca (MEB) Liselere Geçiş Sistemi (LGS) kapsamındaki merkezi sınav sonucuna göre yapılacak lise tercihleri yarın saat 17.00'de sona erecek.",
+        "kategori": "gundem",
+        "dosya": "auto-lgs-tercihleri-icin-yarin-son-gun.html",
+        "kaynak": "TRT Haber",
+        "tarih": "26.07.2026",
+        "gorsel": "images/auto/lgs-tercihleri-icin-yarin-son-gun.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2474000/sinav-tercih-aa-2475392.jpg"
+    },
+    {
+        "baslik": "Antalya'da kontrolden çıkan araç uçuruma yuvarlandı: 5 ölü, 2 yaralı",
+        "link": "https://www.trthaber.com/haber/turkiye/antalyada-kontrolden-cikan-arac-ucuruma-yuvarlandi-5-olu-2-yarali-952225.html",
+        "ozet": "Antalya'nın Manavgat ilçesinde bir araç, sürücüsünün kontrolünü kaybetmesiyle uçuruma yuvarlandı. Kazada otomobildeki 5 kişi yaşamını yitirdi, 2 kişi yaralandı. Yaralananlardan birinin hamile olduğu öğrenildi.",
+        "kategori": "gundem",
+        "dosya": "auto-antalyada-kontrolden-cikan-arac-ucuruma-yuvarlandi-5-olu-2-y.html",
+        "kaynak": "TRT Haber",
+        "tarih": "26.07.2026",
+        "gorsel": "images/auto/antalyada-kontrolden-cikan-arac-ucuruma-yuvarlandi-5-ol.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/antalya-kaza-trt-2478199.jpg"
+    },
+    {
         "baslik": "Ukrayna İran gemisine saldırdı",
         "link": "https://www.trthaber.com/haber/dunya/ukrayna-iran-gemisine-saldirdi-952209.html",
         "ozet": "İran Dışişleri Bakanlığı, Ukrayna'nın Hazar Denizi'nde ülkelerine ait ticaret gemisine yönelik düzenlediği ve bir denizcinin hayatını kaybettiği saldırıyı kınadı. İran'ın uluslararası hukuk gereği meşru müdafaa hakkının olduğu hatırlatıldı.",
@@ -22,58 +55,25 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2174000/tbmm-meclis-oylama-aa-2175276.jpg"
     },
     {
-        "baslik": "LGS tercihleri için yarın son gün",
-        "link": "https://www.trthaber.com/haber/egitim/lgs-tercihleri-icin-yarin-son-gun-952218.html",
-        "ozet": "Milli Eğitim Bakanlığınca (MEB) Liselere Geçiş Sistemi (LGS) kapsamındaki merkezi sınav sonucuna göre yapılacak lise tercihleri yarın saat 17.00'de sona erecek.",
+        "baslik": "What we know so far about the Berlin Pride ramming attack",
+        "link": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss",
+        "ozet": "A police manhunt is underway after a suspect rammed a car into a crowd at a Pride event in the German capital on Saturday night.",
         "kategori": "gundem",
-        "dosya": "auto-lgs-tercihleri-icin-yarin-son-gun.html",
-        "kaynak": "TRT Haber",
-        "tarih": "26.07.2026",
-        "gorsel": "images/auto/lgs-tercihleri-icin-yarin-son-gun.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2474000/sinav-tercih-aa-2475392.jpg"
-    },
-    {
-        "baslik": "Filenin Sultanları şampiyonluk için Brezilya karşısında",
-        "link": "https://www.trthaber.com/haber/gundem/filenin-sultanlari-sampiyonluk-icin-brezilya-karsisinda-952210.html",
-        "ozet": "A Milli Kadın Voleybol Takımımız, 2026 FIVB Milletler Ligi finalinde bugün Brezilya ile karşılaşacak. Milletler Ligi'nde 3. kez finale çıkan Filenin Sultanları, organizasyondaki ikinci şampiyonluğunu hedefliyor. Saat 14.30'da başlayacak olan tarihi maç, TRT 1'den canlı yayınlanacak.",
-        "kategori": "gundem",
-        "dosya": "auto-filenin-sultanlari-sampiyonluk-icin-brezilya-karsisinda.html",
-        "kaynak": "TRT Haber",
-        "tarih": "26.07.2026",
-        "gorsel": "images/auto/filenin-sultanlari-sampiyonluk-icin-brezilya-karsisinda.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/filenin-sultanlari-a-2478118.jpg"
-    },
-    {
-        "baslik": "Başkentte sağanak etkili oldu",
-        "link": "https://www.trthaber.com/haber/turkiye/baskentte-saganak-etkili-oldu-952161.html",
-        "ozet": "Ankara'da gece saatlerinden itibaren aralıklarla süren yağış, sabah saatlerinde de etkili oldu. Mamak'ta Mutlu Mahallesi'nde yolun çökmesi sonucu bir hafif ticari araç oluşan çukura düşerken, Turgut Özal Bulvarı'ndaki alt geçitte bir araç mahsur kaldı.",
-        "kategori": "gundem",
-        "dosya": "auto-baskentte-saganak-etkili-oldu.html",
-        "kaynak": "TRT Haber",
-        "tarih": "26.07.2026",
-        "gorsel": "images/auto/baskentte-saganak-etkili-oldu.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/yol-cokmesi-2478101.jpg"
-    },
-    {
-        "baslik": "Watch: At the scene of Berlin Pride attack as manhunt continues",
-        "link": "https://www.bbc.co.uk/news/videos/c74gzknyyz2o?at_medium=RSS&at_campaign=rss",
-        "ozet": "A 21-year-old suspect has been identified by police, but he has not been found.",
-        "kategori": "gundem",
-        "dosya": "auto-watch-at-the-scene-of-berlin-pride-attack-as-manhunt-continu.html",
+        "dosya": "auto-what-we-know-so-far-about-the-berlin-pride-ramming-attack.html",
         "kaynak": "BBC World",
         "tarih": "26.07.2026",
-        "gorsel": "images/auto/watch-at-the-scene-of-berlin-pride-attack-as-manhunt-co.jpg",
+        "gorsel": "images/auto/what-we-know-so-far-about-the-berlin-pride-ramming-atta.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "France battles fire 'whirlwinds' as another 55,000 evacuated",
+        "baslik": "Firefighters battle wildfire as tens of thousands evacuated near Bordeaux",
         "link": "https://www.bbc.co.uk/news/articles/clyj8k4nn5jo?at_medium=RSS&at_campaign=rss",
-        "ozet": "More than 340,000 people have now been evacuated from wildfires in France and Spain.",
+        "ozet": "More than 330,000 people have now been evacuated from wildfires across France and Spain.",
         "kategori": "gundem",
-        "dosya": "auto-france-battles-fire-whirlwinds-as-another-55000-evacuated.html",
+        "dosya": "auto-firefighters-battle-wildfire-as-tens-of-thousands-evacuated-.html",
         "kaynak": "BBC World",
         "tarih": "26.07.2026",
-        "gorsel": "images/auto/france-battles-fire-whirlwinds-as-another-55000-evacuat.jpg",
+        "gorsel": "images/auto/firefighters-battle-wildfire-as-tens-of-thousands-evacu.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
@@ -88,6 +88,17 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
+        "baslik": "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say",
+        "link": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss",
+        "ozet": "The latest attacks come two days after a clash between settlers and Palestinians near the village of Tell, which left four Palestinians and two Israelis dead.",
+        "kategori": "ekonomi",
+        "dosya": "auto-israeli-settlers-set-fire-to-mosques-cars-and-farm-land-in-w.html",
+        "kaynak": "BBC World",
+        "tarih": "26.07.2026",
+        "gorsel": "images/auto/israeli-settlers-set-fire-to-mosques-cars-and-farm-land.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
         "baslik": "India's 'cockroach' protest called off after education minister quits",
         "link": "https://www.bbc.co.uk/news/articles/cdx828gj5xko?at_medium=RSS&at_campaign=rss",
         "ozet": "The CJP protest has been the most visible expression of public anger against PM Narendra Modi's government in recent years.",
@@ -96,17 +107,6 @@
         "kaynak": "BBC World",
         "tarih": "26.07.2026",
         "gorsel": "images/auto/indias-cockroach-protest-called-off-after-education-min.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Iran-backed Houthis claim missile attack on Saudi Arabia",
-        "link": "https://www.bbc.co.uk/news/articles/cj9d27v70j1o?at_medium=RSS&at_campaign=rss",
-        "ozet": "US military says it disabled a tanker that was attempting to evade the American blockade on Iranian ports.",
-        "kategori": "teknoloji",
-        "dosya": "auto-iran-backed-houthis-claim-missile-attack-on-saudi-arabia.html",
-        "kaynak": "BBC World",
-        "tarih": "26.07.2026",
-        "gorsel": "images/auto/iran-backed-houthis-claim-missile-attack-on-saudi-arabi.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
