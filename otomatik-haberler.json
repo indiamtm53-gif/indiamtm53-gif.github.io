@@ -1,25 +1,25 @@
 [
     {
+        "baslik": "Ukrayna İran gemisine saldırdı",
+        "link": "https://www.trthaber.com/haber/dunya/ukrayna-iran-gemisine-saldirdi-952209.html",
+        "ozet": "İran Dışişleri Bakanlığı, Ukrayna'nın Hazar Denizi'nde ülkelerine ait ticaret gemisine yönelik düzenlediği ve bir denizcinin hayatını kaybettiği saldırıyı kınadı. İran'ın uluslararası hukuk gereği meşru müdafaa hakkının olduğu hatırlatıldı.",
+        "kategori": "gundem",
+        "dosya": "auto-ukrayna-iran-gemisine-saldirdi.html",
+        "kaynak": "TRT Haber",
+        "tarih": "26.07.2026",
+        "gorsel": "images/auto/ukrayna-iran-gemisine-saldirdi.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2452000/hurmuz-bogaziaa-2452370.jpg"
+    },
+    {
         "baslik": "Başkentte sağanak etkili oldu",
         "link": "https://www.trthaber.com/haber/turkiye/baskentte-saganak-etkili-oldu-952161.html",
         "ozet": "Ankara'da gece saatlerinden itibaren aralıklarla süren yağış, sabah saatlerinde de etkili oldu. Mamak'ta Mutlu Mahallesi'nde yolun çökmesi sonucu bir hafif ticari araç oluşan çukura düşerken, Turgut Özal Bulvarı'ndaki alt geçitte bir araç mahsur kaldı.",
         "kategori": "gundem",
         "dosya": "auto-baskentte-saganak-etkili-oldu.html",
         "kaynak": "TRT Haber",
-        "tarih": "25.07.2026",
+        "tarih": "26.07.2026",
         "gorsel": "images/auto/baskentte-saganak-etkili-oldu.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/yol-cokmesi-2478101.jpg"
-    },
-    {
-        "baslik": "Cumhurbaşkanı Erdoğan, Halil İnalcık'ı andı",
-        "link": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-halil-inalciki-andi-952185.html",
-        "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, \"tarihçilerin kutbu\" olarak anılan Prof. Dr. Halil İnalcık'ı vefatının 10. yılında yad etti.",
-        "kategori": "gundem",
-        "dosya": "auto-cumhurbaskani-erdogan-halil-inalciki-andi.html",
-        "kaynak": "TRT Haber",
-        "tarih": "25.07.2026",
-        "gorsel": "images/auto/cumhurbaskani-erdogan-halil-inalciki-andi.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2464000/recep-tayyip-erdoganaa-2465426.jpg"
     },
     {
         "baslik": "Suriyede otobüs kazasında 35 kişi öldü, 30 kişi yaralandı",
@@ -28,9 +28,20 @@
         "kategori": "gundem",
         "dosya": "auto-suriyede-otobus-kazasinda-35-kisi-oldu-30-kisi-yaralandi.html",
         "kaynak": "TRT Haber",
-        "tarih": "25.07.2026",
+        "tarih": "26.07.2026",
         "gorsel": "images/auto/suriyede-otobus-kazasinda-35-kisi-oldu-30-kisi-yaraland.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/suriye-otobus-2478114.jpg"
+    },
+    {
+        "baslik": "Filenin Sultanları şampiyonluk için Brezilya karşısında",
+        "link": "https://www.trthaber.com/haber/gundem/filenin-sultanlari-sampiyonluk-icin-brezilya-karsisinda-952210.html",
+        "ozet": "A Milli Kadın Voleybol Takımımız, 2026 FIVB Milletler Ligi finalinde bugün Brezilya ile karşılaşacak. Milletler Ligi'nde 3. kez finale çıkan Filenin Sultanları, organizasyondaki ikinci şampiyonluğunu hedefliyor. Saat 14.30'da başlayacak olan tarihi maç, TRT 1'den canlı yayınlanacak.",
+        "kategori": "gundem",
+        "dosya": "auto-filenin-sultanlari-sampiyonluk-icin-brezilya-karsisinda.html",
+        "kaynak": "TRT Haber",
+        "tarih": "26.07.2026",
+        "gorsel": "images/auto/filenin-sultanlari-sampiyonluk-icin-brezilya-karsisinda.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/filenin-sultanlari-a-2478118.jpg"
     },
     {
         "baslik": "Bakan Gürlek: Gülistan Doku soruşturmasında 15 şüpheli tutuklandı",
@@ -39,30 +50,19 @@
         "kategori": "gundem",
         "dosya": "auto-bakan-gurlek-gulistan-doku-sorusturmasinda-15-supheli-tutukl.html",
         "kaynak": "TRT Haber",
-        "tarih": "25.07.2026",
+        "tarih": "26.07.2026",
         "gorsel": "images/auto/bakan-gurlek-gulistan-doku-sorusturmasinda-15-supheli-t.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2444000/akin-gurlek-2444510.jpg"
     },
     {
-        "baslik": "Filenin Sultanları finale yükseldi",
-        "link": "https://www.trthaber.com/haber/spor/filenin-sultanlari-finale-yukseldi-952196.html",
-        "ozet": "A Milli Kadın Voleybol Takımı, FIVB Milletler Ligi yarı finalinde ev sahibi Çin'i 3-0 yenerek finalde Brezilya'nın rakibi oldu.",
-        "kategori": "gundem",
-        "dosya": "auto-filenin-sultanlari-finale-yukseldi.html",
-        "kaynak": "TRT Haber",
-        "tarih": "25.07.2026",
-        "gorsel": "images/auto/filenin-sultanlari-finale-yukseldi.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/voleybol-2478117.jpg"
-    },
-    {
-        "baslik": "More than 250,000 flee wildfires in France and Spain",
+        "baslik": "More than 300,000 flee wildfires in France and Spain",
         "link": "https://www.bbc.co.uk/news/articles/cd7le0d53y2o?at_medium=RSS&at_campaign=rss",
         "ozet": "Spain's PM warns of \"complex hours\" ahead as authorities in France say they are far from bringing blazes burning near Bordeaux under control.",
         "kategori": "teknoloji",
-        "dosya": "auto-more-than-250000-flee-wildfires-in-france-and-spain.html",
+        "dosya": "auto-more-than-300000-flee-wildfires-in-france-and-spain.html",
         "kaynak": "BBC World",
-        "tarih": "25.07.2026",
-        "gorsel": "images/auto/more-than-250000-flee-wildfires-in-france-and-spain.jpg",
+        "tarih": "26.07.2026",
+        "gorsel": "images/auto/more-than-300000-flee-wildfires-in-france-and-spain.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
@@ -72,7 +72,7 @@
         "kategori": "gundem",
         "dosya": "auto-trump-takes-swipes-at-press-during-white-house-correspondent.html",
         "kaynak": "BBC World",
-        "tarih": "25.07.2026",
+        "tarih": "26.07.2026",
         "gorsel": "images/auto/trump-takes-swipes-at-press-during-white-house-correspo.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
@@ -83,7 +83,7 @@
         "kategori": "gundem",
         "dosya": "auto-indias-cockroach-protest-called-off-after-education-minister.html",
         "kaynak": "BBC World",
-        "tarih": "25.07.2026",
+        "tarih": "26.07.2026",
         "gorsel": "images/auto/indias-cockroach-protest-called-off-after-education-min.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
@@ -94,7 +94,7 @@
         "kategori": "teknoloji",
         "dosya": "auto-iran-backed-houthis-claim-missile-attack-on-saudi-arabia.html",
         "kaynak": "BBC World",
-        "tarih": "25.07.2026",
+        "tarih": "26.07.2026",
         "gorsel": "images/auto/iran-backed-houthis-claim-missile-attack-on-saudi-arabi.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
@@ -105,7 +105,7 @@
         "kategori": "gundem",
         "dosya": "auto-ten-killed-in-russian-attack-on-drone-exhibition-near-kyiv.html",
         "kaynak": "BBC World",
-        "tarih": "25.07.2026",
+        "tarih": "26.07.2026",
         "gorsel": "images/auto/ten-killed-in-russian-attack-on-drone-exhibition-near-k.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
