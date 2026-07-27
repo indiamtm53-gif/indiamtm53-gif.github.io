@@ -8,19 +8,19 @@
     {
         "kod": "EUR",
         "ad": "Euro",
-        "deger": 53.88,
+        "deger": 53.94,
         "birim": "₺"
     },
     {
         "kod": "GBP",
         "ad": "İngiliz Sterlini",
-        "deger": 63.09,
+        "deger": 63.05,
         "birim": "₺"
     },
     {
         "kod": "BTC",
         "ad": "Bitcoin",
-        "deger": 3090088,
+        "deger": 3073528,
         "birim": "₺"
     }
 ]
