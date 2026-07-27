@@ -6,9 +6,20 @@
         "kategori": "gundem",
         "dosya": "auto-sampiyon-filenin-sultanlari.html",
         "kaynak": "TRT Haber",
-        "tarih": "26.07.2026",
+        "tarih": "27.07.2026",
         "gorsel": "images/auto/sampiyon-filenin-sultanlari.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/filenin-sultanlari-aa-2478295.jpg"
+    },
+    {
+        "baslik": "LGS tercihleri için son gün",
+        "link": "https://www.trthaber.com/haber/egitim/lgs-tercihleri-icin-son-gun-952270.html",
+        "ozet": "Milli Eğitim Bakanlığınca (MEB) Liselere Geçiş Sistemi (LGS) kapsamındaki merkezi sınav sonucuna göre yapılacak lise tercihleri bugün saat 17.00'de sona erecek. Yerleştirme sonuçları ve boş kalan kontenjanlar, 5 Ağustos Çarşamba günü ilan edilecek.",
+        "kategori": "gundem",
+        "dosya": "auto-lgs-tercihleri-icin-son-gun.html",
+        "kaynak": "TRT Haber",
+        "tarih": "27.07.2026",
+        "gorsel": "images/auto/lgs-tercihleri-icin-son-gun.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1588000/lgs-aa-1588423.jpg"
     },
     {
         "baslik": "Adım adım DOA'nın dönüşüm yolculuğu",
@@ -17,20 +28,9 @@
         "kategori": "gundem",
         "dosya": "auto-adim-adim-doanin-donusum-yolculugu.html",
         "kaynak": "TRT Haber",
-        "tarih": "26.07.2026",
+        "tarih": "27.07.2026",
         "gorsel": "images/auto/adim-adim-doanin-donusum-yolculugu.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/doa-2478224.jpg"
-    },
-    {
-        "baslik": "LGS tercihleri için yarın son gün",
-        "link": "https://www.trthaber.com/haber/egitim/lgs-tercihleri-icin-yarin-son-gun-952218.html",
-        "ozet": "Milli Eğitim Bakanlığınca (MEB) Liselere Geçiş Sistemi (LGS) kapsamındaki merkezi sınav sonucuna göre yapılacak lise tercihleri yarın saat 17.00'de sona erecek.",
-        "kategori": "gundem",
-        "dosya": "auto-lgs-tercihleri-icin-yarin-son-gun.html",
-        "kaynak": "TRT Haber",
-        "tarih": "26.07.2026",
-        "gorsel": "images/auto/lgs-tercihleri-icin-yarin-son-gun.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2474000/sinav-tercih-aa-2475392.jpg"
     },
     {
         "baslik": "Antalya'da kontrolden çıkan araç uçuruma yuvarlandı: 5 ölü, 2 yaralı",
@@ -39,7 +39,7 @@
         "kategori": "gundem",
         "dosya": "auto-antalyada-kontrolden-cikan-arac-ucuruma-yuvarlandi-5-olu-2-y.html",
         "kaynak": "TRT Haber",
-        "tarih": "26.07.2026",
+        "tarih": "27.07.2026",
         "gorsel": "images/auto/antalyada-kontrolden-cikan-arac-ucuruma-yuvarlandi-5-ol.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/antalya-kaza-trt-2478199.jpg"
     },
@@ -50,31 +50,9 @@
         "kategori": "gundem",
         "dosya": "auto-ukrayna-iran-gemisine-saldirdi.html",
         "kaynak": "TRT Haber",
-        "tarih": "26.07.2026",
+        "tarih": "27.07.2026",
         "gorsel": "images/auto/ukrayna-iran-gemisine-saldirdi.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2452000/hurmuz-bogaziaa-2452370.jpg"
-    },
-    {
-        "baslik": "What we know so far about the Berlin Pride ramming attack",
-        "link": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss",
-        "ozet": "A police manhunt is under way after a suspect rammed a car into a crowd at a Pride event in the German capital on Saturday night.",
-        "kategori": "gundem",
-        "dosya": "auto-what-we-know-so-far-about-the-berlin-pride-ramming-attack.html",
-        "kaynak": "BBC World",
-        "tarih": "26.07.2026",
-        "gorsel": "images/auto/what-we-know-so-far-about-the-berlin-pride-ramming-atta.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say",
-        "link": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss",
-        "ozet": "The latest attacks come two days after a clash between settlers and Palestinians near the village of Tell, which left four Palestinians and two Israelis dead.",
-        "kategori": "ekonomi",
-        "dosya": "auto-israeli-settlers-set-fire-to-mosques-cars-and-farm-land-in-w.html",
-        "kaynak": "BBC World",
-        "tarih": "26.07.2026",
-        "gorsel": "images/auto/israeli-settlers-set-fire-to-mosques-cars-and-farm-land.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
         "baslik": "Firefighters battle wildfire as tens of thousands evacuated near Bordeaux",
@@ -83,30 +61,52 @@
         "kategori": "gundem",
         "dosya": "auto-firefighters-battle-wildfire-as-tens-of-thousands-evacuated-.html",
         "kaynak": "BBC World",
-        "tarih": "26.07.2026",
+        "tarih": "27.07.2026",
         "gorsel": "images/auto/firefighters-battle-wildfire-as-tens-of-thousands-evacu.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Trump takes swipes at press during White House Correspondents' Dinner",
-        "link": "https://www.bbc.co.uk/news/articles/cd7le4ylev2o?at_medium=RSS&at_campaign=rss",
-        "ozet": "The event celebrated press freedom after the first dinner was cancelled by a shooting in April.",
+        "baslik": "Netanyahu accuses NYC Mayor Mamdani of 'fomenting hate' after arrest threat",
+        "link": "https://www.bbc.co.uk/news/articles/c5yegvd9ddeo?at_medium=RSS&at_campaign=rss",
+        "ozet": "Mamdani walked back his threat last week, acknowledging he lacked the legal power to arrest Netanyahu on a warrant issued by the International Criminal Court.",
         "kategori": "gundem",
-        "dosya": "auto-trump-takes-swipes-at-press-during-white-house-correspondent.html",
+        "dosya": "auto-netanyahu-accuses-nyc-mayor-mamdani-of-fomenting-hate-after-.html",
         "kaynak": "BBC World",
-        "tarih": "26.07.2026",
-        "gorsel": "images/auto/trump-takes-swipes-at-press-during-white-house-correspo.jpg",
+        "tarih": "27.07.2026",
+        "gorsel": "images/auto/netanyahu-accuses-nyc-mayor-mamdani-of-fomenting-hate-a.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "India's 'cockroach' protest called off after education minister quits",
-        "link": "https://www.bbc.co.uk/news/articles/cdx828gj5xko?at_medium=RSS&at_campaign=rss",
-        "ozet": "The CJP protest has been the most visible expression of public anger against PM Narendra Modi's government in recent years.",
+        "baslik": "Berlin Pride attack suspect shot and killed during police operation",
+        "link": "https://www.bbc.co.uk/news/articles/c62eg899l99o?at_medium=RSS&at_campaign=rss",
+        "ozet": "Police say Abdul Ballout was shot and killed after he rushed at officers with a knife in a western borough of Berlin.",
         "kategori": "gundem",
-        "dosya": "auto-indias-cockroach-protest-called-off-after-education-minister.html",
+        "dosya": "auto-berlin-pride-attack-suspect-shot-and-killed-during-police-op.html",
         "kaynak": "BBC World",
-        "tarih": "26.07.2026",
-        "gorsel": "images/auto/indias-cockroach-protest-called-off-after-education-min.jpg",
+        "tarih": "27.07.2026",
+        "gorsel": "images/auto/berlin-pride-attack-suspect-shot-and-killed-during-poli.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "What we know so far about the Berlin Pride ramming attack",
+        "link": "https://www.bbc.co.uk/news/articles/cevmdxz4872o?at_medium=RSS&at_campaign=rss",
+        "ozet": "German Chancellor Friedrich Merz condemns the attack as \"heinous\" after a suspect drove a car into a crowd near the Tiergarten park.",
+        "kategori": "gundem",
+        "dosya": "auto-what-we-know-so-far-about-the-berlin-pride-ramming-attack.html",
+        "kaynak": "BBC World",
+        "tarih": "27.07.2026",
+        "gorsel": "images/auto/what-we-know-so-far-about-the-berlin-pride-ramming-atta.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "Israeli settlers set fire to mosques, cars and farm land in West Bank, Palestinians say",
+        "link": "https://www.bbc.co.uk/news/articles/cjrv77gl4deo?at_medium=RSS&at_campaign=rss",
+        "ozet": "The latest attacks come two days after a clash between settlers and Palestinians near the village of Tal, which left four Palestinians and two Israelis dead.",
+        "kategori": "ekonomi",
+        "dosya": "auto-israeli-settlers-set-fire-to-mosques-cars-and-farm-land-in-w.html",
+        "kaynak": "BBC World",
+        "tarih": "27.07.2026",
+        "gorsel": "images/auto/israeli-settlers-set-fire-to-mosques-cars-and-farm-land.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
