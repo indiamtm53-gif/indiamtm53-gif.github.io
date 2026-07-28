@@ -1,5 +1,16 @@
 [
     {
+        "baslik": "Cumhurbaşkanı Erdoğan: Irak ile imzalanan anlaşma enerji alanındaki ortaklık açısından tarihi bir adım",
+        "link": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-irak-ile-imzalanan-anlasma-enerji-alanindaki-ortaklik-acisindan-tarihi-bir-adim-952423.html",
+        "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, \"Kerkük üretim sahasında Türkiye Petrollerine ortaklık verilmiştir. Bugün imzalanan anlaşma, enerji alanındaki ortaklık açısından tarihi bir adım olmuştur.\" ifadelerini kullandı.",
+        "kategori": "gundem",
+        "dosya": "auto-cumhurbaskani-erdogan-irak-ile-imzalanan-anlasma-enerji-alan.html",
+        "kaynak": "TRT Haber",
+        "tarih": "28.07.2026",
+        "gorsel": "images/auto/cumhurbaskani-erdogan-irak-ile-imzalanan-anlasma-enerji.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/recep-tayyip-erdogan-ali-ez-zeydi-aa-2478554.jpg"
+    },
+    {
         "baslik": "Erdoğan: Depremi kullanarak fırsatçılık yapanlar adalete hesap veriyor",
         "link": "https://www.trthaber.com/haber/gundem/erdogan-depremi-kullanarak-firsatcilik-yapanlar-adalete-hesap-veriyor-952402.html",
         "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, \"Kimlerin kimlerle, hangi çarpık ilişkiler içinde olduğu tek tek ortaya çıkıyor. Aynı zamanda bunların hesabı yargımız tarafından soruluyor. Depremi kullanarak siyasi ve ekonomik fırsatçılık yapanlar bugün adalete hesap veriyor.\" dedi.",
@@ -9,6 +20,17 @@
         "tarih": "28.07.2026",
         "gorsel": "images/auto/erdogan-depremi-kullanarak-firsatcilik-yapanlar-adalete.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/recep-tayyip-erdogan-2478538.jpg"
+    },
+    {
+        "baslik": "Okullarda yeni eğitim öğretim dönemi yeniliklerle başlayacak",
+        "link": "https://www.trthaber.com/haber/egitim/okullarda-yeni-egitim-ogretim-donemi-yeniliklerle-baslayacak-952415.html",
+        "ozet": "Milli Eğitim Bakanlığı, yeni eğitim öğretim yılı öncesinde okul yönetmeliğinde kapsamlı değişikliklere gitti. Buna göre okullarda artık güvenlik amacıyla dolap ve sıra araması yapılabilecek. Veliler öğretmenlerle randevusuz görüşemeyecek.",
+        "kategori": "gundem",
+        "dosya": "auto-okullarda-yeni-egitim-ogretim-donemi-yeniliklerle-baslayacak.html",
+        "kaynak": "TRT Haber",
+        "tarih": "28.07.2026",
+        "gorsel": "images/auto/okullarda-yeni-egitim-ogretim-donemi-yeniliklerle-basla.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2304000/ogretmen-ders-sinif-ogrenci-aa-2305792.jpg"
     },
     {
         "baslik": "Türkiye'nin yardım eli 5 kıtada 85 ülkeye uzandı",
@@ -22,17 +44,6 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2474000/afad-venezuela-yardim-aa-2475162.jpg"
     },
     {
-        "baslik": "Yurt dışına kaçan 65 firari Türkiye'ye getirildi",
-        "link": "https://www.trthaber.com/haber/gundem/yurt-disina-kacan-65-firari-turkiyeye-getirildi-952382.html",
-        "ozet": "İçişleri Bakanlığı, kırmızı bültenle uluslararası seviyede aranan 27, ulusal seviyede aranan 38 olmak üzere toplam 65 firarinin, 8 ülkede yürütülen çalışmalar sonucu yakalanarak Türkiye'ye iade edildiğini açıkladı.",
-        "kategori": "gundem",
-        "dosya": "auto-yurt-disina-kacan-65-firari-turkiyeye-getirildi.html",
-        "kaynak": "TRT Haber",
-        "tarih": "28.07.2026",
-        "gorsel": "images/auto/yurt-disina-kacan-65-firari-turkiyeye-getirildi.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/firariler-turkiyeye-getirildi-2478473.jpg"
-    },
-    {
         "baslik": "Yurt genelinde hava sıcaklıkları düşecek",
         "link": "https://www.trthaber.com/haber/turkiye/yurt-genelinde-hava-sicakliklari-dusecek-952404.html",
         "ozet": "Yurt genelinde hava sıcaklıkları yarından itibaren düşerek mevsim normallerinin altına inecek.",
@@ -44,58 +55,47 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2382000/hava-sicakliklari-2382637.jpg"
     },
     {
-        "baslik": "Yaz misafirleri geldi: Avlamak ciddi suç",
-        "link": "https://www.trthaber.com/haber/cevre/yaz-misafirleri-geldi-avlamak-ciddi-suc-952370.html",
-        "ozet": "Türkiye’de 500 civarında kuş yaşıyor. Bunlardan bazıları Türkiye’yi üremek için kullanan göçmen kuşlar. 120 civarında göçmen kuş, yine yaz mevsimi için Türkiye’de. Yılan kartalı, yaz atmacası, kara leylek, saz bülbülü gibi kuşları avlamak ise binlerce lira para cezasını getiriyor...",
+        "baslik": "Wildfires in south-west France flare up as region braces for new 40C heatwave",
+        "link": "https://www.bbc.co.uk/news/articles/c5yd8gly1ydo?at_medium=RSS&at_campaign=rss",
+        "ozet": "Firefighters are braced for a sharp rise in temperatures on Wednesday, which could complicate the containment of wildfires in Gironde.",
         "kategori": "gundem",
-        "dosya": "auto-yaz-misafirleri-geldi-avlamak-ciddi-suc.html",
-        "kaynak": "TRT Haber",
-        "tarih": "28.07.2026",
-        "gorsel": "images/auto/yaz-misafirleri-geldi-avlamak-ciddi-suc.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/kus-yaz-gocmen-2478445.jpg"
-    },
-    {
-        "baslik": "The cocaine superhighway from Ecuador to Europe - the BBC reports on gangs and the police fightback",
-        "link": "https://www.bbc.co.uk/news/articles/cdx7n1r54nno?at_medium=RSS&at_campaign=rss",
-        "ozet": "The BBC goes on patrol with Ecuador's police, who are grappling with a huge surge in drug crime.",
-        "kategori": "ekonomi",
-        "dosya": "auto-the-cocaine-superhighway-from-ecuador-to-europe---the-bbc-re.html",
+        "dosya": "auto-wildfires-in-south-west-france-flare-up-as-region-braces-for.html",
         "kaynak": "BBC World",
         "tarih": "28.07.2026",
-        "gorsel": "images/auto/the-cocaine-superhighway-from-ecuador-to-europe---the-b.jpg",
+        "gorsel": "images/auto/wildfires-in-south-west-france-flare-up-as-region-brace.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "US walks out of UN Security Council meeting during France's remarks",
-        "link": "https://www.bbc.co.uk/news/articles/c87nj3w9gxjo?at_medium=RSS&at_campaign=rss",
-        "ozet": "The row sparked after the US joined North Korea and Russia in voting against extending the term of the UN high commissioner for human rights.",
+        "baslik": "Uefa reacts with fury to Infantino World Cup plan",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c8xng9894z0o?at_medium=RSS&at_campaign=rss",
+        "ozet": "European football's governing body Uefa reacts furiously to proposals from Fifa to seek private investment in its competitions, including the World Cup.",
         "kategori": "gundem",
-        "dosya": "auto-us-walks-out-of-un-security-council-meeting-during-frances-r.html",
+        "dosya": "auto-uefa-reacts-with-fury-to-infantino-world-cup-plan.html",
         "kaynak": "BBC World",
         "tarih": "28.07.2026",
-        "gorsel": "images/auto/us-walks-out-of-un-security-council-meeting-during-fran.jpg",
+        "gorsel": "images/auto/uefa-reacts-with-fury-to-infantino-world-cup-plan.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "'A lover of life' - Seattle pays tribute to food festival shooting victims",
-        "link": "https://www.bbc.co.uk/news/articles/cvgv7m5z4n0o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Families grieved on Monday as they remembered the three people killed in a shooting at a food festival.",
+        "baslik": "Ghana mourns its tallest man - a 'generous and popular giant'",
+        "link": "https://www.bbc.co.uk/news/articles/crk52jk0131o?at_medium=RSS&at_campaign=rss",
+        "ozet": "Sulemana Abdul Samed, who was diagnosed with gigantism several years ago, has died at the age of 33.",
         "kategori": "gundem",
-        "dosya": "auto-a-lover-of-life---seattle-pays-tribute-to-food-festival-shoo.html",
+        "dosya": "auto-ghana-mourns-its-tallest-man---a-generous-and-popular-giant.html",
         "kaynak": "BBC World",
         "tarih": "28.07.2026",
-        "gorsel": "images/auto/a-lover-of-life---seattle-pays-tribute-to-food-festival.jpg",
+        "gorsel": "images/auto/ghana-mourns-its-tallest-man---a-generous-and-popular-g.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Zidane confirmed as France head coach",
-        "link": "https://www.bbc.co.uk/sport/football/articles/cpd741qn2y9o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Former Real Madrid manager Zinedine Zidane has been confirmed as the head coach of the France national team.",
+        "baslik": "Mysterious deaths of 14 elephants in Kenya prompts urgent inquiry",
+        "link": "https://www.bbc.co.uk/news/articles/c3w0d7yeqlxo?at_medium=RSS&at_campaign=rss",
+        "ozet": "It is the highest number of elephant deaths to be recorded in this area of southern Kenya in decades.",
         "kategori": "gundem",
-        "dosya": "auto-zidane-confirmed-as-france-head-coach.html",
+        "dosya": "auto-mysterious-deaths-of-14-elephants-in-kenya-prompts-urgent-in.html",
         "kaynak": "BBC World",
         "tarih": "28.07.2026",
-        "gorsel": "images/auto/zidane-confirmed-as-france-head-coach.jpg",
+        "gorsel": "images/auto/mysterious-deaths-of-14-elephants-in-kenya-prompts-urge.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
