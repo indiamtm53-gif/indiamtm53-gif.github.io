@@ -1,5 +1,27 @@
 [
     {
+        "baslik": "Muğla'da orman yangını",
+        "link": "https://www.trthaber.com/haber/turkiye/muglada-orman-yangini-952489.html",
+        "ozet": "Muğla'nın Seydikemer ilçesinde çıkan orman yangınına havadan ve karadan müdahale ediliyor.",
+        "kategori": "gundem",
+        "dosya": "auto-muglada-orman-yangini.html",
+        "kaynak": "TRT Haber",
+        "tarih": "29.07.2026",
+        "gorsel": "images/auto/muglada-orman-yangini.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/yangin-aa-2478647.jpg"
+    },
+    {
+        "baslik": "Ahbap Derneği soruşturmasında 5 kişi daha ifadeye çağırıldı",
+        "link": "https://www.trthaber.com/haber/gundem/ahbap-dernegi-sorusturmasinda-5-kisi-daha-ifadeye-cagirildi-952506.html",
+        "ozet": "İstanbul Cumhuriyet Başsavcılığınca yürütülen Ahbaplar suç örgütü soruşturması kapsamında Berna Laçin, Eda Ece, Farah Zeynep Abdullah, İrem Helvacıoğlu ve Kerem Bürsin ifadeye çağırıldı.",
+        "kategori": "gundem",
+        "dosya": "auto-ahbap-dernegi-sorusturmasinda-5-kisi-daha-ifadeye-cagirildi.html",
+        "kaynak": "TRT Haber",
+        "tarih": "29.07.2026",
+        "gorsel": "images/auto/ahbap-dernegi-sorusturmasinda-5-kisi-daha-ifadeye-cagir.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2474000/ahbap-haluk-levent-2475644.jpg"
+    },
+    {
         "baslik": "Türk SİHAları ortak mimaride de başrolde olacak",
         "link": "https://www.trthaber.com/haber/gundem/turk-sihalari-ortak-mimaride-de-basrolde-olacak-952464.html",
         "ozet": "İnsansız hava araçlarında harp sahasını değiştiren Türk SİHA’ları yeni dönemin en kritik konularından olan insanlı-insansız ortak faaliyetler için de hazırlanıyor. KIZILELMA’nın İtalyan savaş uçağıyla kol uçuşu ya da ANKA-3’ün KAAN ve Eurofighter gibi uçakların yanına eklenme ihtimali Ankara’nın bu alandaki etkinliğin devam ettireceğini gösteriyor.",
@@ -33,36 +55,14 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/tarihi-eser-2478609.jpg"
     },
     {
-        "baslik": "Üsküdar Belediye Başkanı ve 5 kişi gözaltında",
-        "link": "https://www.trthaber.com/haber/gundem/uskudar-belediye-baskani-ve-5-kisi-gozaltinda-952461.html",
-        "ozet": "İstanbul Anadolu Cumhuriyet Başsavcılığı'nca, Üsküdar Belediyesi'nde yapı ruhsatı ve iskan süreçlerinde usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında, Belediye Başkanı Sinem Dedetaş'ın da aralarında bulunduğu 6 şüpheli gözaltına alındı.",
-        "kategori": "ekonomi",
-        "dosya": "auto-uskudar-belediye-baskani-ve-5-kisi-gozaltinda.html",
-        "kaynak": "TRT Haber",
-        "tarih": "29.07.2026",
-        "gorsel": "images/auto/uskudar-belediye-baskani-ve-5-kisi-gozaltinda.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2452000/uskudar-belediyesi-dha-2452833.jpg"
-    },
-    {
-        "baslik": "Borcu bulunan yabancı plaka araçlar yurt dışına çıkışına çıkamayacak",
-        "link": "https://www.trthaber.com/haber/gundem/borcu-bulunan-yabanci-plaka-araclar-yurt-disina-cikisina-cikamayacak-952470.html",
-        "ozet": "Ulaştırma ve Altyapı Bakanı Uraloğlu, \"Ülke içerisinde tahsil edilemeyen borçlar, yabancı plakalı aracın Türkiye'den çıkış yapmak üzere sınır kapısına gelmesi halinde elektronik ortamda sorgulanacak. Borçlar tahsil edilmeden aracın yurt dışına çıkışına gümrük idaresince izin verilmeyecek.\" dedi.",
+        "baslik": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
+        "link": "https://www.bbc.co.uk/news/articles/cgk43y21j0do?at_medium=RSS&at_campaign=rss",
+        "ozet": "People are being urged to stay alert, with earthquake aftershocks potentially reaching magnitude 7, officials say",
         "kategori": "gundem",
-        "dosya": "auto-borcu-bulunan-yabanci-plaka-araclar-yurt-disina-cikisina-cik.html",
-        "kaynak": "TRT Haber",
-        "tarih": "29.07.2026",
-        "gorsel": "images/auto/borcu-bulunan-yabanci-plaka-araclar-yurt-disina-cikisin.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2384000/kapikule-2385436.jpg"
-    },
-    {
-        "baslik": "Japan in a ‘race against time’ to rescue people trapped beneath rubble after quake",
-        "link": "https://www.bbc.co.uk/news/videos/c3r0pg0dgrgo?at_medium=RSS&at_campaign=rss",
-        "ozet": "At least 13 people have been killed after the earthquake struck the island of Kyushu on Tuesday.",
-        "kategori": "teknoloji",
-        "dosya": "auto-japan-in-a-race-against-time-to-rescue-people-trapped-beneat.html",
+        "dosya": "auto-more-than-100-aftershocks-hit-japan-after-powerful-quake-tha.html",
         "kaynak": "BBC World",
         "tarih": "29.07.2026",
-        "gorsel": "images/auto/japan-in-a-race-against-time-to-rescue-people-trapped-b.jpg",
+        "gorsel": "images/auto/more-than-100-aftershocks-hit-japan-after-powerful-quak.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
@@ -77,36 +77,36 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "How Mexican drug cartels have outsourced meth labs to Nigeria",
-        "link": "https://www.bbc.co.uk/news/articles/crmrnxp4nllo?at_medium=RSS&at_campaign=rss",
-        "ozet": "West Africa is becoming increasingly attractive to those who want to make and export illicit drugs.",
-        "kategori": "gundem",
-        "dosya": "auto-how-mexican-drug-cartels-have-outsourced-meth-labs-to-nigeri.html",
+        "baslik": "Thousands in Spain return home but new heatwave raises wildfire fears",
+        "link": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
+        "ozet": "Spain and France are both braced for the start of the fourth heatwave so far this summer and some fires have continued to burn.",
+        "kategori": "teknoloji",
+        "dosya": "auto-thousands-in-spain-return-home-but-new-heatwave-raises-wildf.html",
         "kaynak": "BBC World",
         "tarih": "29.07.2026",
-        "gorsel": "images/auto/how-mexican-drug-cartels-have-outsourced-meth-labs-to-n.jpg",
+        "gorsel": "images/auto/thousands-in-spain-return-home-but-new-heatwave-raises-.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Four women accuse Jared Leto of criminal sexual conduct",
-        "link": "https://www.bbc.co.uk/news/articles/cd7lg2nz2x2o?at_medium=RSS&at_campaign=rss",
-        "ozet": "The actor and musician faces allegations from 10 women in total who say he mistreated them as teenagers.",
+        "baslik": "Anthony Fauci refuses to answer questions during US Senate hearing about Covid origins",
+        "link": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss",
+        "ozet": "The former top US health official is invoking his right to remain silent as senators grill him under oath about the pandemic.",
         "kategori": "gundem",
-        "dosya": "auto-four-women-accuse-jared-leto-of-criminal-sexual-conduct.html",
+        "dosya": "auto-anthony-fauci-refuses-to-answer-questions-during-us-senate-h.html",
         "kaynak": "BBC World",
         "tarih": "29.07.2026",
-        "gorsel": "images/auto/four-women-accuse-jared-leto-of-criminal-sexual-conduct.jpg",
+        "gorsel": "images/auto/anthony-fauci-refuses-to-answer-questions-during-us-sen.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Trump administration bans new Chinese humanoid robots",
-        "link": "https://www.bbc.co.uk/news/articles/cp9e2ex3ekyo?at_medium=RSS&at_campaign=rss",
-        "ozet": "The US and China are locked in a race to the lead the world in robotics and artificial intelligence.",
+        "baslik": "Russia charges Telegram founder Durov with facilitating terrorism",
+        "link": "https://www.bbc.co.uk/news/articles/cj4kexqkpzno?at_medium=RSS&at_campaign=rss",
+        "ozet": "The FSB claims the messenger app, created by Pavel Durov, has failed to remove accounts and channels used for recruitment by Ukraine's secret service.",
         "kategori": "gundem",
-        "dosya": "auto-trump-administration-bans-new-chinese-humanoid-robots.html",
+        "dosya": "auto-russia-charges-telegram-founder-durov-with-facilitating-terr.html",
         "kaynak": "BBC World",
         "tarih": "29.07.2026",
-        "gorsel": "images/auto/trump-administration-bans-new-chinese-humanoid-robots.jpg",
+        "gorsel": "images/auto/russia-charges-telegram-founder-durov-with-facilitating.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
