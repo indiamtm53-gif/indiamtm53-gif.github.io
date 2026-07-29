@@ -1,5 +1,16 @@
 [
     {
+        "baslik": "Cumhurbaşkanı Erdoğan: Bölgemizdeki çatışmalara rağmen Türkiye ekonomisi dimdik ayakta",
+        "link": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-bolgemizdeki-catismalara-ragmen-turkiye-ekonomisi-dimdik-ayakta-952520.html",
+        "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, \"Türkiye olarak her gün yeni bir krizin baş gösterdiği küresel konjonktürde çoklu şokları başarıyla yönetiyoruz. Bölgemizdeki çatışmalara rağmen Türkiye ekonomisi dimdik ayaktadır.\" ifadelerini kullandı.",
+        "kategori": "ekonomi",
+        "dosya": "auto-cumhurbaskani-erdogan-bolgemizdeki-catismalara-ragmen-turkiy.html",
+        "kaynak": "TRT Haber",
+        "tarih": "29.07.2026",
+        "gorsel": "images/auto/cumhurbaskani-erdogan-bolgemizdeki-catismalara-ragmen-t.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/recep-tayyip-erdogan-aa-2478758.jpg"
+    },
+    {
         "baslik": "Muğla'da orman yangını",
         "link": "https://www.trthaber.com/haber/turkiye/muglada-orman-yangini-952489.html",
         "ozet": "Muğla'nın Seydikemer ilçesinde çıkan orman yangınına havadan ve karadan müdahale ediliyor.",
@@ -33,26 +44,59 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/anka-3-hurjet-hurkus-aa-2478608.jpg"
     },
     {
-        "baslik": "Kabine kritik başlıklarla toplanıyor: Terörsüz Türkiye, ekonomi ve bölgesel gelişmeler",
-        "link": "https://www.trthaber.com/haber/gundem/kabine-kritik-basliklarla-toplaniyor-terorsuz-turkiye-ekonomi-ve-bolgesel-gelismeler-952454.html",
-        "ozet": "Kabine, Cumhurbaşkanı Recep Tayyip Erdoğan'ın başkanlığında Beştepe'de toplanacak. Toplantıda Terörsüz Türkiye hedefi doğrultusunda çıkarılacak yasal düzenlemeyle ilgili çalışmalar ele alınacak. Ekonomideki gelişmeler de masada olacak.",
-        "kategori": "ekonomi",
-        "dosya": "auto-kabine-kritik-basliklarla-toplaniyor-terorsuz-turkiye-ekonom.html",
+        "baslik": "İletişim Başkanı Duran: Yerli ve milli değerleri esas alan İletişim Strateji Belgesi hazırlanmalı",
+        "link": "https://www.trthaber.com/haber/gundem/iletisim-baskani-duran-yerli-ve-milli-degerleri-esas-alan-iletisim-strateji-belgesi-hazirlanmali-952515.html",
+        "ozet": "İletişim Başkanı Burhanettin Duran, \"Uluslararası içerik tekelleşmesine ve kültürel hegemonyaya karşı, Türkiye Yüzyılı hedefi doğrultusunda yerli ve milli değerleri esas alan kapsamlı bir İletişim Strateji Belgesi hazırlanmalıdır\" dedi.",
+        "kategori": "gundem",
+        "dosya": "auto-iletisim-baskani-duran-yerli-ve-milli-degerleri-esas-alan-il.html",
         "kaynak": "TRT Haber",
         "tarih": "29.07.2026",
-        "gorsel": "images/auto/kabine-kritik-basliklarla-toplaniyor-terorsuz-turkiye-e.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2472000/cumhurbaskanligi-kabinesiaa-2472498.jpg"
+        "gorsel": "images/auto/iletisim-baskani-duran-yerli-ve-milli-degerleri-esas-al.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/burhanettin-duran-aa-2478542.jpg"
     },
     {
-        "baslik": "Malazgirt'in 955 yıllık sırrı çözülüyor",
-        "link": "https://www.trthaber.com/haber/kultur-sanat/malazgirtin-955-yillik-sirri-cozuluyor-952477.html",
-        "ozet": "Kültür ve Turizm Bakanı Mehmet Nuri Ersoy, Malazgirt Savaş Alanı'nda yürütülen arkeolojik çalışmalarda XI. yüzyıl Bizans askerî teknolojisini yansıtan balista ok uçlarının ilk kez gün yüzüne çıkarıldığını açıkladı.",
+        "baslik": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
+        "link": "https://www.bbc.co.uk/news/articles/clyx83l8jv8o?at_medium=RSS&at_campaign=rss",
+        "ozet": "The kingdom faces a choice of whether to keep hitting back as a deterrent or to try to de-escalate the situation.",
         "kategori": "gundem",
-        "dosya": "auto-malazgirtin-955-yillik-sirri-cozuluyor.html",
-        "kaynak": "TRT Haber",
+        "dosya": "auto-saudi-arabias-dilemma-as-it-tries-to-stay-out-of-us-iran-war.html",
+        "kaynak": "BBC World",
         "tarih": "29.07.2026",
-        "gorsel": "images/auto/malazgirtin-955-yillik-sirri-cozuluyor.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/tarihi-eser-2478609.jpg"
+        "gorsel": "images/auto/saudi-arabias-dilemma-as-it-tries-to-stay-out-of-us-ira.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "Two firefighters die in Crete as wildfires threaten parts of southern Europe",
+        "link": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
+        "ozet": "Gale-force winds have whipped up the flames prompting the evacuation of several villages on the island, as parts of the continent also continue to tackle fires.",
+        "kategori": "ekonomi",
+        "dosya": "auto-two-firefighters-die-in-crete-as-wildfires-threaten-parts-of.html",
+        "kaynak": "BBC World",
+        "tarih": "29.07.2026",
+        "gorsel": "images/auto/two-firefighters-die-in-crete-as-wildfires-threaten-par.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "Fifa opens disciplinary proceedings against Argentina",
+        "link": "https://www.bbc.co.uk/sport/football/articles/cp3rkwgy6y7o?at_medium=RSS&at_campaign=rss",
+        "ozet": "Fifa opens disciplinary proceedings against Argentina over their behaviour after their World Cup final loss to Spain and throughout the tournament.",
+        "kategori": "teknoloji",
+        "dosya": "auto-fifa-opens-disciplinary-proceedings-against-argentina.html",
+        "kaynak": "BBC World",
+        "tarih": "29.07.2026",
+        "gorsel": "images/auto/fifa-opens-disciplinary-proceedings-against-argentina.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "France fire crews face searing heat in battle to contain flames",
+        "link": "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss",
+        "ozet": "\"It's our forest,\" one volunteer fighting the fire in the Gironde region told the BBC, as other locals have refused to heed evacuations.",
+        "kategori": "teknoloji",
+        "dosya": "auto-france-fire-crews-face-searing-heat-in-battle-to-contain-fla.html",
+        "kaynak": "BBC World",
+        "tarih": "29.07.2026",
+        "gorsel": "images/auto/france-fire-crews-face-searing-heat-in-battle-to-contai.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
         "baslik": "More than 100 aftershocks hit Japan after powerful quake that killed 13",
@@ -63,50 +107,6 @@
         "kaynak": "BBC World",
         "tarih": "29.07.2026",
         "gorsel": "images/auto/more-than-100-aftershocks-hit-japan-after-powerful-quak.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Saudi Arabia joins US in strikes on Iran-backed militias in Iraq",
-        "link": "https://www.bbc.co.uk/news/articles/c70g6y24d76o?at_medium=RSS&at_campaign=rss",
-        "ozet": "US Central Command says proxy groups launched attacks against US bases and Saudi energy infrastructure.",
-        "kategori": "gundem",
-        "dosya": "auto-saudi-arabia-joins-us-in-strikes-on-iran-backed-militias-in-.html",
-        "kaynak": "BBC World",
-        "tarih": "29.07.2026",
-        "gorsel": "images/auto/saudi-arabia-joins-us-in-strikes-on-iran-backed-militia.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Thousands in Spain return home but new heatwave raises wildfire fears",
-        "link": "https://www.bbc.co.uk/news/articles/cwyjgwg8jddo?at_medium=RSS&at_campaign=rss",
-        "ozet": "Spain and France are both braced for the start of the fourth heatwave so far this summer and some fires have continued to burn.",
-        "kategori": "teknoloji",
-        "dosya": "auto-thousands-in-spain-return-home-but-new-heatwave-raises-wildf.html",
-        "kaynak": "BBC World",
-        "tarih": "29.07.2026",
-        "gorsel": "images/auto/thousands-in-spain-return-home-but-new-heatwave-raises-.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Anthony Fauci refuses to answer questions during US Senate hearing about Covid origins",
-        "link": "https://www.bbc.co.uk/news/articles/cdx85vkk0gko?at_medium=RSS&at_campaign=rss",
-        "ozet": "The former top US health official is invoking his right to remain silent as senators grill him under oath about the pandemic.",
-        "kategori": "gundem",
-        "dosya": "auto-anthony-fauci-refuses-to-answer-questions-during-us-senate-h.html",
-        "kaynak": "BBC World",
-        "tarih": "29.07.2026",
-        "gorsel": "images/auto/anthony-fauci-refuses-to-answer-questions-during-us-sen.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Russia charges Telegram founder Durov with facilitating terrorism",
-        "link": "https://www.bbc.co.uk/news/articles/cj4kexqkpzno?at_medium=RSS&at_campaign=rss",
-        "ozet": "The FSB claims the messenger app, created by Pavel Durov, has failed to remove accounts and channels used for recruitment by Ukraine's secret service.",
-        "kategori": "gundem",
-        "dosya": "auto-russia-charges-telegram-founder-durov-with-facilitating-terr.html",
-        "kaynak": "BBC World",
-        "tarih": "29.07.2026",
-        "gorsel": "images/auto/russia-charges-telegram-founder-durov-with-facilitating.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
