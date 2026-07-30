@@ -1,58 +1,69 @@
 [
     {
-        "baslik": "Cumhurbaşkanı Erdoğan: Bölgemizdeki çatışmalara rağmen Türkiye ekonomisi dimdik ayakta",
-        "link": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-bolgemizdeki-catismalara-ragmen-turkiye-ekonomisi-dimdik-ayakta-952520.html",
-        "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, \"Türkiye olarak her gün yeni bir krizin baş gösterdiği küresel konjonktürde çoklu şokları başarıyla yönetiyoruz. Bölgemizdeki çatışmalara rağmen Türkiye ekonomisi dimdik ayaktadır.\" ifadelerini kullandı.",
-        "kategori": "ekonomi",
-        "dosya": "auto-cumhurbaskani-erdogan-bolgemizdeki-catismalara-ragmen-turkiy.html",
+        "baslik": "Etimesgut Belediyesi'ne yolsuzluk operasyonu",
+        "link": "https://www.trthaber.com/haber/turkiye/etimesgut-belediyesine-yolsuzluk-operasyonu-952560.html",
+        "ozet": "Etimesgut Belediyesine yönelik yolsuzluk soruşturması kapsamında gözaltı kararı verilen 55 şüpheliden aralarında Belediye Başkanı Erdal Beşikcioğlu'nun da bulunduğu 52'si gözaltına alındı.",
+        "kategori": "gundem",
+        "dosya": "auto-etimesgut-belediyesine-yolsuzluk-operasyonu.html",
         "kaynak": "TRT Haber",
         "tarih": "30.07.2026",
-        "gorsel": "images/auto/cumhurbaskani-erdogan-bolgemizdeki-catismalara-ragmen-t.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/recep-tayyip-erdogan-aa-2478758.jpg"
+        "gorsel": "images/auto/etimesgut-belediyesine-yolsuzluk-operasyonu.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/erdal-besikciogluaa-2478772.jpg"
     },
     {
-        "baslik": "Orman yangınlarıyla mücadele sürüyor",
-        "link": "https://www.trthaber.com/haber/gundem/orman-yanginlariyla-mucadele-suruyor-952539.html",
-        "ozet": "AFAD, 9 ilde çıkan orman yangınlarıyla mücadele kapsamında 3 bin 514 personel, 23 uçak, 54 helikopter ve 1035 kara aracının görev yaptığını açıkladı.",
+        "baslik": "İşsizlik haziranda azaldı",
+        "link": "https://www.trthaber.com/haber/ekonomi/issizlik-haziranda-azaldi-952575.html",
+        "ozet": "Türkiye'de işsizlik oranı, haziranda bir önceki aya göre 0,5 puan azalarak yüzde 7,6 oldu",
         "kategori": "gundem",
-        "dosya": "auto-orman-yanginlariyla-mucadele-suruyor.html",
+        "dosya": "auto-issizlik-haziranda-azaldi.html",
         "kaynak": "TRT Haber",
         "tarih": "30.07.2026",
-        "gorsel": "images/auto/orman-yanginlariyla-mucadele-suruyor.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/yangin-mudahale-afad-2478766.jpg"
+        "gorsel": "images/auto/issizlik-haziranda-azaldi.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1558000/tuik-issizlik-1558237.jpg"
     },
     {
-        "baslik": "Dışişleri Bakanı Fidan Hamas heyetini kabul etti",
-        "link": "https://www.trthaber.com/haber/gundem/disisleri-bakani-fidan-hamas-heyetini-kabul-etti-952533.html",
-        "ozet": "Dışişleri Bakanı Hakan Fidan, Hamas Siyasi Büro Başkanlığına seçilen Halil el-Hayye ve beraberindeki Hamas heyetini kabul etti.",
+        "baslik": "4 noktada alevlerle mücadele sürüyor",
+        "link": "https://www.trthaber.com/haber/turkiye/4-noktada-alevlerle-mucadele-suruyor-952562.html",
+        "ozet": "Orman yangınlarıyla mücadele yoğun şekilde sürüyor. Havadan ve karadan ekiplerin müdahalesiyle alevler kontrol altına alınmaya çalışılıyor. Antalya, Balıkesir ve Muğla'nın 4 noktasında orman yangınları devam ediyor.",
         "kategori": "gundem",
-        "dosya": "auto-disisleri-bakani-fidan-hamas-heyetini-kabul-etti.html",
+        "dosya": "auto-4-noktada-alevlerle-mucadele-suruyor.html",
         "kaynak": "TRT Haber",
         "tarih": "30.07.2026",
-        "gorsel": "images/auto/disisleri-bakani-fidan-hamas-heyetini-kabul-etti.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/hakan-fidan-halil-el-hayye-aa-2478762.jpg"
+        "gorsel": "images/auto/4-noktada-alevlerle-mucadele-suruyor.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/mugla-seydikemer-yangin-2478753.jpg"
     },
     {
-        "baslik": "Ahbap Derneği soruşturmasında 5 kişi daha ifadeye çağırıldı",
-        "link": "https://www.trthaber.com/haber/gundem/ahbap-dernegi-sorusturmasinda-5-kisi-daha-ifadeye-cagirildi-952506.html",
-        "ozet": "İstanbul Cumhuriyet Başsavcılığınca yürütülen Ahbaplar suç örgütü soruşturması kapsamında Berna Laçin, Eda Ece, Farah Zeynep Abdullah, İrem Helvacıoğlu ve Kerem Bürsin ifadeye çağırıldı.",
+        "baslik": "Yasa dışı şans oyunları reklamları yasak kapsamına alınıyor",
+        "link": "https://www.trthaber.com/haber/ekonomi/yasa-disi-sans-oyunlari-reklamlari-yasak-kapsamina-aliniyor-952572.html",
+        "ozet": "Ticaret Bakanlığınca yasa dışı şans oyunları, bahis ve kumar reklamlarının yanı sıra falcı, medyum ve astrolog gibi kişilerce sunulan hizmetlerin reklamları da 1 Ağustos 2026 itibarıyla yasak kapsamına alınıyor.",
         "kategori": "gundem",
-        "dosya": "auto-ahbap-dernegi-sorusturmasinda-5-kisi-daha-ifadeye-cagirildi.html",
+        "dosya": "auto-yasa-disi-sans-oyunlari-reklamlari-yasak-kapsamina-aliniyor.html",
         "kaynak": "TRT Haber",
         "tarih": "30.07.2026",
-        "gorsel": "images/auto/ahbap-dernegi-sorusturmasinda-5-kisi-daha-ifadeye-cagir.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2474000/ahbap-haluk-levent-2475644.jpg"
+        "gorsel": "images/auto/yasa-disi-sans-oyunlari-reklamlari-yasak-kapsamina-alin.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2334000/ticaret-bakanligi-2334774.jpg"
     },
     {
-        "baslik": "Türk SİHAları ortak mimaride de başrolde olacak",
-        "link": "https://www.trthaber.com/haber/gundem/turk-sihalari-ortak-mimaride-de-basrolde-olacak-952464.html",
-        "ozet": "İnsansız hava araçlarında harp sahasını değiştiren Türk SİHA’ları yeni dönemin en kritik konularından olan insanlı-insansız ortak faaliyetler için de hazırlanıyor. KIZILELMA’nın İtalyan savaş uçağıyla kol uçuşu ya da ANKA-3’ün KAAN ve Eurofighter gibi uçakların yanına eklenme ihtimali Ankara’nın bu alandaki etkinliğin devam ettireceğini gösteriyor.",
+        "baslik": "Ahbap soruşturmasında 12 şüpheli adliyeye sevk edildi",
+        "link": "https://www.trthaber.com/haber/turkiye/ahbap-sorusturmasinda-12-supheli-adliyeye-sevk-edildi-952557.html",
+        "ozet": "Ahbap soruşturmasında gözaltına alınan 12 şüpheli adliyeye sevk edildi. Soruşturma kapsamında, aralarında Haluk Levent'in de bulunduğu 28 şüpheli tutuklu bulunuyor.",
         "kategori": "gundem",
-        "dosya": "auto-turk-sihalari-ortak-mimaride-de-basrolde-olacak.html",
+        "dosya": "auto-ahbap-sorusturmasinda-12-supheli-adliyeye-sevk-edildi.html",
         "kaynak": "TRT Haber",
         "tarih": "30.07.2026",
-        "gorsel": "images/auto/turk-sihalari-ortak-mimaride-de-basrolde-olacak.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/anka-3-hurjet-hurkus-aa-2478608.jpg"
+        "gorsel": "images/auto/ahbap-sorusturmasinda-12-supheli-adliyeye-sevk-edildi.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2474000/ahbap-haluk-levent-2475642.jpg"
+    },
+    {
+        "baslik": "US launches 'heavy' strikes on Iran after attempted attack on American troops",
+        "link": "https://www.bbc.co.uk/news/articles/c74gwdzywmeo?at_medium=RSS&at_campaign=rss",
+        "ozet": "After a short period of relative calm when hostilities were paused, both sides have now restarted missile attacks.",
+        "kategori": "gundem",
+        "dosya": "auto-us-launches-heavy-strikes-on-iran-after-attempted-attack-on-.html",
+        "kaynak": "BBC World",
+        "tarih": "30.07.2026",
+        "gorsel": "images/auto/us-launches-heavy-strikes-on-iran-after-attempted-attac.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
         "baslik": "Saudi Arabia's dilemma as it tries to stay out of US-Iran war",
@@ -77,17 +88,6 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Zendaya on working with Tom Holland in Spider-Man: ‘When you’re best friends it’s easy’",
-        "link": "https://www.bbc.co.uk/news/articles/c0km3d2j6mko?at_medium=RSS&at_campaign=rss",
-        "ozet": "The couple walked the white carpet at the London premiere of their latest film, Spiderman: Brand New Day.",
-        "kategori": "gundem",
-        "dosya": "auto-zendaya-on-working-with-tom-holland-in-spider-man-when-youre.html",
-        "kaynak": "BBC World",
-        "tarih": "30.07.2026",
-        "gorsel": "images/auto/zendaya-on-working-with-tom-holland-in-spider-man-when-.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
         "baslik": "'It's our home, it's our forest': BBC speaks to locals fighting France wildfire",
         "link": "https://www.bbc.co.uk/news/articles/c62q5we799ro?at_medium=RSS&at_campaign=rss",
         "ozet": "Firefighters are battling flare-ups in 40C heat in the Gironde region, as some locals have refused to heed evacuations.",
@@ -99,14 +99,14 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Salman Rushdie attacker convicted of terror offences",
-        "link": "https://www.bbc.co.uk/news/articles/c86ng1g5wy4o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Hadi Matar, 28, was convicted of attempting to help Hezbollah by attacking the British-Indian author.",
+        "baslik": "Veteran Ugandan opposition leader collapses in court and in ICU, his wife says",
+        "link": "https://www.bbc.co.uk/news/articles/c0m78xl1k2po?at_medium=RSS&at_campaign=rss",
+        "ozet": "The 70 year old has been in detention since November 2024 and faces treason charges, which he denies.",
         "kategori": "gundem",
-        "dosya": "auto-salman-rushdie-attacker-convicted-of-terror-offences.html",
+        "dosya": "auto-veteran-ugandan-opposition-leader-collapses-in-court-and-in-.html",
         "kaynak": "BBC World",
         "tarih": "30.07.2026",
-        "gorsel": "images/auto/salman-rushdie-attacker-convicted-of-terror-offences.jpg",
+        "gorsel": "images/auto/veteran-ugandan-opposition-leader-collapses-in-court-an.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
