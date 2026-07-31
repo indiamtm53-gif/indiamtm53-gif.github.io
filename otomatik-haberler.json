@@ -1,14 +1,47 @@
 [
     {
-        "baslik": "İspanya'daki göçmen krizinin arkasında işgalci İsrail mi var?",
-        "link": "https://www.trthaber.com/haber/dunya/ispanyadaki-gocmen-krizinin-arkasinda-isgalci-israil-mi-var-952723.html",
-        "ozet": "İspanya Ceuta'daki kitlesel düzensiz göç dalgası, yalnızca sınır güvenliği tartışmalarını değil, İsrail ile İspanya arasındaki diplomatik gerilimi de yeniden gündeme taşıdı. İşgalci İsrail'den gelen açıklamalar, İspanyol siyasetçilerin tepkileri ve sosyal medyada öne sürülen iddialar, krizin jeopolitik boyutuna ilişkin tartışmaları alevlendirdi.",
-        "kategori": "teknoloji",
-        "dosya": "auto-ispanyadaki-gocmen-krizinin-arkasinda-isgalci-israil-mi-var.html",
+        "baslik": "Cumhurbaşkanı Erdoğan: Gençlerimizin en iyi şekilde yetişmesi için tüm gücümüzle çalışıyoruz",
+        "link": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-genclerimizin-en-iyi-sekilde-yetismesi-icin-tum-gucumuzle-calisiyoruz-952743.html",
+        "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, \"Ülkemizin yarınlarına yön tayin edecek gençlerimizin, evlatlarımızın en iyi şekilde yetişmesi için tüm gücümüzle çalışıyoruz. Eğitimden teknolojiye, spordan kültür ve sanata her alanda hayallerinizi gerçekleştirebilmeniz için ne gerekiyorsa yapıyoruz.\" ifadelerini kullandı.",
+        "kategori": "gundem",
+        "dosya": "auto-cumhurbaskani-erdogan-genclerimizin-en-iyi-sekilde-yetismesi.html",
         "kaynak": "TRT Haber",
         "tarih": "31.07.2026",
-        "gorsel": "images/auto/ispanyadaki-gocmen-krizinin-arkasinda-isgalci-israil-mi.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/ceuta-reu-2478941.jpg"
+        "gorsel": "images/auto/cumhurbaskani-erdogan-genclerimizin-en-iyi-sekilde-yeti.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2466000/recep-tayyip-erdogan-aa-2467530.jpg"
+    },
+    {
+        "baslik": "Bakan Yumaklı, orman yangınlarına ilişkin son durumu paylaştı",
+        "link": "https://www.trthaber.com/haber/gundem/bakan-yumakli-orman-yanginlarina-iliskin-son-durumu-paylasti-952751.html",
+        "ozet": "Tarım ve Orman Bakanı İbrahim Yumaklı, Antalya Alanya, Muğla Fethiye-Yeşilüzümlü mahallesi ve İzmir Foça yangınlarının kontrol altına alındığını açıkladı.",
+        "kategori": "gundem",
+        "dosya": "auto-bakan-yumakli-orman-yanginlarina-iliskin-son-durumu-paylasti.html",
+        "kaynak": "TRT Haber",
+        "tarih": "31.07.2026",
+        "gorsel": "images/auto/bakan-yumakli-orman-yanginlarina-iliskin-son-durumu-pay.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2388000/ibrahim-yumakli-aa-2388855.jpg"
+    },
+    {
+        "baslik": "Üsküdar Belediye Başkanı Dedetaş ve 3 şüpheli tutuklandı",
+        "link": "https://www.trthaber.com/haber/gundem/uskudar-belediye-baskani-dedetas-ve-3-supheli-tutuklandi-952750.html",
+        "ozet": "İstanbul Anadolu Cumhuriyet Başsavcılığı'nca, Üsküdar Belediyesi'nde yapı ruhsatı ve iskan süreçlerinde usulsüzlük yapıldığı iddialarına ilişkin yürütülen soruşturma kapsamında, aralarında Belediye Başkanı Sinem Dedetaş'ın da bulunduğu 4 şüpheli tutuklandı.",
+        "kategori": "gundem",
+        "dosya": "auto-uskudar-belediye-baskani-dedetas-ve-3-supheli-tutuklandi.html",
+        "kaynak": "TRT Haber",
+        "tarih": "31.07.2026",
+        "gorsel": "images/auto/uskudar-belediye-baskani-dedetas-ve-3-supheli-tutukland.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2452000/uskudar-belediyesi-dha-2452833.jpg"
+    },
+    {
+        "baslik": "Mersin'de markette çocuğa şiddet uygulayan şüpheli yakalandı",
+        "link": "https://www.trthaber.com/haber/turkiye/mersinde-markette-cocuga-siddet-uygulayan-supheli-yakalandi-952749.html",
+        "ozet": "Mersin'in merkez Akdeniz ilçesinde bir markette çocuğa şiddet uygulayan şüpheli gözaltına alındı.",
+        "kategori": "ekonomi",
+        "dosya": "auto-mersinde-markette-cocuga-siddet-uygulayan-supheli-yakalandi.html",
+        "kaynak": "TRT Haber",
+        "tarih": "31.07.2026",
+        "gorsel": "images/auto/mersinde-markette-cocuga-siddet-uygulayan-supheli-yakal.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2432000/gozalti-stok-2432947.jpg"
     },
     {
         "baslik": "KIZILELMAdan tarihi atış: İç istasyonlar sürpriz etkisi yaratacak",
@@ -22,69 +55,36 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/kizilelma-baykar-trt-haber-2478907.jpg"
     },
     {
-        "baslik": "Bakan Yumaklı: Fethiye'deki orman yangını tamamen kontrol altına alındı",
-        "link": "https://www.trthaber.com/haber/gundem/bakan-yumakli-fethiyedeki-orman-yangini-tamamen-kontrol-altina-alindi-952707.html",
-        "ozet": "Tarım ve Orman Bakanı İbrahim Yumaklı, Muğla/Fethiye yangınının tamamen, Balıkesir/Gömeç, Antalya/Alanya ve Mersin/Gülnar-Aydıncık yangınlarının büyük ölçüde kontrol altına alındığını bildirdi.",
-        "kategori": "ekonomi",
-        "dosya": "auto-bakan-yumakli-fethiyedeki-orman-yangini-tamamen-kontrol-alti.html",
-        "kaynak": "TRT Haber",
-        "tarih": "31.07.2026",
-        "gorsel": "images/auto/bakan-yumakli-fethiyedeki-orman-yangini-tamamen-kontrol.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/orman-yangini-2478923.jpg"
-    },
-    {
-        "baslik": "Gülistan Doku soruşturmasında 5 tutuklama",
-        "link": "https://www.trthaber.com/haber/turkiye/gulistan-doku-sorusturmasinda-5-tutuklama-952722.html",
-        "ozet": "Tunceli'de 5 Ocak 2020'den bu yana haber alınamayan üniversite öğrencisi Gülistan Doku ile ilgili soruşturma kapsamında adliyeye sevk edilen 6 şüpheliden 5'i tutuklandı.",
-        "kategori": "gundem",
-        "dosya": "auto-gulistan-doku-sorusturmasinda-5-tutuklama.html",
-        "kaynak": "TRT Haber",
-        "tarih": "31.07.2026",
-        "gorsel": "images/auto/gulistan-doku-sorusturmasinda-5-tutuklama.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2454000/gulistan-2455362.jpg"
-    },
-    {
-        "baslik": "KAAN taksi testini başarıyla gerçekleştirdi",
-        "link": "https://www.trthaber.com/haber/savunma/kaan-taksi-testini-basariyla-gerceklestirdi-952715.html",
-        "ozet": "Türkiye'nin Milli Muharip Uçağı KAAN'ın yeni prototipi, ilk taksi testini başarıyla gerçekleştirdi.",
-        "kategori": "gundem",
-        "dosya": "auto-kaan-taksi-testini-basariyla-gerceklestirdi.html",
-        "kaynak": "TRT Haber",
-        "tarih": "31.07.2026",
-        "gorsel": "images/auto/kaan-taksi-testini-basariyla-gerceklestirdi.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/kaan-2478926.jpg"
-    },
-    {
-        "baslik": "About 60,000 migrants arrive in Ceuta in 24 hours, Spanish territory's leader says",
+        "baslik": "Spain's PM blames traffickers after 60,000 migrants reach Ceuta from Morocco",
         "link": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
-        "ozet": "The estimated number of arrivals is more than 70% of the population of the city, which is about 83,600.",
-        "kategori": "gundem",
-        "dosya": "auto-about-60000-migrants-arrive-in-ceuta-in-24-hours-spanish-ter.html",
+        "ozet": "Spain said most of the migrants had returned to Morocco by Friday evening, as Italy suspended its Schengen agreement on free movement with Spain.",
+        "kategori": "teknoloji",
+        "dosya": "auto-spains-pm-blames-traffickers-after-60000-migrants-reach-ceut.html",
         "kaynak": "BBC World",
         "tarih": "31.07.2026",
-        "gorsel": "images/auto/about-60000-migrants-arrive-in-ceuta-in-24-hours-spanis.jpg",
+        "gorsel": "images/auto/spains-pm-blames-traffickers-after-60000-migrants-reach.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "If Hamas disarmament plan holds, it could mark first credible step to ending Gaza war",
-        "link": "https://www.bbc.co.uk/news/articles/c9d8gd87d83o?at_medium=RSS&at_campaign=rss",
-        "ozet": "The plan - if successful - potentially removes the most significant obstacle to advancing the Trump-backed peace initiative in Gaza.",
+        "baslik": "Bowen: Plan for Hamas to disarm faces big obstacles, yet it offers rare hope for Gaza",
+        "link": "https://www.bbc.co.uk/news/articles/c2dkje4p4klo?at_medium=RSS&at_campaign=rss",
+        "ozet": "The realities of politics, war, zero trust, the deaths of thousands and the destruction of Gaza will make any agreement very complicated.",
         "kategori": "gundem",
-        "dosya": "auto-if-hamas-disarmament-plan-holds-it-could-mark-first-credible.html",
+        "dosya": "auto-bowen-plan-for-hamas-to-disarm-faces-big-obstacles-yet-it-of.html",
         "kaynak": "BBC World",
         "tarih": "31.07.2026",
-        "gorsel": "images/auto/if-hamas-disarmament-plan-holds-it-could-mark-first-cre.jpg",
+        "gorsel": "images/auto/bowen-plan-for-hamas-to-disarm-faces-big-obstacles-yet-.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "AC Milan and Italy great Baresi dies aged 66",
-        "link": "https://www.bbc.co.uk/sport/football/articles/ckgvlz45l3eo?at_medium=RSS&at_campaign=rss",
-        "ozet": "AC Milan and Italy great Franco Baresi has died at the age of 66, the Italian club announces.",
+        "baslik": "Two bodies located and search ongoing after avalanche hits Nirmal Purja's team",
+        "link": "https://www.bbc.co.uk/news/articles/cddjz1r01l8o?at_medium=RSS&at_campaign=rss",
+        "ozet": "Two bodies have been recovered from Pakistan's Broad Peak and seven spotted by drones - though their condition remains unclear.",
         "kategori": "gundem",
-        "dosya": "auto-ac-milan-and-italy-great-baresi-dies-aged-66.html",
+        "dosya": "auto-two-bodies-located-and-search-ongoing-after-avalanche-hits-n.html",
         "kaynak": "BBC World",
         "tarih": "31.07.2026",
-        "gorsel": "images/auto/ac-milan-and-italy-great-baresi-dies-aged-66.jpg",
+        "gorsel": "images/auto/two-bodies-located-and-search-ongoing-after-avalanche-h.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
@@ -99,14 +99,14 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Fifa says 'nobody selling football' as plan continues",
-        "link": "https://www.bbc.co.uk/sport/football/articles/c79glnx1y55o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Football's governing body Fifa plans to continue the consultation process after Uefa threatens to boycott World Cups.",
-        "kategori": "gundem",
-        "dosya": "auto-fifa-says-nobody-selling-football-as-plan-continues.html",
+        "baslik": "Hundreds escape Greek wildfire by sea as blazes continue across Europe",
+        "link": "https://www.bbc.co.uk/news/articles/c0kmzx8vpv4o?at_medium=RSS&at_campaign=rss",
+        "ozet": "Around 500 people, mostly tourists, are evacuated by boat from Agios Vasileios after becoming trapped.",
+        "kategori": "ekonomi",
+        "dosya": "auto-hundreds-escape-greek-wildfire-by-sea-as-blazes-continue-acr.html",
         "kaynak": "BBC World",
         "tarih": "31.07.2026",
-        "gorsel": "images/auto/fifa-says-nobody-selling-football-as-plan-continues.jpg",
+        "gorsel": "images/auto/hundreds-escape-greek-wildfire-by-sea-as-blazes-continu.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
