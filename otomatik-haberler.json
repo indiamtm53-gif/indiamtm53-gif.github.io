@@ -1,5 +1,16 @@
 [
     {
+        "baslik": "İspanya'daki göçmen krizinin arkasında işgalci İsrail mi var?",
+        "link": "https://www.trthaber.com/haber/dunya/ispanyadaki-gocmen-krizinin-arkasinda-isgalci-israil-mi-var-952723.html",
+        "ozet": "İspanya Ceuta'daki kitlesel düzensiz göç dalgası, yalnızca sınır güvenliği tartışmalarını değil, İsrail ile İspanya arasındaki diplomatik gerilimi de yeniden gündeme taşıdı. İşgalci İsrail'den gelen açıklamalar, İspanyol siyasetçilerin tepkileri ve sosyal medyada öne sürülen iddialar, krizin jeopolitik boyutuna ilişkin tartışmaları alevlendirdi.",
+        "kategori": "teknoloji",
+        "dosya": "auto-ispanyadaki-gocmen-krizinin-arkasinda-isgalci-israil-mi-var.html",
+        "kaynak": "TRT Haber",
+        "tarih": "31.07.2026",
+        "gorsel": "images/auto/ispanyadaki-gocmen-krizinin-arkasinda-isgalci-israil-mi.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/ceuta-reu-2478941.jpg"
+    },
+    {
         "baslik": "KIZILELMAdan tarihi atış: İç istasyonlar sürpriz etkisi yaratacak",
         "link": "https://www.trthaber.com/haber/gundem/kizilelmadan-tarihi-atis-ic-istasyonlar-surpriz-etkisi-yaratacak-952695.html",
         "ozet": "Türkiye’nin ilk insansız savaş uçağı projesi olan KIZILELMA’da tarihi bir viraj daha dönüldü. Platformun iç istasyonların mühimmat atış testleri başarıyla gerçekleşti. Taktik ve operasyonel anlamda çok stratejik bir kabiliyete daha erişen Türkiye, ANKA-3 ve KAAN’ı da benzer teknolojilerle donatacak.",
@@ -11,58 +22,47 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/kizilelma-baykar-trt-haber-2478907.jpg"
     },
     {
-        "baslik": "Cem Küçük gözaltına alındı",
-        "link": "https://www.trthaber.com/haber/gundem/cem-kucuk-gozaltina-alindi-952649.html",
-        "ozet": "Cem Küçük, İstanbul Cumhuriyet Başsavcılığınca yürütülen soruşturma kapsamında \"halkı yanıltıcı bilgiyi alenen yayma\" ve \"şantaj\" suçlarından gözaltına alındı.",
+        "baslik": "Bakan Yumaklı: Fethiye'deki orman yangını tamamen kontrol altına alındı",
+        "link": "https://www.trthaber.com/haber/gundem/bakan-yumakli-fethiyedeki-orman-yangini-tamamen-kontrol-altina-alindi-952707.html",
+        "ozet": "Tarım ve Orman Bakanı İbrahim Yumaklı, Muğla/Fethiye yangınının tamamen, Balıkesir/Gömeç, Antalya/Alanya ve Mersin/Gülnar-Aydıncık yangınlarının büyük ölçüde kontrol altına alındığını bildirdi.",
         "kategori": "ekonomi",
-        "dosya": "auto-cem-kucuk-gozaltina-alindi.html",
+        "dosya": "auto-bakan-yumakli-fethiyedeki-orman-yangini-tamamen-kontrol-alti.html",
         "kaynak": "TRT Haber",
         "tarih": "31.07.2026",
-        "gorsel": "images/auto/cem-kucuk-gozaltina-alindi.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/cem-kucuk-aa-2478878.jpg"
+        "gorsel": "images/auto/bakan-yumakli-fethiyedeki-orman-yangini-tamamen-kontrol.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/orman-yangini-2478923.jpg"
     },
     {
-        "baslik": "En düşük emekli maaşı 23 bin 552 TL'ye yükseldi",
-        "link": "https://www.trthaber.com/haber/ekonomi/en-dusuk-emekli-maasi-23-bin-552-tlye-yukseldi-952660.html",
-        "ozet": "En düşük emekli aylığı 23 bin 552 TL oldu. Emekli aylığının artırılmasını içeren düzenleme, Resmi Gazete'de yayımlanarak yürürlüğe girdi.",
+        "baslik": "Gülistan Doku soruşturmasında 5 tutuklama",
+        "link": "https://www.trthaber.com/haber/turkiye/gulistan-doku-sorusturmasinda-5-tutuklama-952722.html",
+        "ozet": "Tunceli'de 5 Ocak 2020'den bu yana haber alınamayan üniversite öğrencisi Gülistan Doku ile ilgili soruşturma kapsamında adliyeye sevk edilen 6 şüpheliden 5'i tutuklandı.",
         "kategori": "gundem",
-        "dosya": "auto-en-dusuk-emekli-maasi-23-bin-552-tlye-yukseldi.html",
+        "dosya": "auto-gulistan-doku-sorusturmasinda-5-tutuklama.html",
         "kaynak": "TRT Haber",
         "tarih": "31.07.2026",
-        "gorsel": "images/auto/en-dusuk-emekli-maasi-23-bin-552-tlye-yukseldi.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2472000/maas-zam-memur-2472899.jpg"
+        "gorsel": "images/auto/gulistan-doku-sorusturmasinda-5-tutuklama.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2454000/gulistan-2455362.jpg"
     },
     {
-        "baslik": "İstanbul merkezli yasa dışı bahis operasyonu: 26 gözaltı",
-        "link": "https://www.trthaber.com/haber/gundem/istanbul-merkezli-yasa-disi-bahis-operasyonu-26-gozalti-952679.html",
-        "ozet": "İstanbul merkezli 8 ilde yasa dışı bahis oynanmasını teşvik edenlere yönelik düzenlenen operasyonda 26 şüpheli gözaltına alındı.",
+        "baslik": "KAAN taksi testini başarıyla gerçekleştirdi",
+        "link": "https://www.trthaber.com/haber/savunma/kaan-taksi-testini-basariyla-gerceklestirdi-952715.html",
+        "ozet": "Türkiye'nin Milli Muharip Uçağı KAAN'ın yeni prototipi, ilk taksi testini başarıyla gerçekleştirdi.",
         "kategori": "gundem",
-        "dosya": "auto-istanbul-merkezli-yasa-disi-bahis-operasyonu-26-gozalti.html",
+        "dosya": "auto-kaan-taksi-testini-basariyla-gerceklestirdi.html",
         "kaynak": "TRT Haber",
         "tarih": "31.07.2026",
-        "gorsel": "images/auto/istanbul-merkezli-yasa-disi-bahis-operasyonu-26-gozalti.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1474000/gozalti-1475138.jpg"
+        "gorsel": "images/auto/kaan-taksi-testini-basariyla-gerceklestirdi.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/kaan-2478926.jpg"
     },
     {
-        "baslik": "Hafta sonu hava nasıl olacak?",
-        "link": "https://www.trthaber.com/haber/turkiye/hafta-sonu-hava-nasil-olacak-952691.html",
-        "ozet": "Ağustos ayının ilk hafta sonunda Türkiye genelinde yüksek sıcaklıklar etkisini sürdürürken, batı kesimlerde şiddetli rüzgar, kuzeydoğuda ise yerel gök gürültülü sağanak yağışlar bekleniyor.",
+        "baslik": "About 60,000 migrants arrive in Ceuta in 24 hours, Spanish territory's leader says",
+        "link": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
+        "ozet": "The estimated number of arrivals is more than 70% of the population of the city, which is about 83,600.",
         "kategori": "gundem",
-        "dosya": "auto-hafta-sonu-hava-nasil-olacak.html",
-        "kaynak": "TRT Haber",
-        "tarih": "31.07.2026",
-        "gorsel": "images/auto/hafta-sonu-hava-nasil-olacak.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2464000/istanbul-topkapi-sarayi-aa-2464422.jpg"
-    },
-    {
-        "baslik": "Hamas says it has agreed to disarm after Trump announces Board of Peace plan",
-        "link": "https://www.bbc.co.uk/news/articles/cj03m512r4go?at_medium=RSS&at_campaign=rss",
-        "ozet": "A senior Hamas official has told the BBC they have agreed to the Board of Peace's plan. Israel has not commented.",
-        "kategori": "gundem",
-        "dosya": "auto-hamas-says-it-has-agreed-to-disarm-after-trump-announces-boa.html",
+        "dosya": "auto-about-60000-migrants-arrive-in-ceuta-in-24-hours-spanish-ter.html",
         "kaynak": "BBC World",
         "tarih": "31.07.2026",
-        "gorsel": "images/auto/hamas-says-it-has-agreed-to-disarm-after-trump-announce.jpg",
+        "gorsel": "images/auto/about-60000-migrants-arrive-in-ceuta-in-24-hours-spanis.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
@@ -77,17 +77,6 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "About 49,000 migrants enter Spanish enclave of Ceuta, officials say",
-        "link": "https://www.bbc.co.uk/news/articles/cx2kp639yx4o?at_medium=RSS&at_campaign=rss",
-        "ozet": "This comes after thousands of migrants were reported to have illegally crossed into the territory on Thursday and Friday.",
-        "kategori": "gundem",
-        "dosya": "auto-about-49000-migrants-enter-spanish-enclave-of-ceuta-official.html",
-        "kaynak": "BBC World",
-        "tarih": "31.07.2026",
-        "gorsel": "images/auto/about-49000-migrants-enter-spanish-enclave-of-ceuta-off.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
         "baslik": "AC Milan and Italy great Baresi dies aged 66",
         "link": "https://www.bbc.co.uk/sport/football/articles/ckgvlz45l3eo?at_medium=RSS&at_campaign=rss",
         "ozet": "AC Milan and Italy great Franco Baresi has died at the age of 66, the Italian club announces.",
@@ -99,14 +88,25 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "UK rapper Yung Filly found not guilty of raping woman after Australian show",
-        "link": "https://www.bbc.co.uk/news/articles/crrv7vk0knro?at_medium=RSS&at_campaign=rss",
-        "ozet": "The YouTuber has been found guilty for two counts of assault over the 2024 incident in Perth.",
-        "kategori": "gundem",
-        "dosya": "auto-uk-rapper-yung-filly-found-not-guilty-of-raping-woman-after-.html",
+        "baslik": "Peru's ex-president has 15-year jail sentence for corruption charges overturned",
+        "link": "https://www.bbc.co.uk/news/articles/cx2j9nj88rro?at_medium=RSS&at_campaign=rss",
+        "ozet": "Ollanta Humala had been convicted of money laundering offences alongside his wife in 2025.",
+        "kategori": "teknoloji",
+        "dosya": "auto-perus-ex-president-has-15-year-jail-sentence-for-corruption-.html",
         "kaynak": "BBC World",
         "tarih": "31.07.2026",
-        "gorsel": "images/auto/uk-rapper-yung-filly-found-not-guilty-of-raping-woman-a.jpg",
+        "gorsel": "images/auto/perus-ex-president-has-15-year-jail-sentence-for-corrup.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "Fifa says 'nobody selling football' as plan continues",
+        "link": "https://www.bbc.co.uk/sport/football/articles/c79glnx1y55o?at_medium=RSS&at_campaign=rss",
+        "ozet": "Football's governing body Fifa plans to continue the consultation process after Uefa threatens to boycott World Cups.",
+        "kategori": "gundem",
+        "dosya": "auto-fifa-says-nobody-selling-football-as-plan-continues.html",
+        "kaynak": "BBC World",
+        "tarih": "31.07.2026",
+        "gorsel": "images/auto/fifa-says-nobody-selling-football-as-plan-continues.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
