@@ -1,5 +1,16 @@
 [
     {
+        "baslik": "Cumhurbaşkanı Erdoğan: Terörsüz Türkiye süreci menziline ulaşacak",
+        "link": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-terorsuz-turkiye-sureci-menziline-ulasacak-952808.html",
+        "ozet": "Cumhurbaşkanı Erdoğan, \"40 yıldır Türkiye’ye ayak bağı olan, enerjimizi, kaynaklarımızı zenginliğimizi tüketen, on binlerce insanımızın hayatına mal olan bu mesele konusunda toplumumuzda ciddi bir beklenti var. Hazırlıklarımızı tamamladığımız yasal düzenlemenin Meclis'in gündemine gelmesiyle birlikte sürecin ivme kazanmasını temenni ediyoruz\" dedi.",
+        "kategori": "gundem",
+        "dosya": "auto-cumhurbaskani-erdogan-terorsuz-turkiye-sureci-menziline-ulas.html",
+        "kaynak": "TRT Haber",
+        "tarih": "01.08.2026",
+        "gorsel": "images/auto/cumhurbaskani-erdogan-terorsuz-turkiye-sureci-menziline.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/erdogan-2478970.jpg"
+    },
+    {
         "baslik": "Cumhurbaşkanı Erdoğan'a suikast girişiminde bulunan FETÖ'cü terörist yakalandı",
         "link": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogana-suikast-girisiminde-bulunan-fetocu-terorist-yakalandi-952768.html",
         "ozet": "İçişleri Bakanlığı, 15 Temmuz darbe girişimi sırasında Cumhurbaşkanı Recep Tayyip Erdoğan’ın Marmaris’te konakladığı otele yönelik suikast girişiminde bulunan 37 kişilik FETÖ'cü timin firari üyesi, kırmızı bültenle aranan Burkay Karatepe'nin Afyonkarahisar'da yakalandığını duyurdu.",
@@ -11,48 +22,37 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/fetocu-terorist-bk-yakalandi-2478958.jpg"
     },
     {
-        "baslik": "Gömeç ve AydıncıkGülnar orman yangınları kontrol altına alındı",
-        "link": "https://www.trthaber.com/haber/gundem/gomec-ve-aydincik-gulnar-orman-yanginlari-kontrol-altina-alindi-952774.html",
-        "ozet": "Tarım ve Orman Bakanı İbrahim Yumaklı, \"Balıkesir Gömeç, Mersin Aydıncık-Gülnar yangınlarını hamdolsun kontrol altına aldık\" dedi.",
-        "kategori": "ekonomi",
-        "dosya": "auto-gomec-ve-aydincikgulnar-orman-yanginlari-kontrol-altina-alin.html",
-        "kaynak": "TRT Haber",
-        "tarih": "01.08.2026",
-        "gorsel": "images/auto/gomec-ve-aydincikgulnar-orman-yanginlari-kontrol-altina.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/orman-yangini-2478940.jpg"
-    },
-    {
-        "baslik": "Terörsüz Türkiye teklifi partilerin ortak imzasıyla TBMM'ye sunulacak",
-        "link": "https://www.trthaber.com/haber/gundem/terorsuz-turkiye-teklifi-partilerin-ortak-imzasiyla-tbmmye-sunulacak-952806.html",
-        "ozet": "TBMM Başkanı Numan Kurtulmuş, \"(Terörsüz Türkiye) Yasa teklifi, inşallah önümüzdeki hafta partilerin ortak bir teklifi olarak TBMM'ye gelecek\" dedi.",
+        "baslik": "Bakan Yumaklı orman yangınlarındaki son durumu paylaştı",
+        "link": "https://www.trthaber.com/haber/gundem/bakan-yumakli-orman-yanginlarindaki-son-durumu-paylasti-952827.html",
+        "ozet": "Tarım ve Orman Bakanı İbrahim Yumaklı, Antalya/Alanya Tepe Mahallesi, Kocaeli/Dilovası ve Balıkesir Marmara Adası'ndaki orman yangınlarının tamamen, İzmir/Buca yangınının da büyük ölçüde kontrol altına alındığını bildirdi.",
         "kategori": "gundem",
-        "dosya": "auto-terorsuz-turkiye-teklifi-partilerin-ortak-imzasiyla-tbmmye-s.html",
+        "dosya": "auto-bakan-yumakli-orman-yanginlarindaki-son-durumu-paylasti.html",
         "kaynak": "TRT Haber",
         "tarih": "01.08.2026",
-        "gorsel": "images/auto/terorsuz-turkiye-teklifi-partilerin-ortak-imzasiyla-tbm.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2426000/tbmmaa-2426540.jpg"
+        "gorsel": "images/auto/bakan-yumakli-orman-yanginlarindaki-son-durumu-paylasti.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/orman-yangini-2478923.jpg"
     },
     {
-        "baslik": "Bakan Gürlek'ten faili meçhul mesajı: Hiçbir dosya kaderine terk edilmeyecek",
-        "link": "https://www.trthaber.com/haber/gundem/bakan-gurlekten-faili-mechul-mesaji-hicbir-dosya-kaderine-terk-edilmeyecek-952783.html",
-        "ozet": "Adalet Bakanı Akın Gürlek, \"Aziz milletimiz bilmelidir ki üzerinden ne kadar zaman geçerse geçsin, hiçbir dosya kaderine terk edilmeyecek, hiçbir mağdurun ve masumun hakkı sahipsiz kalmayacaktır. Delillerin izini sabırla sürecek, faili meçhul dosyaların üzerindeki karanlığı birer birer kaldıracağız\" dedi.",
-        "kategori": "teknoloji",
-        "dosya": "auto-bakan-gurlekten-faili-mechul-mesaji-hicbir-dosya-kaderine-te.html",
-        "kaynak": "TRT Haber",
-        "tarih": "01.08.2026",
-        "gorsel": "images/auto/bakan-gurlekten-faili-mechul-mesaji-hicbir-dosya-kaderi.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/akin-gurlek-2478960.jpg"
-    },
-    {
-        "baslik": "Eyyamı bahur sıcakları geliyor",
-        "link": "https://www.trthaber.com/haber/gundem/eyyam-i-bahur-sicaklari-geliyor-952779.html",
-        "ozet": "Türkiye, ağustosun ilk günlerinde etkili olması beklenen eyyam-ı bahur sıcaklarıyla birlikte özellikle Güneydoğu Anadolu'da 40 derecenin üzerindeki sıcaklıklar ve İstanbul'da yüksek nemin yol açacağı bunaltıcı hava koşullarıyla karşı karşıya kalacak.",
+        "baslik": "İstanbul'da 3 ilçe belediyesi AK Parti'ye geçti",
+        "link": "https://www.trthaber.com/haber/gundem/istanbulda-3-ilce-belediyesi-ak-partiye-gecti-952813.html",
+        "ozet": "AK Parti İstanbul İl Danışma Meclisi toplantısında, aralarında ilçe belediye başkanları ve meclis üyelerinin de bulunduğu çok sayıda isim AK Parti saflarına katıldı. Katılımcılara rozetlerini Cumhurbaşkanı Recep Tayyip Erdoğan taktı.",
         "kategori": "gundem",
-        "dosya": "auto-eyyami-bahur-sicaklari-geliyor.html",
+        "dosya": "auto-istanbulda-3-ilce-belediyesi-ak-partiye-gecti.html",
         "kaynak": "TRT Haber",
         "tarih": "01.08.2026",
-        "gorsel": "images/auto/eyyami-bahur-sicaklari-geliyor.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1848000/sicak-hava-aa-1849480.jpg"
+        "gorsel": "images/auto/istanbulda-3-ilce-belediyesi-ak-partiye-gecti.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1896000/ak-parti-aa-1896523.jpg"
+    },
+    {
+        "baslik": "Türkiye ve Irak arasındaki dev anlaşmada imzalar atıldı",
+        "link": "https://www.trthaber.com/haber/gundem/turkiye-ve-irak-arasindaki-dev-anlasmada-imzalar-atildi-952807.html",
+        "ozet": "Enerji ve Tabii Kaynaklar Bakanı Alparslan Bayraktar, BOTAŞ ile Irak devlet petrol şirketleri SOMO ve NOC arasında petrol boru hattının etkin kullanımı için bir yıllık anlaşma imzalandığını, günlük 750 bin varillik kapasite düzenlemesinin hayata geçtiğini bildirdi.",
+        "kategori": "gundem",
+        "dosya": "auto-turkiye-ve-irak-arasindaki-dev-anlasmada-imzalar-atildi.html",
+        "kaynak": "TRT Haber",
+        "tarih": "01.08.2026",
+        "gorsel": "images/auto/turkiye-ve-irak-arasindaki-dev-anlasmada-imzalar-atildi.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/irak-petrol-anlasma-2478969.jpg"
     },
     {
         "baslik": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
@@ -66,14 +66,14 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Uefa has 'lost confidence' in Infantino's Fifa leadership",
+        "baslik": "Call for 'full review' as pressure grows on Infantino",
         "link": "https://www.bbc.co.uk/sport/football/articles/c04kr2nv3v3o?at_medium=RSS&at_campaign=rss",
-        "ozet": "The governing body of European football says Fifa president Gianni Infantino has \"failed to deliver\" on promises he made when elected 10 years ago.",
+        "ozet": "The leadership of Fifa is publicly questioned by football's governing bodies in Europe, North and Central America and the Caribbean.",
         "kategori": "gundem",
-        "dosya": "auto-uefa-has-lost-confidence-in-infantinos-fifa-leadership.html",
+        "dosya": "auto-call-for-full-review-as-pressure-grows-on-infantino.html",
         "kaynak": "BBC World",
         "tarih": "01.08.2026",
-        "gorsel": "images/auto/uefa-has-lost-confidence-in-infantinos-fifa-leadership.jpg",
+        "gorsel": "images/auto/call-for-full-review-as-pressure-grows-on-infantino.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
@@ -88,25 +88,25 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
+        "baslik": "Italy putting nearly all major cities on highest heat alert",
+        "link": "https://www.bbc.co.uk/news/articles/cr7k4gdrgljo?at_medium=RSS&at_campaign=rss",
+        "ozet": "Some 19 major Italian cities - including Rome, Milan and Naples - are already on red alert, and by Monday all but two will be.",
+        "kategori": "gundem",
+        "dosya": "auto-italy-putting-nearly-all-major-cities-on-highest-heat-alert.html",
+        "kaynak": "BBC World",
+        "tarih": "01.08.2026",
+        "gorsel": "images/auto/italy-putting-nearly-all-major-cities-on-highest-heat-a.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
         "baslik": "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
         "link": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
-        "ozet": "The Nepali-born climber was known for scaling the world's 14 highest peaks in just over six months in 2019.",
+        "ozet": "The renowned mountaineer was known for scaling the world's 14 highest peaks in just over six months in 2019.",
         "kategori": "teknoloji",
         "dosya": "auto-mountaineer-nirmal-purja-killed-in-pakistan-avalanche-his-co.html",
         "kaynak": "BBC World",
         "tarih": "01.08.2026",
         "gorsel": "images/auto/mountaineer-nirmal-purja-killed-in-pakistan-avalanche-h.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Nine killed in strikes on Kyiv, as Ukraine sinks Russian container ship",
-        "link": "https://www.bbc.co.uk/news/articles/ce973yvk7pko?at_medium=RSS&at_campaign=rss",
-        "ozet": "The attack comes as Moscow escalates deadly ballistic missile attacks on the Ukrainian capital.",
-        "kategori": "teknoloji",
-        "dosya": "auto-nine-killed-in-strikes-on-kyiv-as-ukraine-sinks-russian-cont.html",
-        "kaynak": "BBC World",
-        "tarih": "01.08.2026",
-        "gorsel": "images/auto/nine-killed-in-strikes-on-kyiv-as-ukraine-sinks-russian.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
