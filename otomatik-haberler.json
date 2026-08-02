@@ -6,7 +6,7 @@
         "kategori": "gundem",
         "dosya": "auto-cumhurbaskani-erdogan-terorsuz-turkiye-sureci-menziline-ulas.html",
         "kaynak": "TRT Haber",
-        "tarih": "01.08.2026",
+        "tarih": "02.08.2026",
         "gorsel": "images/auto/cumhurbaskani-erdogan-terorsuz-turkiye-sureci-menziline.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/erdogan-2478970.jpg"
     },
@@ -17,7 +17,7 @@
         "kategori": "gundem",
         "dosya": "auto-cumhurbaskani-erdogana-suikast-girisiminde-bulunan-fetocu-te.html",
         "kaynak": "TRT Haber",
-        "tarih": "01.08.2026",
+        "tarih": "02.08.2026",
         "gorsel": "images/auto/cumhurbaskani-erdogana-suikast-girisiminde-bulunan-feto.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/fetocu-terorist-bk-yakalandi-2478958.jpg"
     },
@@ -28,7 +28,7 @@
         "kategori": "gundem",
         "dosya": "auto-bakan-yumakli-orman-yanginlarindaki-son-durumu-paylasti.html",
         "kaynak": "TRT Haber",
-        "tarih": "01.08.2026",
+        "tarih": "02.08.2026",
         "gorsel": "images/auto/bakan-yumakli-orman-yanginlarindaki-son-durumu-paylasti.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/orman-yangini-2478923.jpg"
     },
@@ -39,7 +39,7 @@
         "kategori": "gundem",
         "dosya": "auto-istanbulda-3-ilce-belediyesi-ak-partiye-gecti.html",
         "kaynak": "TRT Haber",
-        "tarih": "01.08.2026",
+        "tarih": "02.08.2026",
         "gorsel": "images/auto/istanbulda-3-ilce-belediyesi-ak-partiye-gecti.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1896000/ak-parti-aa-1896523.jpg"
     },
@@ -50,19 +50,41 @@
         "kategori": "gundem",
         "dosya": "auto-turkiye-ve-irak-arasindaki-dev-anlasmada-imzalar-atildi.html",
         "kaynak": "TRT Haber",
-        "tarih": "01.08.2026",
+        "tarih": "02.08.2026",
         "gorsel": "images/auto/turkiye-ve-irak-arasindaki-dev-anlasmada-imzalar-atildi.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/irak-petrol-anlasma-2478969.jpg"
     },
     {
-        "baslik": "Spain attacks 'selfish' response of some EU countries to Ceuta migrant crossings",
-        "link": "https://www.bbc.co.uk/news/articles/cx2v91xn1z9o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Italy has temporarily suspended the Schengen arrangement with Spain as Prime Minister Giorgia Meloni called scenes in Ceuta \"shocking\".",
+        "baslik": "How Spain's migrant crisis created a political storm - whipped up by social media",
+        "link": "https://www.bbc.co.uk/news/articles/c62vl925dqdo?at_medium=RSS&at_campaign=rss",
+        "ozet": "The Ceuta crossings have shaken Europe politically, exposing divisions over the sensitive issue of migration, the BBC's Sarah Rainsford writes.",
         "kategori": "teknoloji",
-        "dosya": "auto-spain-attacks-selfish-response-of-some-eu-countries-to-ceuta.html",
+        "dosya": "auto-how-spains-migrant-crisis-created-a-political-storm---whippe.html",
         "kaynak": "BBC World",
-        "tarih": "01.08.2026",
-        "gorsel": "images/auto/spain-attacks-selfish-response-of-some-eu-countries-to-.jpg",
+        "tarih": "02.08.2026",
+        "gorsel": "images/auto/how-spains-migrant-crisis-created-a-political-storm---w.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "Trump says he is cancelling strikes on Iran subject to 'rapidly' making deal",
+        "link": "https://www.bbc.co.uk/news/articles/cjwx74qgld2o?at_medium=RSS&at_campaign=rss",
+        "ozet": "The US president's message came amid media reports that he was planning new, intense strikes on Iran over the weekend.",
+        "kategori": "gundem",
+        "dosya": "auto-trump-says-he-is-cancelling-strikes-on-iran-subject-to-rapid.html",
+        "kaynak": "BBC World",
+        "tarih": "02.08.2026",
+        "gorsel": "images/auto/trump-says-he-is-cancelling-strikes-on-iran-subject-to-.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "EU calls emergency meeting to discuss Ceuta migrant crossings",
+        "link": "https://www.bbc.co.uk/news/articles/cz7d17r455go?at_medium=RSS&at_campaign=rss",
+        "ozet": "There have been tense exchanges between Spain and other EU states over the influx of migrants into the enclave of Ceuta.",
+        "kategori": "gundem",
+        "dosya": "auto-eu-calls-emergency-meeting-to-discuss-ceuta-migrant-crossing.html",
+        "kaynak": "BBC World",
+        "tarih": "02.08.2026",
+        "gorsel": "images/auto/eu-calls-emergency-meeting-to-discuss-ceuta-migrant-cro.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
@@ -72,41 +94,19 @@
         "kategori": "gundem",
         "dosya": "auto-call-for-full-review-as-pressure-grows-on-infantino.html",
         "kaynak": "BBC World",
-        "tarih": "01.08.2026",
+        "tarih": "02.08.2026",
         "gorsel": "images/auto/call-for-full-review-as-pressure-grows-on-infantino.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Israeli West Bank settler tells BBC attacks on Palestinians are justified as revenge",
-        "link": "https://www.bbc.co.uk/news/articles/c4g4djgdyk2o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Settler violence against Palestinians is on the rise in the West Bank, as settlements and outposts expand.",
-        "kategori": "ekonomi",
-        "dosya": "auto-israeli-west-bank-settler-tells-bbc-attacks-on-palestinians-.html",
-        "kaynak": "BBC World",
-        "tarih": "01.08.2026",
-        "gorsel": "images/auto/israeli-west-bank-settler-tells-bbc-attacks-on-palestin.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Italy putting nearly all major cities on highest heat alert",
-        "link": "https://www.bbc.co.uk/news/articles/cr7k4gdrgljo?at_medium=RSS&at_campaign=rss",
-        "ozet": "Some 19 major Italian cities - including Rome, Milan and Naples - are already on red alert, and by Monday all but two will be.",
+        "baslik": "Tourist plane crashes in Peru, killing 13",
+        "link": "https://www.bbc.co.uk/news/articles/c70g132erlko?at_medium=RSS&at_campaign=rss",
+        "ozet": "The small plane was flying over the Nazca Lines ​archaeological site when it crashed, according to local reports.",
         "kategori": "gundem",
-        "dosya": "auto-italy-putting-nearly-all-major-cities-on-highest-heat-alert.html",
+        "dosya": "auto-tourist-plane-crashes-in-peru-killing-13.html",
         "kaynak": "BBC World",
-        "tarih": "01.08.2026",
-        "gorsel": "images/auto/italy-putting-nearly-all-major-cities-on-highest-heat-a.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Mountaineer Nirmal Purja killed in Pakistan avalanche, his company says",
-        "link": "https://www.bbc.co.uk/news/articles/clyljq79kdko?at_medium=RSS&at_campaign=rss",
-        "ozet": "The renowned mountaineer was known for scaling the world's 14 highest peaks in just over six months in 2019.",
-        "kategori": "teknoloji",
-        "dosya": "auto-mountaineer-nirmal-purja-killed-in-pakistan-avalanche-his-co.html",
-        "kaynak": "BBC World",
-        "tarih": "01.08.2026",
-        "gorsel": "images/auto/mountaineer-nirmal-purja-killed-in-pakistan-avalanche-h.jpg",
+        "tarih": "02.08.2026",
+        "gorsel": "images/auto/tourist-plane-crashes-in-peru-killing-13.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
