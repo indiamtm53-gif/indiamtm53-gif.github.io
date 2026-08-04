@@ -1,5 +1,16 @@
 [
     {
+        "baslik": "Yüksek Askeri Şura toplanıyor",
+        "link": "https://www.trthaber.com/haber/gundem/yuksek-askeri-sura-toplaniyor-952997.html",
+        "ozet": "Yüksek Askeri Şura (YAŞ) Cumhurbaşkanı Erdoğan'ın başkanlığında Beştepe'de toplanacak. Türk Silahlı Kuvvetleri’ndeki terfi, atama, emekliye sevk ve görev sürelerinin uzatılmasına ilişkin kararlar alacak. Şura kararları Cumhurbaşkanı'nın onayından sonra açıklanacak.",
+        "kategori": "gundem",
+        "dosya": "auto-yuksek-askeri-sura-toplaniyor.html",
+        "kaynak": "TRT Haber",
+        "tarih": "04.08.2026",
+        "gorsel": "images/auto/yuksek-askeri-sura-toplaniyor.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1890000/yuksek-askeri-sura-aa-1891236.jpg"
+    },
+    {
         "baslik": "Terörsüz Türkiye düzenlemesi imzaya açıldı: Bugün milletvekilleri tarafından imzalanması bekleniyor",
         "link": "https://www.trthaber.com/haber/gundem/terorsuz-turkiye-duzenlemesi-imzaya-acildi-bugun-milletvekilleri-tarafindan-imzalanmasi-bekleniyor-952991.html",
         "ozet": "AK Parti TBMM Grup Başkanlığı, terörün sona erdirilmesine yönelik yürütülen sürecin hukuki altyapısını oluşturacak \"Çerçeve Kanun Teklifi\"ni milletvekillerinin imzasına sundu. Teklifin bugün saat 17.00'ye kadar tüm milletvekilleri tarafından imzalanması bekleniyor.",
@@ -9,6 +20,28 @@
         "tarih": "04.08.2026",
         "gorsel": "images/auto/terorsuz-turkiye-duzenlemesi-imzaya-acildi-bugun-millet.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2282000/tbmm-aa-2282394.jpg"
+    },
+    {
+        "baslik": "Sahte ekspertizle vatandaşlık sağlayan şebekeye dev operasyon",
+        "link": "https://www.trthaber.com/haber/gundem/sahte-ekspertizle-vatandaslik-saglayan-sebekeye-dev-operasyon-953009.html",
+        "ozet": "Adalet Bakanı Akın Gürlek, 16 ilde sahte ekspertizle usulsüz vatandaşlık sağlayan şebekeye operasyon düzenlendiğini duyurdu. 72 şüphelinin yakalandığı operasyonda, haksız vatandaşlık alan 687 kişinin işlemlerinin iptal edileceği ve 2,5 milyar liralık usulsüzlüğün tespit edildiği açıklandı.",
+        "kategori": "gundem",
+        "dosya": "auto-sahte-ekspertizle-vatandaslik-saglayan-sebekeye-dev-operasyo.html",
+        "kaynak": "TRT Haber",
+        "tarih": "04.08.2026",
+        "gorsel": "images/auto/sahte-ekspertizle-vatandaslik-saglayan-sebekeye-dev-ope.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1640000/istanbul-adalet-sarayi-aa-1641632.jpg"
+    },
+    {
+        "baslik": "Menderes Belediyesine operasyon: 15 gözaltı",
+        "link": "https://www.trthaber.com/haber/gundem/menderes-belediyesine-operasyon-15-gozalti-953005.html",
+        "ozet": "İzmir'in Menderes Belediyesine yönelik rüşvet, irtikap, resmi belgede sahtecilik, görevi kötüye kullanma ve imar kirliliğine neden olma suçlarına yönelik soruşturmada, aralarında Belediye Başkanı İlkay Çiçek'in de bulunduğu 15 şüpheli gözaltına alındı.",
+        "kategori": "gundem",
+        "dosya": "auto-menderes-belediyesine-operasyon-15-gozalti.html",
+        "kaynak": "TRT Haber",
+        "tarih": "04.08.2026",
+        "gorsel": "images/auto/menderes-belediyesine-operasyon-15-gozalti.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1872000/menderes-belediyesi-aa-1873107.jpg"
     },
     {
         "baslik": "Cumhurbaşkanı Erdoğan Suudi Arabistan Veliaht Prensi Selman ile görüştü",
@@ -22,37 +55,26 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2274000/prens-selman-ve-erdoganaa-2274849.jpg"
     },
     {
-        "baslik": "Trump: Görüşmeler, iyi bir anlaşma imzalamak için İran'ın son şansı",
-        "link": "https://www.trthaber.com/haber/dunya/trump-gorusmeler-iyi-bir-anlasma-imzalamak-icin-iranin-son-sansi-952977.html",
-        "ozet": "ABD Başkanı Donald Trump, İran'la müzakerelerin devam ettiğini ve bu görüşmelerin iyi bir anlaşma imzalamak için \"İran'ın son şansı\" olduğunu belirtti.",
+        "baslik": "EU calls for stronger borders after Ceuta migrant crossings",
+        "link": "https://www.bbc.co.uk/news/articles/cyvl84zmgyro?at_medium=RSS&at_campaign=rss",
+        "ozet": "Ursula von der Leyen has called for action ahead of an urgent EU interior ministers meeting to discuss the issue.",
         "kategori": "gundem",
-        "dosya": "auto-trump-gorusmeler-iyi-bir-anlasma-imzalamak-icin-iranin-son-s.html",
-        "kaynak": "TRT Haber",
+        "dosya": "auto-eu-calls-for-stronger-borders-after-ceuta-migrant-crossings.html",
+        "kaynak": "BBC World",
         "tarih": "04.08.2026",
-        "gorsel": "images/auto/trump-gorusmeler-iyi-bir-anlasma-imzalamak-icin-iranin-.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2476000/trump-re-2477374.jpg"
+        "gorsel": "images/auto/eu-calls-for-stronger-borders-after-ceuta-migrant-cross.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Erdal Beşikçioğlu, Etimesgut Belediye Başkanlığından uzaklaştırıldı",
-        "link": "https://www.trthaber.com/haber/turkiye/erdal-besikcioglu-etimesgut-belediye-baskanligindan-uzaklastirildi-952983.html",
-        "ozet": "İçişleri Bakanlığı tarafından, Ankara Etimesgut Belediye Başkanı Erdal Beşikçioğlu’nun görevden uzaklaştırıldığı açıklandı.",
+        "baslik": "Analysis: Trump challenged by cold reality from top allies",
+        "link": "https://www.bbc.co.uk/news/articles/cgjed2q2l0xo?at_medium=RSS&at_campaign=rss",
+        "ozet": "A president used to bending US politics to his will faces two stinging losses in a matter of days, writes the BBC's Anthony Zurcher.",
         "kategori": "gundem",
-        "dosya": "auto-erdal-besikcioglu-etimesgut-belediye-baskanligindan-uzaklast.html",
-        "kaynak": "TRT Haber",
+        "dosya": "auto-analysis-trump-challenged-by-cold-reality-from-top-allies.html",
+        "kaynak": "BBC World",
         "tarih": "04.08.2026",
-        "gorsel": "images/auto/erdal-besikcioglu-etimesgut-belediye-baskanligindan-uza.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/erdal-besikciogluaa-2478772.jpg"
-    },
-    {
-        "baslik": "Rusya'dan Samsun'a giden gemiye saldırı",
-        "link": "https://www.trthaber.com/haber/turkiye/rusyadan-samsuna-giden-gemiye-saldiri-952981.html",
-        "ozet": "Ulaştırma ve Altyapı Bakanlığı Denizcilik Genel Müdürlüğü, Karadeniz'de dron saldırısına uğrayan \"NADEZHDA\" isimli Ro-Ro gemisinde 13'ü Türk vatandaşı olmak üzere toplam 22 mürettebatın bulunduğunu ve gemide bulunan denizcilerin Rusya deniz unsurları tarafından emniyetli şekilde Novorossiysk Limanı'na tahliye edildiğini duyurdu.",
-        "kategori": "gundem",
-        "dosya": "auto-rusyadan-samsuna-giden-gemiye-saldiri.html",
-        "kaynak": "TRT Haber",
-        "tarih": "04.08.2026",
-        "gorsel": "images/auto/rusyadan-samsuna-giden-gemiye-saldiri.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2478000/nadezhda-iha-2479342.jpg"
+        "gorsel": "images/auto/analysis-trump-challenged-by-cold-reality-from-top-alli.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
         "baslik": "Russia says seven killed and 40 injured by Ukrainian drone hitting busy beach",
@@ -66,6 +88,17 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
+        "baslik": "Five dead in Moscow region as Ukraine continues warehouse strikes",
+        "link": "https://www.bbc.co.uk/news/articles/c151pkww79zo?at_medium=RSS&at_campaign=rss",
+        "ozet": "Facilities in St Petersburg and Tver were also hit, while at least one was killed in Russian strikes on Ukraine.",
+        "kategori": "teknoloji",
+        "dosya": "auto-five-dead-in-moscow-region-as-ukraine-continues-warehouse-st.html",
+        "kaynak": "BBC World",
+        "tarih": "04.08.2026",
+        "gorsel": "images/auto/five-dead-in-moscow-region-as-ukraine-continues-warehou.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
         "baslik": "Iran says it is in talks with Oman but not the US after Trump says negotiations to resume",
         "link": "https://www.bbc.co.uk/news/articles/c23579jzv08o?at_medium=RSS&at_campaign=rss",
         "ozet": "Iran's remarks that there were no talks with the US prompts Donald Trump to issue a strong condemnation of its leadership.",
@@ -74,39 +107,6 @@
         "kaynak": "BBC World",
         "tarih": "04.08.2026",
         "gorsel": "images/auto/iran-says-it-is-in-talks-with-oman-but-not-the-us-after.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Threat to oil tankers in Middle East  worst since start of Iran war, analysts say",
-        "link": "https://www.bbc.co.uk/news/articles/cjrv0dy2e90o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Fresh attacks on alternative shipping routes have left tankers facing an increasingly complex situation, analysts say.",
-        "kategori": "gundem",
-        "dosya": "auto-threat-to-oil-tankers-in-middle-east-worst-since-start-of-ir.html",
-        "kaynak": "BBC World",
-        "tarih": "04.08.2026",
-        "gorsel": "images/auto/threat-to-oil-tankers-in-middle-east-worst-since-start-.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Rhine falls to record low levels as drought strains Europe's rivers",
-        "link": "https://www.bbc.co.uk/news/articles/c78gn8zvrx4o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Low water levels in the Rhine, Danube and Po have curtailed the transport of goods and reduced electricity output.",
-        "kategori": "ekonomi",
-        "dosya": "auto-rhine-falls-to-record-low-levels-as-drought-strains-europes-.html",
-        "kaynak": "BBC World",
-        "tarih": "04.08.2026",
-        "gorsel": "images/auto/rhine-falls-to-record-low-levels-as-drought-strains-eur.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "US reports first two deaths linked to  'explosive diarrhoea' outbreak",
-        "link": "https://www.bbc.co.uk/news/articles/c2k7px317eeo?at_medium=RSS&at_campaign=rss",
-        "ozet": "The illness caused by parasitic infection that spreads through contaminated food or water is not generally life-threatening, health officials say.",
-        "kategori": "gundem",
-        "dosya": "auto-us-reports-first-two-deaths-linked-to-explosive-diarrhoea-ou.html",
-        "kaynak": "BBC World",
-        "tarih": "04.08.2026",
-        "gorsel": "images/auto/us-reports-first-two-deaths-linked-to-explosive-diarrho.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
