@@ -1,5 +1,16 @@
 [
     {
+        "baslik": "Terörsüz Türkiye yasa teklifi Komisyon'dan geçti",
+        "link": "https://www.trthaber.com/haber/gundem/terorsuz-turkiye-yasa-teklifi-komisyondan-gecti-953393.html",
+        "ozet": "\"Terörsüz Türkiye\" süreci kapsamında hazırlanan Milli Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun Teklifi, TBMM Adalet Komisyonunda kabul edildi.",
+        "kategori": "gundem",
+        "dosya": "auto-terorsuz-turkiye-yasa-teklifi-komisyondan-gecti.html",
+        "kaynak": "TRT Haber",
+        "tarih": "08.08.2026",
+        "gorsel": "images/auto/terorsuz-turkiye-yasa-teklifi-komisyondan-gecti.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2480000/komisyon-2480612.jpg"
+    },
+    {
         "baslik": "Türkiye, Suudi Arabistan ve Pakistan'dan Mekke Savunma Anlaşması",
         "link": "https://www.trthaber.com/haber/dunya/turkiye-suudi-arabistan-ve-pakistandan-mekke-savunma-anlasmasi-953358.html",
         "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan, Suudi Arabistan Veliaht Prensi Selman ve Pakistan Başbakanı Şerif, Türkiye-Suudi Arabistan-Pakistan üçlü savunma anlaşmasını imzaladı.",
@@ -11,26 +22,15 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2480000/erdogan-2480424.jpg"
     },
     {
-        "baslik": "Terörsüz Türkiye yasa teklifi Adalet Komisyonu'nda",
-        "link": "https://www.trthaber.com/haber/gundem/terorsuz-turkiye-yasa-teklifi-adalet-komisyonunda-953370.html",
-        "ozet": "TBMM Adalet Komisyonu, Milli Dayanışma ve Toplumsal Bütünleşmenin Güçlendirilmesine Dair Kanun Teklifi'ni görüşmek üzere toplandı.",
+        "baslik": "Bakan Gürlek: Terör belasından kurtulma arifesindeyiz",
+        "link": "https://www.trthaber.com/haber/gundem/bakan-gurlek-teror-belasindan-kurtulma-arifesindeyiz-953384.html",
+        "ozet": "Adalet Bakanı Akın Gürlek, \"Bölge insanımızın 40 yılı aşkın kanayan yarısı, devletimizin gelişmesi, kalkınması ve huzur ortamının en büyük tehdidi olan terör belasından kurtulma arifesindeyiz. Allah'ın izniyle, milletimizin şuurlu duruşu ile bu defter kapanacak ve ülkemiz için bembeyaz bir sayfa açılacaktır\" ifadelerini kullandı.",
         "kategori": "gundem",
-        "dosya": "auto-terorsuz-turkiye-yasa-teklifi-adalet-komisyonunda.html",
+        "dosya": "auto-bakan-gurlek-teror-belasindan-kurtulma-arifesindeyiz.html",
         "kaynak": "TRT Haber",
         "tarih": "08.08.2026",
-        "gorsel": "images/auto/terorsuz-turkiye-yasa-teklifi-adalet-komisyonunda.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2282000/tbmm-aa-2282394.jpg"
-    },
-    {
-        "baslik": "FETÖ firarisi Karatepe'nin gömdüğü mühimmat aranıyor",
-        "link": "https://www.trthaber.com/haber/gundem/feto-firarisi-karatepenin-gomdugu-muhimmat-araniyor-953360.html",
-        "ozet": "15 Temmuz darbe girişiminde Marmaris'te Cumhurbaşkanı Erdoğan'a yönelik suikast teşebbüsüne katılan ve 10 yıl sonra yakalanan FETÖ'cü terörist Burkay Karatepe'nin beyanları doğrultusunda, Marmaris'te gömülü olduğu iddia edilen silah ve mühmmatın  bulunması için geniş kapsamlı çalışma başlatıldı.",
-        "kategori": "gundem",
-        "dosya": "auto-feto-firarisi-karatepenin-gomdugu-muhimmat-araniyor.html",
-        "kaynak": "TRT Haber",
-        "tarih": "08.08.2026",
-        "gorsel": "images/auto/feto-firarisi-karatepenin-gomdugu-muhimmat-araniyor.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2480000/muhimmat-arama-2480595.jpg"
+        "gorsel": "images/auto/bakan-gurlek-teror-belasindan-kurtulma-arifesindeyiz.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2480000/akin-gurlek-aa-2480598.jpg"
     },
     {
         "baslik": "Menderes Belediye Başkanı Çiçek tutuklandı",
@@ -44,15 +44,26 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2480000/ilkay-cicek-aa-2480419.jpg"
     },
     {
-        "baslik": "Ahbap Derneği'ne görevlendirme yapıldı",
-        "link": "https://www.trthaber.com/haber/gundem/ahbap-dernegine-gorevlendirme-yapildi-953350.html",
-        "ozet": "\"Ahbap Derneği adına toplanan bağışların şüphelilerin hesaplarına aktarıldığı\" iddiasına ilişkin yürütülen soruşturma kapsamında derneğin yönetimine kayyum atanmasına ve tüm faaliyetlerinin tedbiren durdurulmasına karar verildi.",
+        "baslik": "FETÖ firarisi Karatepe'nin gömdüğü mühimmat aranıyor",
+        "link": "https://www.trthaber.com/haber/gundem/feto-firarisi-karatepenin-gomdugu-muhimmat-araniyor-953360.html",
+        "ozet": "15 Temmuz darbe girişiminde Marmaris'te Cumhurbaşkanı Erdoğan'a yönelik suikast teşebbüsüne katılan ve 10 yıl sonra yakalanan FETÖ'cü terörist Burkay Karatepe'nin beyanları doğrultusunda, Marmaris'te gömülü olduğu iddia edilen silah ve mühmmatın  bulunması için geniş kapsamlı çalışma başlatıldı.",
         "kategori": "gundem",
-        "dosya": "auto-ahbap-dernegine-gorevlendirme-yapildi.html",
+        "dosya": "auto-feto-firarisi-karatepenin-gomdugu-muhimmat-araniyor.html",
         "kaynak": "TRT Haber",
         "tarih": "08.08.2026",
-        "gorsel": "images/auto/ahbap-dernegine-gorevlendirme-yapildi.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2474000/ahbap-haluk-levent-2475644.jpg"
+        "gorsel": "images/auto/feto-firarisi-karatepenin-gomdugu-muhimmat-araniyor.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2480000/muhimmat-arama-2480595.jpg"
+    },
+    {
+        "baslik": "Child among three killed in Russian missile attacks near Kyiv",
+        "link": "https://www.bbc.co.uk/news/articles/cz7dy8gq99eo?at_medium=RSS&at_campaign=rss",
+        "ozet": "Russia continued its overnight attacks after President Volodymyr Zelensky warned of Ukraine's dwindling supplies of missile interceptors.",
+        "kategori": "gundem",
+        "dosya": "auto-child-among-three-killed-in-russian-missile-attacks-near-kyi.html",
+        "kaynak": "BBC World",
+        "tarih": "08.08.2026",
+        "gorsel": "images/auto/child-among-three-killed-in-russian-missile-attacks-nea.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
         "baslik": "Spain imposes border controls against Italy as row over Ceuta migrant influx intensifies",
@@ -88,25 +99,14 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Saudi Arabia, Turkey and Pakistan sign defence pact",
-        "link": "https://www.bbc.co.uk/news/articles/c30418m4mj4o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Pakistan says an attack on any of the three will amount to an attack against all, amid conflict in the Middle East.",
-        "kategori": "gundem",
-        "dosya": "auto-saudi-arabia-turkey-and-pakistan-sign-defence-pact.html",
+        "baslik": "'I ran because I knew I would die': Russian drones target medics in Ukraine",
+        "link": "https://www.bbc.co.uk/news/articles/c3r073eqvrjo?at_medium=RSS&at_campaign=rss",
+        "ozet": "Ukrainian emergency workers warn of growing Russian attacks on hospitals and ambulances.",
+        "kategori": "teknoloji",
+        "dosya": "auto-i-ran-because-i-knew-i-would-die-russian-drones-target-medic.html",
         "kaynak": "BBC World",
         "tarih": "08.08.2026",
-        "gorsel": "images/auto/saudi-arabia-turkey-and-pakistan-sign-defence-pact.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Spanish police arrest 78 people in bust of 'one of largest' smuggling networks",
-        "link": "https://www.bbc.co.uk/news/articles/clylejzkkx4o?at_medium=RSS&at_campaign=rss",
-        "ozet": "The group moved synthetic drugs from Spain to Algeria, then used the return journey to smuggle migrants and weapons.",
-        "kategori": "gundem",
-        "dosya": "auto-spanish-police-arrest-78-people-in-bust-of-one-of-largest-sm.html",
-        "kaynak": "BBC World",
-        "tarih": "08.08.2026",
-        "gorsel": "images/auto/spanish-police-arrest-78-people-in-bust-of-one-of-large.jpg",
+        "gorsel": "images/auto/i-ran-because-i-knew-i-would-die-russian-drones-target-.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
