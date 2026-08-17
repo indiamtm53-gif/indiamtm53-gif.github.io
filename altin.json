@@ -2,10 +2,10 @@
     {
         "kod": "GRAM",
         "ad": "Gram Altın",
-        "deger": 6740.57,
+        "deger": 6793.85,
         "birim": "₺",
-        "kaynak": "https://api.gold-api.com/price/XAU/USD",
+        "kaynak": "https://api.gold-api.com/price/XAU",
         "not": "Uluslararası ons altın ve USD/TRY kuru üzerinden hesaplanmıştır.",
-        "guncelleme": "16.08.2026 18:25"
+        "guncelleme": "17.08.2026 01:09"
     }
 ]
