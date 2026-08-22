@@ -1,14 +1,14 @@
 [
     {
-        "baslik": "Milli teknolojiler denizde gövde gösterisi yapıyor",
-        "link": "https://www.trthaber.com/haber/gundem/milli-teknolojiler-denizde-govde-gosterisi-yapiyor-954617.html",
-        "ozet": "Türkiye'nin denizlerdeki gücünü, bağımsızlığını ve milli savunma kabiliyetlerini sergileyen TEKNOFEST Mavi Vatan, Gölcük Tersanesi Komutanlığı’nda üçüncü gününde de yoğun katılımla devam ediyor.",
-        "kategori": "teknoloji",
-        "dosya": "auto-milli-teknolojiler-denizde-govde-gosterisi-yapiyor.html",
+        "baslik": "TEKNOFEST Mavi Vatanda 3. gün coşkusu",
+        "link": "https://www.trthaber.com/haber/gundem/teknofest-mavi-vatanda-3-gun-coskusu-954666.html",
+        "ozet": "Türkiye'nin denizlerdeki gücünü, bağımsızlığını ve milli savunma kabiliyetlerini sergileyen TEKNOFEST Mavi Vatan'a, Gölcük Tersanesi Komutanlığı’nda üçüncü gününde de yoğun katılım oldu.",
+        "kategori": "gundem",
+        "dosya": "auto-teknofest-mavi-vatanda-3-gun-coskusu.html",
         "kaynak": "TRT Haber",
         "tarih": "22.08.2026",
-        "gorsel": "images/auto/milli-teknolojiler-denizde-govde-gosterisi-yapiyor.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2484000/teknofest-2484216.jpg"
+        "gorsel": "images/auto/teknofest-mavi-vatanda-3-gun-coskusu.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2484000/teknofest-mavi-vatan-aa-2484293.jpg"
     },
     {
         "baslik": "Alihan Kuriş suç örgütü soruşturmasında 12 şüpheli daha yakalandı",
@@ -44,25 +44,36 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2484000/cop-2484249.jpg"
     },
     {
-        "baslik": "Hafta sonu hava nasıl olacak?",
-        "link": "https://www.trthaber.com/haber/turkiye/hafta-sonu-hava-nasil-olacak-954613.html",
-        "ozet": "Yurt genelinde sıcak hava etkisini sürdürüyor. Hafta sonu sıcaklıkların birkaç derece daha artması beklenirken, Güneydoğu Anadolu'da termometreler 43 dereceyi gösterecek. Bazı bölgelerde ise yerel sağanak görülecek.",
+        "baslik": "Filenin Sultanları Slovenya ile karşılaşacak",
+        "link": "https://www.trthaber.com/haber/gundem/filenin-sultanlari-slovenya-ile-karsilasacak-954644.html",
+        "ozet": "A Milli Kadın Voleybol Takımı, Trendyol 2026 Avrupa Şampiyonası'ndaki ikinci maçında yarın Slovenya ile karşı karşıya gelecek.",
         "kategori": "gundem",
-        "dosya": "auto-hafta-sonu-hava-nasil-olacak.html",
+        "dosya": "auto-filenin-sultanlari-slovenya-ile-karsilasacak.html",
         "kaynak": "TRT Haber",
         "tarih": "22.08.2026",
-        "gorsel": "images/auto/hafta-sonu-hava-nasil-olacak.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2472000/istanbul-sicak-hava-aa-2472323.jpg"
+        "gorsel": "images/auto/filenin-sultanlari-slovenya-ile-karsilasacak.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2394000/filenin-sultanlari-aa-2395155.jpg"
     },
     {
-        "baslik": "Canada says it will match US tariffs 'dollar for dollar' as trade talks break down",
-        "link": "https://www.bbc.co.uk/news/articles/cvgvyy4x2mvo?at_medium=RSS&at_campaign=rss",
-        "ozet": "A new 50% levy on $20bn of Canadian imports comes into force after a last-minute breakdown in trade talks.",
+        "baslik": "Carney calls Trump's fresh tariffs a 'miscalculation' after trade talks collapse",
+        "link": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+        "ozet": "Canada's prime minister said he was \"reluctantly\" announcing retaliatory tariffs as he accused the US of starting a trade war.",
         "kategori": "gundem",
-        "dosya": "auto-canada-says-it-will-match-us-tariffs-dollar-for-dollar-as-tr.html",
+        "dosya": "auto-carney-calls-trumps-fresh-tariffs-a-miscalculation-after-tra.html",
         "kaynak": "BBC World",
         "tarih": "22.08.2026",
-        "gorsel": "images/auto/canada-says-it-will-match-us-tariffs-dollar-for-dollar-.jpg",
+        "gorsel": "images/auto/carney-calls-trumps-fresh-tariffs-a-miscalculation-afte.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "Carney faces crucial test after walking away from Trump's deal",
+        "link": "https://www.bbc.co.uk/news/articles/c3040pn8lmmo?at_medium=RSS&at_campaign=rss",
+        "ozet": "The Canadian prime minister will have to sell his gamble that walking away from talks with the White House will be worth the consequences.",
+        "kategori": "gundem",
+        "dosya": "auto-carney-faces-crucial-test-after-walking-away-from-trumps-dea.html",
+        "kaynak": "BBC World",
+        "tarih": "22.08.2026",
+        "gorsel": "images/auto/carney-faces-crucial-test-after-walking-away-from-trump.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
@@ -77,36 +88,25 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Israel re-establishes closed West Bank settlement, defying growing international protests",
-        "link": "https://www.bbc.co.uk/news/articles/cn7n0l4p0kzo?at_medium=RSS&at_campaign=rss",
-        "ozet": "Thirty \"pioneer families\" have arrived on a wave of nationalism driven by Israel's government, but the rapid change has left nearby Palestinian residents fearful.",
-        "kategori": "ekonomi",
-        "dosya": "auto-israel-re-establishes-closed-west-bank-settlement-defying-gr.html",
+        "baslik": "Fourteen killed in strike on Myanmar monastery",
+        "link": "https://www.bbc.co.uk/news/articles/cqlxlvz01z1o?at_medium=RSS&at_campaign=rss",
+        "ozet": "A rescue worker said the site had been struck twice as civilians gathered for a meditation retreat.",
+        "kategori": "gundem",
+        "dosya": "auto-fourteen-killed-in-strike-on-myanmar-monastery.html",
         "kaynak": "BBC World",
         "tarih": "22.08.2026",
-        "gorsel": "images/auto/israel-re-establishes-closed-west-bank-settlement-defyi.jpg",
+        "gorsel": "images/auto/fourteen-killed-in-strike-on-myanmar-monastery.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' strike",
+        "baslik": "Rescuers dig through Ukraine mall wreckage as Zelensky condemns 'despicable' Russian strike",
         "link": "https://www.bbc.co.uk/news/articles/c39egw7nmk2o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Nine people are still missing after the attack which left 130 injured, including a number of children.",
+        "ozet": "Four people are still missing after Friday's attack which killed 16 and left 130 injured, including a number of children.",
         "kategori": "teknoloji",
         "dosya": "auto-rescuers-dig-through-ukraine-mall-wreckage-as-zelensky-conde.html",
         "kaynak": "BBC World",
         "tarih": "22.08.2026",
         "gorsel": "images/auto/rescuers-dig-through-ukraine-mall-wreckage-as-zelensky-.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "One killed in sword attack at Swedish school",
-        "link": "https://www.bbc.co.uk/news/articles/c3r0g7gj2n3o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Officials say another three people were injured, and an 18-year-old male suspect shot and arrested.",
-        "kategori": "gundem",
-        "dosya": "auto-one-killed-in-sword-attack-at-swedish-school.html",
-        "kaynak": "BBC World",
-        "tarih": "22.08.2026",
-        "gorsel": "images/auto/one-killed-in-sword-attack-at-swedish-school.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
