@@ -2,7 +2,7 @@
     {
         "kod": "USD",
         "ad": "Amerikan Doları",
-        "deger": 48.08,
+        "deger": 48.1,
         "birim": "₺"
     },
     {
@@ -20,7 +20,7 @@
     {
         "kod": "BTC",
         "ad": "Bitcoin",
-        "deger": 3791939,
+        "deger": 3806844,
         "birim": "₺"
     }
 ]
