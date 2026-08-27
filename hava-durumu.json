@@ -1,34 +1,34 @@
 [
     {
         "sehir": "İstanbul",
-        "sicaklik": 26.4,
-        "hissedilen": 29.0,
-        "nem": 67,
-        "ruzgar": 8.0,
-        "guncelleme": "27.08.2026 07:23"
+        "sicaklik": 23.0,
+        "hissedilen": 25.5,
+        "nem": 78,
+        "ruzgar": 5.2,
+        "guncelleme": "27.08.2026 21:47"
     },
     {
         "sehir": "Ankara",
-        "sicaklik": 26.4,
-        "hissedilen": 27.1,
-        "nem": 40,
-        "ruzgar": 3.3,
-        "guncelleme": "27.08.2026 07:23"
+        "sicaklik": 21.4,
+        "hissedilen": 21.3,
+        "nem": 51,
+        "ruzgar": 2.6,
+        "guncelleme": "27.08.2026 21:47"
     },
     {
         "sehir": "İzmir",
-        "sicaklik": 32.8,
-        "hissedilen": 32.7,
-        "nem": 30,
-        "ruzgar": 8.4,
-        "guncelleme": "27.08.2026 07:23"
+        "sicaklik": 27.7,
+        "hissedilen": 27.8,
+        "nem": 40,
+        "ruzgar": 5.4,
+        "guncelleme": "27.08.2026 21:47"
     },
     {
         "sehir": "Gaziantep",
-        "sicaklik": 31.5,
-        "hissedilen": 30.8,
-        "nem": 29,
-        "ruzgar": 14.8,
-        "guncelleme": "27.08.2026 07:23"
+        "sicaklik": 27.4,
+        "hissedilen": 27.5,
+        "nem": 48,
+        "ruzgar": 12.2,
+        "guncelleme": "27.08.2026 21:47"
     }
 ]
