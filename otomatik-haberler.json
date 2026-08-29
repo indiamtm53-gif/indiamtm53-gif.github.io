@@ -1,41 +1,19 @@
 [
     {
-        "baslik": "Gülistan Doku soruşturmasında yeni operasyon: 10 gözaltı",
-        "link": "https://www.trthaber.com/haber/gundem/gulistan-doku-sorusturmasinda-yeni-operasyon-10-gozalti-955278.html",
-        "ozet": "Adalet Bakanı Akın Gürlek, Gülistan Doku'nun kaybolmasına ilişkin yürütülen soruşturma kapsamında gerçekleştirilen yeni operasyonda 10 şüphelinin gözaltına alındığını duyurdu.",
+        "baslik": "Dışişleri Bakanlığı: Uluslararası toplum Netanyahu hükümetinin yalanlarına inanmıyor",
+        "link": "https://www.trthaber.com/haber/gundem/disisleri-bakanligi-uluslararasi-toplum-netanyahu-hukumetinin-yalanlarina-inanmiyor-955331.html",
+        "ozet": "Dışişleri Bakanlığı, \"İsrail Dışişleri Bakanlığı tarafından yapılan açıklamada Sayın Cumhurbaşkanımızı hedef alan yalan ve iftiralar, Netanyahu başta olmak üzere İsrail hükümetinde görev yapan suçluların içinde bulunduğu korkak ve çürümüş zihniyeti yansıtmaktadır\" açıklamasını yaptı.",
         "kategori": "gundem",
-        "dosya": "auto-gulistan-doku-sorusturmasinda-yeni-operasyon-10-gozalti.html",
+        "dosya": "auto-disisleri-bakanligi-uluslararasi-toplum-netanyahu-hukumetini.html",
         "kaynak": "TRT Haber",
         "tarih": "29.08.2026",
-        "gorsel": "images/auto/gulistan-doku-sorusturmasinda-yeni-operasyon-10-gozalti.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2454000/gulistan-2455362.jpg"
-    },
-    {
-        "baslik": "Bahçeli: Bu vatan üzerinde son söz Türk milletinindir",
-        "link": "https://www.trthaber.com/haber/gundem/bahceli-bu-vatan-uzerinde-son-soz-turk-milletinindir-955294.html",
-        "ozet": "MHP Genel Başkanı Devlet Bahçeli, 30 Ağustos Zafer Bayramı dolayısıyla mesaj yayımladı.  Bahçeli, mesajında \"Kocatepe’de alınan karar, Dumlupınar’da verilen hüküm, İzmir’de nihayet bulan hakikat bellidir: Bu vatan üzerinde son söz Türk milletinindir!\" dedi.",
-        "kategori": "gundem",
-        "dosya": "auto-bahceli-bu-vatan-uzerinde-son-soz-turk-milletinindir.html",
-        "kaynak": "TRT Haber",
-        "tarih": "29.08.2026",
-        "gorsel": "images/auto/bahceli-bu-vatan-uzerinde-son-soz-turk-milletinindir.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2466000/devlet-bahceliaa-2467387.jpg"
-    },
-    {
-        "baslik": "DOA ile 130 milyon içecek ambalajı geri dönüşüme kazandırıldı",
-        "link": "https://www.trthaber.com/haber/ekonomi/doa-ile-130-milyon-icecek-ambalaji-geri-donusume-kazandirildi-955291.html",
-        "ozet": "Türkiye genelinde Depozitosu Olan Ambalajlar (DOA) sistemi kapsamında 1 Temmuz'dan bu yana 130 milyon içecek ambalajı geri dönüşüm sürecine dahil edildi.",
-        "kategori": "gundem",
-        "dosya": "auto-doa-ile-130-milyon-icecek-ambalaji-geri-donusume-kazandirild.html",
-        "kaynak": "TRT Haber",
-        "tarih": "29.08.2026",
-        "gorsel": "images/auto/doa-ile-130-milyon-icecek-ambalaji-geri-donusume-kazand.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2484000/doa-iade-depozito-trt-2484543.jpg"
+        "gorsel": "images/auto/disisleri-bakanligi-uluslararasi-toplum-netanyahu-hukum.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1760000/disisleri-bakanligi-depo-1761807.jpg"
     },
     {
         "baslik": "Muğla'da başlayan orman yangını Antalya'ya sıçradı",
         "link": "https://www.trthaber.com/haber/turkiye/muglada-baslayan-orman-yangini-antalyaya-sicradi-955303.html",
-        "ozet": "Muğla'nın Seydikemer ilçesinde tarım alanında başlayıp ormana sıçrayan yangın, bölgede etkili olan rüzgar nedeniyle Antalya'nın Kaş ilçesine sıçradı.",
+        "ozet": "Muğla'nın Seydikemer ilçesinde başladıktan sonra rüzgarın etkisiyle Antalya'nın Kaş ilçesine sıçrayan orman yangını, havadan ve karadan müdahalelerle büyük ölçüde kontrol altına alındı.",
         "kategori": "gundem",
         "dosya": "auto-muglada-baslayan-orman-yangini-antalyaya-sicradi.html",
         "kaynak": "TRT Haber",
@@ -44,15 +22,37 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2484000/ormanm-yangini-2485783.jpg"
     },
     {
-        "baslik": "SGK geri ödeme listesine 3 ilaç daha eklendi",
-        "link": "https://www.trthaber.com/haber/saglik/sgk-geri-odeme-listesine-3-ilac-daha-eklendi-955283.html",
-        "ozet": "Çalışma ve Sosyal Güvenlik Bakanı Vedat Işıkhan, 2 Hemofili B ve bir kanser ilacının daha Sosyal Güvenlik Kurumunun (SGK) geri ödeme listesine alındığını bildirdi.",
+        "baslik": "Beşiktaş ve Trabzonspor'un Avrupa'daki fikstürü belli oldu",
+        "link": "https://www.trthaber.com/haber/gundem/besiktas-ve-trabzonsporun-avrupadaki-fiksturu-belli-oldu-955330.html",
+        "ozet": "UEFA Avrupa Ligi'nde mücadele eden temsilcimiz Beşiktaş'ın ve UEFA Konferans Ligi'nde mücadele eden temsilcimiz Trabzonspor'un lig aşaması fikstürü açıklandı.",
         "kategori": "gundem",
-        "dosya": "auto-sgk-geri-odeme-listesine-3-ilac-daha-eklendi.html",
+        "dosya": "auto-besiktas-ve-trabzonsporun-avrupadaki-fiksturu-belli-oldu.html",
         "kaynak": "TRT Haber",
         "tarih": "29.08.2026",
-        "gorsel": "images/auto/sgk-geri-odeme-listesine-3-ilac-daha-eklendi.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2262000/sgk-2262842.jpg"
+        "gorsel": "images/auto/besiktas-ve-trabzonsporun-avrupadaki-fiksturu-belli-old.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2484000/besiktas-trabzonspor-2485711.jpg"
+    },
+    {
+        "baslik": "Bakırköy'de güzellik merkezinde gizli kamera kuran 2 şüpheli tutuklandı",
+        "link": "https://www.trthaber.com/haber/turkiye/bakirkoyde-guzellik-merkezinde-gizli-kamera-kuran-2-supheli-tutuklandi-955327.html",
+        "ozet": "Bakırköy'deki bir güzellik merkezinde müşterilere ait görüntülerin gizlice kaydedilerek sosyal medya platformları üzerinden ücret karşılığında izletildiği iddiasına ilişkin gözaltına alınan 2 şüpheli tutuklandı.",
+        "kategori": "gundem",
+        "dosya": "auto-bakirkoyde-guzellik-merkezinde-gizli-kamera-kuran-2-supheli-.html",
+        "kaynak": "TRT Haber",
+        "tarih": "29.08.2026",
+        "gorsel": "images/auto/bakirkoyde-guzellik-merkezinde-gizli-kamera-kuran-2-sup.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2428000/polis-gozalti-stok-2428656.jpg"
+    },
+    {
+        "baslik": "Cem Yılmaz rahatsızlandığı Çanakkale'de hastaneye kaldırıldı",
+        "link": "https://www.trthaber.com/haber/turkiye/cem-yilmaz-rahatsizlandigi-canakkalede-hastaneye-kaldirildi-955329.html",
+        "ozet": "Komedyen Cem Yılmaz, Çanakkale'nin Ayvacık ilçesindeki evinde rahatsızlanması üzerine kaldırıldığı hastanede tedavi altına alındı.",
+        "kategori": "gundem",
+        "dosya": "auto-cem-yilmaz-rahatsizlandigi-canakkalede-hastaneye-kaldirildi.html",
+        "kaynak": "TRT Haber",
+        "tarih": "29.08.2026",
+        "gorsel": "images/auto/cem-yilmaz-rahatsizlandigi-canakkalede-hastaneye-kaldir.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2484000/cem-yilmaz-aa-2485797.jpg"
     },
     {
         "baslik": "Footage of Tibet floods isn't being shown in China - and we know little about victims there",
@@ -66,9 +66,9 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "At least 37 dead and hundreds evacuated after strike on Kyiv warehouse",
+        "baslik": "At least 37 dead and hundreds evacuated after strike on Kyiv weapons depot",
         "link": "https://www.bbc.co.uk/news/articles/c86xwqez4npo?at_medium=RSS&at_campaign=rss",
-        "ozet": "An investigation has been launched into whether ammunition was being stored at the site.",
+        "ozet": "An investigation has begun into the storage of weapons for Ukraine's military near a residential area.",
         "kategori": "gundem",
         "dosya": "auto-at-least-37-dead-and-hundreds-evacuated-after-strike-on-kyiv.html",
         "kaynak": "BBC World",
@@ -77,36 +77,36 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Trump hails 'historic' deal for US to control 65bn barrels of Venezuela's oil",
-        "link": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Venezuelan interim president says the unusual agreement will help revive her country's economy.",
-        "kategori": "teknoloji",
-        "dosya": "auto-trump-hails-historic-deal-for-us-to-control-65bn-barrels-of-.html",
+        "baslik": "Right-wing commentator Milo Yiannopoulos deported from US to UK",
+        "link": "https://www.bbc.co.uk/news/articles/cqlw52vr0dwo?at_medium=RSS&at_campaign=rss",
+        "ozet": "The self-styled provocateur had been detained by Immigration and Customs Enforcement (ICE).",
+        "kategori": "gundem",
+        "dosya": "auto-right-wing-commentator-milo-yiannopoulos-deported-from-us-to.html",
         "kaynak": "BBC World",
         "tarih": "29.08.2026",
-        "gorsel": "images/auto/trump-hails-historic-deal-for-us-to-control-65bn-barrel.jpg",
+        "gorsel": "images/auto/right-wing-commentator-milo-yiannopoulos-deported-from-.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Landlady to 9/11 hijackers reveals their links to alleged Saudi spy",
-        "link": "https://www.bbc.co.uk/news/articles/c99dvm39mreo?at_medium=RSS&at_campaign=rss",
-        "ozet": "A woman who rented out homes to two al-Qaeda members speaks publicly for the first time - to the BBC.",
+        "baslik": "Norway's new king remembers 'my dear father' in first speech",
+        "link": "https://www.bbc.co.uk/news/articles/cvgy79wmv4jo?at_medium=RSS&at_campaign=rss",
+        "ozet": "Haakon VIII pays emotional tribute to his late father, Harald V, before outlining how he wishes to reign.",
         "kategori": "gundem",
-        "dosya": "auto-landlady-to-911-hijackers-reveals-their-links-to-alleged-sau.html",
+        "dosya": "auto-norways-new-king-remembers-my-dear-father-in-first-speech.html",
         "kaynak": "BBC World",
         "tarih": "29.08.2026",
-        "gorsel": "images/auto/landlady-to-911-hijackers-reveals-their-links-to-allege.jpg",
+        "gorsel": "images/auto/norways-new-king-remembers-my-dear-father-in-first-spee.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Norway mourns King Harald as Haakon VIII ascends throne",
-        "link": "https://www.bbc.co.uk/news/articles/cm2rzxrdr71o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Mourners gather outside the palace as royals, politicians and citizens remember a beloved king, whose son has adopted the family motto \"all for norway\".",
+        "baslik": "Former Ecuadorian president imprisoned for corruption",
+        "link": "https://www.bbc.co.uk/news/articles/cvgym9rz07zo?at_medium=RSS&at_campaign=rss",
+        "ozet": "Lenín Moreno denies taking bribes from a Chinese firm to secure a contract to build a hydroelectric plant.",
         "kategori": "gundem",
-        "dosya": "auto-norway-mourns-king-harald-as-haakon-viii-ascends-throne.html",
+        "dosya": "auto-former-ecuadorian-president-imprisoned-for-corruption.html",
         "kaynak": "BBC World",
         "tarih": "29.08.2026",
-        "gorsel": "images/auto/norway-mourns-king-harald-as-haakon-viii-ascends-throne.jpg",
+        "gorsel": "images/auto/former-ecuadorian-president-imprisoned-for-corruption.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
