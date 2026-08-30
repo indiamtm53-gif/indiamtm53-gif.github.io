@@ -1,14 +1,47 @@
 [
     {
-        "baslik": "Türk ordusunun kahramanlık destanı: 30 Ağustos",
-        "link": "https://www.trthaber.com/haber/gundem/turk-ordusunun-kahramanlik-destani-30-agustos-955328.html",
-        "ozet": "Mustafa Kemal Paşa komutasındaki Türk ordusunun 30 Ağustos Zaferi ile sonuçlanan Büyük Taarruz ve Başkomutanlık Meydan Muharebesi, en büyük kahramanlık destanlarından biri olarak tarihe geçti. Türk ordusunun kahramanlık destanı 30 Ağustos Zaferi'nin 104. yılı.",
+        "baslik": "Cumhurbaşkanı Erdoğan: Milletimizin istiklal ve istikbaline sahip çıkıyoruz",
+        "link": "https://www.trthaber.com/haber/gundem/cumhurbaskani-erdogan-milletimizin-istiklal-ve-istikbaline-sahip-cikiyoruz-955351.html",
+        "ozet": "Cumhurbaşkanı Recep Tayyip Erdoğan \"Bundan 104 yıl önce olduğu gibi, bugün de ülkemizi ve coğrafyamızı hedef alan menfur planlara müsaade etmiyor, milletimizin istiklal ve istikbaline kararlılıkla sahip çıkıyoruz\" dedi.",
         "kategori": "gundem",
-        "dosya": "auto-turk-ordusunun-kahramanlik-destani-30-agustos.html",
+        "dosya": "auto-cumhurbaskani-erdogan-milletimizin-istiklal-ve-istikbaline-s.html",
         "kaynak": "TRT Haber",
         "tarih": "30.08.2026",
-        "gorsel": "images/auto/turk-ordusunun-kahramanlik-destani-30-agustos.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2484000/30-agustos-2485796.jpg"
+        "gorsel": "images/auto/cumhurbaskani-erdogan-milletimizin-istiklal-ve-istikbal.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2484000/erdogan-2485846.jpg"
+    },
+    {
+        "baslik": "Girne açıklarında yaklaşık 260 yolcusu bulunan feribot battı",
+        "link": "https://www.trthaber.com/haber/gundem/girne-aciklarinda-yaklasik-260-yolcusu-bulunan-feribot-batti-955367.html",
+        "ozet": "KKTC Bayındırlık ve Ulaştırma Bakanı Erhan Arıklı, Girne'nin 4 mil açıklarında yaklaşık 260 yolcusu bulunan bir feribotun su alarak battığını, kurtarma çalışmalarının tüm hızıyla sürdüğünü bildirdi.",
+        "kategori": "gundem",
+        "dosya": "auto-girne-aciklarinda-yaklasik-260-yolcusu-bulunan-feribot-batti.html",
+        "kaynak": "TRT Haber",
+        "tarih": "30.08.2026",
+        "gorsel": "images/auto/girne-aciklarinda-yaklasik-260-yolcusu-bulunan-feribot-.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2026000/son-dakika-dakika-son-dakika-2026652.jpg"
+    },
+    {
+        "baslik": "Mekke Anlaşması kapsamında kurulan komite ilk kez İstanbul'da toplanacak",
+        "link": "https://www.trthaber.com/haber/gundem/mekke-anlasmasi-kapsaminda-kurulan-komite-ilk-kez-istanbulda-toplanacak-955366.html",
+        "ozet": "Türkiye, Pakistan ve Suudi Arabistan arasında imzalanan Mekke Ortak Savunma Anlaşması kapsamında kurulan Stratejik Siyasi ve Savunma Komitesi, ilk toplantısını yarın İstanbul’da yapacak. Toplantıda savunma iş birliği, ortak üretim, terörle mücadele ve uluslararası güvenlik başlıkları ele alınacak.",
+        "kategori": "gundem",
+        "dosya": "auto-mekke-anlasmasi-kapsaminda-kurulan-komite-ilk-kez-istanbulda.html",
+        "kaynak": "TRT Haber",
+        "tarih": "30.08.2026",
+        "gorsel": "images/auto/mekke-anlasmasi-kapsaminda-kurulan-komite-ilk-kez-istan.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2480000/erdogan-2480424.jpg"
+    },
+    {
+        "baslik": "Afyonkarahisar'da Büyük Taarruz'un 104. yıl dönümü dolayısıyla fener alayı düzenlendi",
+        "link": "https://www.trthaber.com/haber/turkiye/afyonkarahisarda-buyuk-taarruzun-104-yil-donumu-dolayisiyla-fener-alayi-duzenlendi-955334.html",
+        "ozet": "Afyonkarahisar'da Büyük Taarruz'un 104. yıl dönümü dolayısıyla \"Zafer Bayramı Fener Alayı\" gerçekleştirildi.",
+        "kategori": "gundem",
+        "dosya": "auto-afyonkarahisarda-buyuk-taarruzun-104-yil-donumu-dolayisiyla-.html",
+        "kaynak": "TRT Haber",
+        "tarih": "30.08.2026",
+        "gorsel": "images/auto/afyonkarahisarda-buyuk-taarruzun-104-yil-donumu-dolayis.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2484000/afyonkarahisar-fener-alayiaa-2485798.jpg"
     },
     {
         "baslik": "Dışişleri Bakanlığı: Uluslararası toplum Netanyahu hükümetinin yalanlarına inanmıyor",
@@ -22,39 +55,6 @@
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1760000/disisleri-bakanligi-depo-1761807.jpg"
     },
     {
-        "baslik": "Muğla'da başlayan orman yangını Antalya'ya sıçradı",
-        "link": "https://www.trthaber.com/haber/turkiye/muglada-baslayan-orman-yangini-antalyaya-sicradi-955303.html",
-        "ozet": "Muğla'nın Seydikemer ilçesinde başladıktan sonra rüzgarın etkisiyle Antalya'nın Kaş ilçesine sıçrayan orman yangını, havadan ve karadan müdahalelerle büyük ölçüde kontrol altına alındı.",
-        "kategori": "gundem",
-        "dosya": "auto-muglada-baslayan-orman-yangini-antalyaya-sicradi.html",
-        "kaynak": "TRT Haber",
-        "tarih": "30.08.2026",
-        "gorsel": "images/auto/muglada-baslayan-orman-yangini-antalyaya-sicradi.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2484000/ormanm-yangini-2485783.jpg"
-    },
-    {
-        "baslik": "Esir düşen askerlerin mektupları 113 yıl sonra ailelerine teslim edildi",
-        "link": "https://www.trthaber.com/haber/turkiye/esir-dusen-askerlerin-mektuplari-113-yil-sonra-ailelerine-teslim-edildi-955326.html",
-        "ozet": "Sivas Valiliği bünyesinde kurulan Sivas Hafıza Merkezi, Türk Kızılay arşivinde saklı kalmış Balkan Harbi ve 1. Dünya Savaşı'nda esir düşen askerlerin ailelerine yazdıkları ancak çeşitli sebeplerle ulaşmamış yadigar mektuplara ulaşarak onların hayatta olan çocuklarına ve torunlarına teslim etmeye başladı.",
-        "kategori": "teknoloji",
-        "dosya": "auto-esir-dusen-askerlerin-mektuplari-113-yil-sonra-ailelerine-te.html",
-        "kaynak": "TRT Haber",
-        "tarih": "30.08.2026",
-        "gorsel": "images/auto/esir-dusen-askerlerin-mektuplari-113-yil-sonra-aileleri.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2484000/esir-dusen-askerler-mektup-aa-2485795.jpg"
-    },
-    {
-        "baslik": "Cem Yılmaz rahatsızlandığı Çanakkale'de hastaneye kaldırıldı",
-        "link": "https://www.trthaber.com/haber/turkiye/cem-yilmaz-rahatsizlandigi-canakkalede-hastaneye-kaldirildi-955329.html",
-        "ozet": "Komedyen Cem Yılmaz, Çanakkale'nin Ayvacık ilçesindeki evinde rahatsızlanması üzerine kaldırıldığı hastanede tedavi altına alındı. Cem Yılmaz'ın anjiyosunun iyi geçtiği ve tedavisinin sürdüğü açıklandı.",
-        "kategori": "gundem",
-        "dosya": "auto-cem-yilmaz-rahatsizlandigi-canakkalede-hastaneye-kaldirildi.html",
-        "kaynak": "TRT Haber",
-        "tarih": "30.08.2026",
-        "gorsel": "images/auto/cem-yilmaz-rahatsizlandigi-canakkalede-hastaneye-kaldir.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2484000/cem-yilmaz-aa-2485797.jpg"
-    },
-    {
         "baslik": "Footage of Tibet floods isn't being shown in China - and we know little about victims there",
         "link": "https://www.bbc.co.uk/news/articles/cx2z415w2gpo?at_medium=RSS&at_campaign=rss",
         "ozet": "Some of the most dramatic footage from the deadly flash flooding is hidden from public view in China.",
@@ -63,6 +63,28 @@
         "kaynak": "BBC World",
         "tarih": "30.08.2026",
         "gorsel": "images/auto/footage-of-tibet-floods-isnt-being-shown-in-china---and.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "Manhunt after shooting at Swiss rave kills woman, 22, and injures five",
+        "link": "https://www.bbc.co.uk/news/articles/c9qr750je1go?at_medium=RSS&at_campaign=rss",
+        "ozet": "Five others in their twenties were injured after shots were fired at a techno event near Zurich.",
+        "kategori": "gundem",
+        "dosya": "auto-manhunt-after-shooting-at-swiss-rave-kills-woman-22-and-inju.html",
+        "kaynak": "BBC World",
+        "tarih": "30.08.2026",
+        "gorsel": "images/auto/manhunt-after-shooting-at-swiss-rave-kills-woman-22-and.jpg",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "Iceland votes against restarting talks on joining EU",
+        "link": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
+        "ozet": "Broadcaster RUV reports that 52.8% of voters rejected the government's proposal to resume talks.",
+        "kategori": "teknoloji",
+        "dosya": "auto-iceland-votes-against-restarting-talks-on-joining-eu.html",
+        "kaynak": "BBC World",
+        "tarih": "30.08.2026",
+        "gorsel": "images/auto/iceland-votes-against-restarting-talks-on-joining-eu.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
@@ -77,36 +99,14 @@
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "Right-wing commentator Milo Yiannopoulos deported from US to UK",
-        "link": "https://www.bbc.co.uk/news/articles/cqlw52vr0dwo?at_medium=RSS&at_campaign=rss",
-        "ozet": "The self-styled provocateur had been detained by Immigration and Customs Enforcement (ICE).",
-        "kategori": "gundem",
-        "dosya": "auto-right-wing-commentator-milo-yiannopoulos-deported-from-us-to.html",
-        "kaynak": "BBC World",
-        "tarih": "30.08.2026",
-        "gorsel": "images/auto/right-wing-commentator-milo-yiannopoulos-deported-from-.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Canada installs large Lake Ontario sign in latest jab at US",
+        "baslik": "Large Lake Ontario sign installed in Canada in latest jab at US",
         "link": "https://www.bbc.co.uk/news/articles/cpq09594vw7o?at_medium=RSS&at_campaign=rss",
         "ozet": "Ontario Premier Doug Ford unveiled a billboard on Canada's shoreline with the message: \"Lake Ontario. Now and Always.\"",
         "kategori": "gundem",
-        "dosya": "auto-canada-installs-large-lake-ontario-sign-in-latest-jab-at-us.html",
+        "dosya": "auto-large-lake-ontario-sign-installed-in-canada-in-latest-jab-at.html",
         "kaynak": "BBC World",
         "tarih": "30.08.2026",
-        "gorsel": "images/auto/canada-installs-large-lake-ontario-sign-in-latest-jab-a.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Norway's new king remembers 'my dear father' in first speech",
-        "link": "https://www.bbc.co.uk/news/articles/cvgy79wmv4jo?at_medium=RSS&at_campaign=rss",
-        "ozet": "Haakon VIII pays emotional tribute to his late father, Harald V, before outlining how he wishes to reign.",
-        "kategori": "gundem",
-        "dosya": "auto-norways-new-king-remembers-my-dear-father-in-first-speech.html",
-        "kaynak": "BBC World",
-        "tarih": "30.08.2026",
-        "gorsel": "images/auto/norways-new-king-remembers-my-dear-father-in-first-spee.jpg",
+        "gorsel": "images/auto/large-lake-ontario-sign-installed-in-canada-in-latest-j.jpg",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
