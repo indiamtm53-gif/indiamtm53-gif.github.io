@@ -1,13 +1,13 @@
 [
     {
-        "baslik": "Girne açıklarında 267 kişiyi taşıyan feribot battı",
-        "link": "https://www.trthaber.com/haber/gundem/girne-aciklarinda-267-kisiyi-tasiyan-feribot-batti-955367.html",
-        "ozet": "KKTC Başbakanı Ünal Üstel, alabora olan ve 267 kişiyi taşıyan feribottaki 237 kişinin kurtarıldığını, 8 kişinin hayatını kaybettiğini, 23 kişi için arama kurtarma çalışmalarının sürdüğünü açıkladı. Arama çalışmaları Türkiye'den giden 2 İHA ve bir casa tipi uçakla sürdürülüyor.",
+        "baslik": "Girne açıklarında feribot battı: 8 kişi hayatını kaybetti, 18 kişi aranıyor",
+        "link": "https://www.trthaber.com/haber/gundem/girne-aciklarinda-feribot-batti-8-kisi-hayatini-kaybetti-18-kisi-araniyor-955367.html",
+        "ozet": "Girne açıklarında alabora olan ve 267 kişiyi taşıyan feribottaki 241 kişi kurtarıldı, 8 kişi hayatını kaybetti. 18 kişi için arama kurtarma çalışmaları sürüyor. Arama çalışmaları Türkiye'den giden 2 İHA ve bir casa tipi uçakla sürdürülüyor.",
         "kategori": "gundem",
-        "dosya": "auto-girne-aciklarinda-267-kisiyi-tasiyan-feribot-batti.html",
+        "dosya": "auto-girne-aciklarinda-feribot-batti-8-kisi-hayatini-kaybetti-18-.html",
         "kaynak": "TRT Haber",
-        "tarih": "30.08.2026",
-        "gorsel": "images/auto/girne-aciklarinda-267-kisiyi-tasiyan-feribot-batti.jpg",
+        "tarih": "31.08.2026",
+        "gorsel": "images/auto/girne-aciklarinda-feribot-batti-8-kisi-hayatini-kaybett.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2484000/feribot-kaza-2485924.jpg"
     },
     {
@@ -17,7 +17,7 @@
         "kategori": "gundem",
         "dosya": "auto-turkiyeden-kktcye-arama-kurtarma-destegi.html",
         "kaynak": "TRT Haber",
-        "tarih": "30.08.2026",
+        "tarih": "31.08.2026",
         "gorsel": "images/auto/turkiyeden-kktcye-arama-kurtarma-destegi.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/1686000/sahil-guvenlik-aa-1686733.jpg"
     },
@@ -28,9 +28,20 @@
         "kategori": "gundem",
         "dosya": "auto-kktcde-3-gunluk-yas-ilan-edildi.html",
         "kaynak": "TRT Haber",
-        "tarih": "30.08.2026",
+        "tarih": "31.08.2026",
         "gorsel": "images/auto/kktcde-3-gunluk-yas-ilan-edildi.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2416000/turkiye-kktc-bayrak-2416725.jpg"
+    },
+    {
+        "baslik": "Mekke Ortak Savunma Anlaşması'nın ilk komite toplantısı İstanbul'da",
+        "link": "https://www.trthaber.com/haber/gundem/mekke-ortak-savunma-anlasmasinin-ilk-komite-toplantisi-istanbulda-955410.html",
+        "ozet": "Türkiye, Pakistan ve Suudi Arabistan arasında imzalanan Mekke Ortak Savunma Anlaşması kapsamında kurulan Stratejik Siyasi ve Savunma Komitesi, ilk toplantısını yarın İstanbul’da yapacak. Toplantıda savunma iş birliği, ortak üretim, terörle mücadele ve uluslararası güvenlik başlıkları ele alınacak.",
+        "kategori": "gundem",
+        "dosya": "auto-mekke-ortak-savunma-anlasmasinin-ilk-komite-toplantisi-istan.html",
+        "kaynak": "TRT Haber",
+        "tarih": "31.08.2026",
+        "gorsel": "images/auto/mekke-ortak-savunma-anlasmasinin-ilk-komite-toplantisi-.jpg",
+        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2486000/pakistan-turkiye-suudi-arabistan-2486050.jpg"
     },
     {
         "baslik": "Cumhurbaşkanı Erdoğan, KKTC Cumhurbaşkanı Erhürman ve KKTC Başbakanı Üstel ile görüştü",
@@ -39,20 +50,9 @@
         "kategori": "gundem",
         "dosya": "auto-cumhurbaskani-erdogan-kktc-cumhurbaskani-erhurman-ve-kktc-ba.html",
         "kaynak": "TRT Haber",
-        "tarih": "30.08.2026",
+        "tarih": "31.08.2026",
         "gorsel": "images/auto/cumhurbaskani-erdogan-kktc-cumhurbaskani-erhurman-ve-kk.jpg",
         "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2486000/erdogan-kktc-aa-2486041.jpg"
-    },
-    {
-        "baslik": "Mekke Anlaşması kapsamında kurulan komite ilk kez İstanbul'da toplanacak",
-        "link": "https://www.trthaber.com/haber/gundem/mekke-anlasmasi-kapsaminda-kurulan-komite-ilk-kez-istanbulda-toplanacak-955366.html",
-        "ozet": "Türkiye, Pakistan ve Suudi Arabistan arasında imzalanan Mekke Ortak Savunma Anlaşması kapsamında kurulan Stratejik Siyasi ve Savunma Komitesi, ilk toplantısını yarın İstanbul’da yapacak. Toplantıda savunma iş birliği, ortak üretim, terörle mücadele ve uluslararası güvenlik başlıkları ele alınacak.",
-        "kategori": "gundem",
-        "dosya": "auto-mekke-anlasmasi-kapsaminda-kurulan-komite-ilk-kez-istanbulda.html",
-        "kaynak": "TRT Haber",
-        "tarih": "30.08.2026",
-        "gorsel": "images/auto/mekke-anlasmasi-kapsaminda-kurulan-komite-ilk-kez-istan.jpg",
-        "orijinal_gorsel": "https://trthaberstatic.cdn.wp.trt.com.tr/resimler/2480000/erdogan-2480424.jpg"
     },
     {
         "baslik": "Eight killed and others missing after ferry capsizes off northern Cyprus",
@@ -61,8 +61,19 @@
         "kategori": "gundem",
         "dosya": "auto-eight-killed-and-others-missing-after-ferry-capsizes-off-nor.html",
         "kaynak": "BBC World",
-        "tarih": "30.08.2026",
-        "gorsel": "images/auto/eight-killed-and-others-missing-after-ferry-capsizes-of.jpg",
+        "tarih": "31.08.2026",
+        "gorsel": "logo.png",
+        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
+    },
+    {
+        "baslik": "US strikes Iranian launchers on Larak Island in first known attack in weeks",
+        "link": "https://www.bbc.co.uk/news/articles/cx2z72x5z1po?at_medium=RSS&at_campaign=rss",
+        "ozet": "Iran says the attack killed two people and injured two others, in the first known US strike on Iran since late July.",
+        "kategori": "gundem",
+        "dosya": "auto-us-strikes-iranian-launchers-on-larak-island-in-first-known-.html",
+        "kaynak": "BBC World",
+        "tarih": "31.08.2026",
+        "gorsel": "logo.png",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
@@ -72,8 +83,8 @@
         "kategori": "teknoloji",
         "dosya": "auto-iceland-votes-against-restarting-eu-membership-talks.html",
         "kaynak": "BBC World",
-        "tarih": "30.08.2026",
-        "gorsel": "images/auto/iceland-votes-against-restarting-eu-membership-talks.jpg",
+        "tarih": "31.08.2026",
+        "gorsel": "logo.png",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
@@ -83,30 +94,19 @@
         "kategori": "gundem",
         "dosya": "auto-manhunt-after-shooting-at-swiss-rave-kills-woman-22-and-inju.html",
         "kaynak": "BBC World",
-        "tarih": "30.08.2026",
-        "gorsel": "images/auto/manhunt-after-shooting-at-swiss-rave-kills-woman-22-and.jpg",
+        "tarih": "31.08.2026",
+        "gorsel": "logo.png",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     },
     {
-        "baslik": "'A giant leap forward': Nasa launches powerful new space telescope",
-        "link": "https://www.bbc.co.uk/news/articles/ce87e55vgpjo?at_medium=RSS&at_campaign=rss",
-        "ozet": "The US space agency's telescope is starting a multi-year mission to create a new map of the universe and learn more about dark energy and dark matter.",
+        "baslik": "15 hikers feared missing after 'terrifying' flash flooding hits Grand Canyon",
+        "link": "https://www.bbc.co.uk/news/articles/clylkjyez1do?at_medium=RSS&at_campaign=rss",
+        "ozet": "\"It was a beautiful day - and then people were screaming,\" one hiker who was airlifted to safety tells the BBC.",
         "kategori": "gundem",
-        "dosya": "auto-a-giant-leap-forward-nasa-launches-powerful-new-space-telesc.html",
+        "dosya": "auto-15-hikers-feared-missing-after-terrifying-flash-flooding-hit.html",
         "kaynak": "BBC World",
-        "tarih": "30.08.2026",
-        "gorsel": "images/auto/a-giant-leap-forward-nasa-launches-powerful-new-space-t.jpg",
-        "orijinal_gorsel": "https://picsum.photos/1000/500?random"
-    },
-    {
-        "baslik": "Canada installs large Lake Ontario sign in latest jab at US",
-        "link": "https://www.bbc.co.uk/news/articles/cpq09594vw7o?at_medium=RSS&at_campaign=rss",
-        "ozet": "Ontario Premier Doug Ford unveiled a billboard on Canada's shoreline with the message: \"Lake Ontario. Now and Always.\"",
-        "kategori": "gundem",
-        "dosya": "auto-canada-installs-large-lake-ontario-sign-in-latest-jab-at-us.html",
-        "kaynak": "BBC World",
-        "tarih": "30.08.2026",
-        "gorsel": "images/auto/canada-installs-large-lake-ontario-sign-in-latest-jab-a.jpg",
+        "tarih": "31.08.2026",
+        "gorsel": "logo.png",
         "orijinal_gorsel": "https://picsum.photos/1000/500?random"
     }
 ]
